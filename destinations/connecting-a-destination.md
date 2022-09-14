@@ -6,10 +6,12 @@ At the moment Datamin supports the following 3 main categories of destinations.
 
 ### Generic destinations
 
-* **Email.** Typically for sending CSV and XML reports, data sets, and other kinds of notifications.
-* **SMS.** Typically for sending critical alarms and messages about incidents that must be solved as soon as possible.
+* **Email.** Typically used for sending CSV and XML reports, data sets, and other kinds of notifications.
+* **SMS.** Typically used for sending critical alarms and messages about incidents that must be solved as soon as possible.
 
+{% hint style="info" %}
 In the case of **SMS** and **Email**, we will also ask you to verify a phone and an E-mail address in order to make sure that the owner allows messages to be sent.
+{% endhint %}
 
 ### Custom software
 
