@@ -2,30 +2,31 @@
 
 ## Getting started
 
-* [Introduction to Datamin](README.md)
+* [Introduction to Datamin (IP)](README.md)
 * [Video tutorials](getting-started/video-tutorials.md)
-* [Datamin in a modern data stack](getting-started/datamin-in-a-modern-data-stack.md)
+* [Datamin in a modern data stack (IP)](getting-started/datamin-in-a-modern-data-stack-ip.md)
 
 ## Data sources
 
-* [Supported data sources](data-sources/supported-data-sources.md)
-* [Connecting data source](data-sources/connecting-data-source.md)
+* [Supported data sources (IP)](data-sources/supported-data-sources-ip.md)
+* [Connecting a data source (IP)](data-sources/connecting-a-data-source-ip.md)
 
 ## Destinations
 
-* [Destinations](destinations/destinations.md)
+* [Supported destinations (IP)](destinations/supported-destinations-ip.md)
+* [Connecting a destination (IP)](destinations/connecting-a-destination-ip.md)
 
 ## Workflows and actions
 
-* [Tasks](workflows-and-actions/tasks.md)
-* [Workflow management](workflows-and-actions/workflow-management.md)
-* [Library of templates](workflows-and-actions/library-of-templates.md)
+* [Tasks (IP)](workflows-and-actions/tasks-ip.md)
+* [Workflow management (IP)](workflows-and-actions/workflow-management-ip.md)
+* [Library of templates (IP)](workflows-and-actions/library-of-templates-ip.md)
 
 ## Use cases
 
-* [Reporting](use-cases/reporting.md)
-* [Triggering API Endpoints](use-cases/triggering-api-endpoints.md)
-* [Monitoring and alerting](use-cases/monitoring-and-alerting.md)
+* [Reporting (IP)](use-cases/reporting-ip.md)
+* [Triggering API Endpoints (IP)](use-cases/triggering-api-endpoints-ip.md)
+* [Monitoring and alerting (IP)](use-cases/monitoring-and-alerting-ip.md)
 
 ## Datamin API
 
