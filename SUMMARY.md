@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting started](README.md)
+* [Video tutorials](video-tutorials.md)
 
 ## Data sources
 
@@ -27,3 +28,7 @@
 
 * [OAuth clients](datamin-api/oauth-clients.md)
 * [API Endpoints](datamin-api/api-endpoints.md)
+
+## Other resources
+
+* [Our blog on Medium](https://medium.com/datamin)
