@@ -1,3 +1,0 @@
-# Destinations
-
-Coming soon

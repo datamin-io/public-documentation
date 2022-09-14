@@ -8,12 +8,10 @@
 
 ## Data sources
 
-* [Supported data sources (IP)](data-sources/supported-data-sources-ip.md)
-* [Connecting a data source (IP)](data-sources/connecting-a-data-source-ip.md)
+* [Connecting a data source](data-sources/connecting-a-data-source.md)
 
 ## Destinations
 
-* [Supported destinations (IP)](destinations/supported-destinations-ip.md)
 * [Connecting a destination (IP)](destinations/connecting-a-destination-ip.md)
 
 ## Workflows and actions
