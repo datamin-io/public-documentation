@@ -2,7 +2,7 @@
 
 ## Getting started
 
-* [Introduction to Datamin (IP)](README.md)
+* [Introduction to Datamin](README.md)
 * [Video tutorials](getting-started/video-tutorials.md)
 * [Datamin in a modern data stack (IP)](getting-started/datamin-in-a-modern-data-stack-ip.md)
 
@@ -12,7 +12,7 @@
 
 ## Destinations
 
-* [Connecting a destination (IP)](destinations/connecting-a-destination-ip.md)
+* [Connecting a destination](destinations/connecting-a-destination.md)
 
 ## Workflows and actions
 
