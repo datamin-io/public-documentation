@@ -1,7 +1,10 @@
 # Table of contents
 
-* [Getting started](README.md)
-* [Video tutorials](video-tutorials.md)
+## Getting started
+
+* [Introduction to Datamin](README.md)
+* [Video tutorials](getting-started/video-tutorials.md)
+* [Datamin in a modern data stack](getting-started/datamin-in-a-modern-data-stack.md)
 
 ## Data sources
 
