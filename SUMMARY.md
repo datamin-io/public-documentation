@@ -4,7 +4,7 @@
 
 * [Introduction to Datamin](README.md)
 * [Video tutorials](getting-started/video-tutorials.md)
-* [Datamin in a modern data stack (IP)](getting-started/datamin-in-a-modern-data-stack-ip.md)
+* [Datamin in a modern data stack](getting-started/datamin-in-a-modern-data-stack.md)
 
 ## Data sources
 
