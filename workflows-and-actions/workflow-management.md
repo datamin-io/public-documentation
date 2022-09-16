@@ -8,4 +8,4 @@ Workflows represent operational processes you want to automate. In the next page
 
 * Build workflows from [tasks](tasks-ip.md)
 * [Schedule](running-and-scheduling-workflows.md#automatically-by-a-schedule) them, run [on demand](running-and-scheduling-workflows.md#manually-on-demand) or via [our API](running-and-scheduling-workflows.md#automatically-via-api.)
-* Use the [library or templates](library-of-templates-in-progress.md)
+* Use the [library or templates](library-of-templates.md)
