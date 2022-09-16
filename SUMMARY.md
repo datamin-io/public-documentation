@@ -19,7 +19,7 @@
 * [Workflow management](workflows-and-actions/workflow-management.md)
 * [Tasks](workflows-and-actions/tasks-ip.md)
 * [Running and scheduling workflows](workflows-and-actions/running-and-scheduling-workflows.md)
-* [Library of templates (IP)](workflows-and-actions/library-of-templates-ip.md)
+* [Library of templates (in progress)](workflows-and-actions/library-of-templates-in-progress.md)
 
 ## Use cases
 
