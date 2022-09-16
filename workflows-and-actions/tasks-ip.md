@@ -2,8 +2,6 @@
 
 Workflows are built from tasks. Currently, Datamin supports the following 8 kinds of tasks:
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-09-16 at 17.51.15.png" alt=""><figcaption></figcaption></figure>
-
 ### Query
 
 **Queries** and **API Calls** are usually the first ones in the workflow.&#x20;

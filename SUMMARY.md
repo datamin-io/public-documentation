@@ -17,13 +17,13 @@
 ## Workflows and actions
 
 * [Workflow management (IP)](workflows-and-actions/workflow-management-ip.md)
-* [Tasks](workflows-and-actions/tasks.md)
-* [Running and scheduling workflows (IP)](workflows-and-actions/running-and-scheduling-workflows-ip.md)
+* [Tasks](workflows-and-actions/tasks-ip.md)
+* [Running and scheduling workflows](workflows-and-actions/running-and-scheduling-workflows.md)
 * [Library of templates (IP)](workflows-and-actions/library-of-templates-ip.md)
 
 ## Use cases
 
-* [Use cases (IP)](use-cases/use-cases-ip.md)
+* [Use cases (IP)](use-cases/reporting-ip.md)
 
 ## Datamin API
 
