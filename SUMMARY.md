@@ -13,7 +13,7 @@
 ## Destinations
 
 * [Connecting a destination](destinations/connecting-a-destination.md)
-* [Connecting Hubspot](data-sources/connecting-a-hubspot.md)
+* [Connecting Hubspot](destinations/connecting-a-hubspot.md)
 
 ## Workflows and actions
 
