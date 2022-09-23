@@ -5,6 +5,7 @@
 * [Introduction to Datamin](README.md)
 * [Video tutorials](getting-started/video-tutorials.md)
 * [Datamin in a modern data stack](getting-started/datamin-in-a-modern-data-stack.md)
+* [Release notes](getting-started/release-notes.md)
 
 ## Data sources
 
@@ -12,8 +13,8 @@
 
 ## Destinations
 
-* [Connecting a destination](destinations/connecting-a-destination.md)
-* [Connecting Hubspot](destinations/connecting-a-hubspot.md)
+* [Connecting a destination](destinations/connecting-a-destination/README.md)
+  * [Connecting Hubspot](destinations/connecting-a-destination/connecting-a-hubspot.md)
 
 ## Workflows and actions
 

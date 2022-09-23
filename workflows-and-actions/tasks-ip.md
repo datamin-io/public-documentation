@@ -54,6 +54,6 @@ For example, convert the dataset to CSV before sending it as an attachment to an
 
 ### Notification
 
-In the end, you can either call APIs with **API Calls** or send notifications with **Notification** tasks to the [Destinations](../destinations/connecting-a-destination.md) you've configured before.
+In the end, you can either call APIs with **API Calls** or send notifications with **Notification** tasks to the [Destinations](../destinations/connecting-a-destination/) you've configured before.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-16 at 18.21.46.png" alt=""><figcaption></figcaption></figure>
