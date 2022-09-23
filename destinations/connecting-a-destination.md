@@ -25,6 +25,6 @@ In the case of **SMS** and **Email**, we will also ask you to verify a phone and
 
 **API Calls** can be used for a wide range of purposes. You can trigger API endpoints of your backend, **API Gateways** in clouds, **CRM** systems such as **Salesforce**, or even deployment systems such as **Jenkins**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-09-14 at 22.58.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 22.58.56.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-09-14 at 22.58.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 22.58.22.png" alt=""><figcaption></figcaption></figure>

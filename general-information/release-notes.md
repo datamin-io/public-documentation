@@ -18,7 +18,7 @@
 
 ### Release date: 23.09.2022
 
-* Integration with [Hubspot Tickets](../destinations/connecting-a-destination/connecting-a-hubspot.md) as a destination
+* Integration with [Hubspot Tickets](../destinations/connecting-a-hubspot.md) as a destination
 * Small bug fixes
 
 

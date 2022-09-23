@@ -8,7 +8,7 @@ First, you'd need to go to the list of your [destinations](https://app.datamin.i
 \
 If you do it the first time and you don't have any authorization yet, so you will see such form:
 
-<figure><img src="../../.gitbook/assets/hubspot/hubspot_destination_no_auth.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hubspot/hubspot_destination_no_auth.png" alt=""><figcaption></figcaption></figure>
 
 So first things first — the authorization.
 
@@ -16,11 +16,11 @@ So first things first — the authorization.
 
 Go to "[Hubspot Authorizations](https://app.datamin.io/hubspot-authorizations)" and click "Add Hubspot Authorization". You will be redirected to Hubspot's page where you need to give your concern.
 
-<figure><img src="../../.gitbook/assets/hubspot/hubspot_consent_auth.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hubspot/hubspot_consent_auth.png" alt=""><figcaption></figcaption></figure>
 
 Once consent's given, you will be redirected back to our application, where you can change the name of just a freshly connected Hubspot's instance of yours.
 
-<figure><img src="../../.gitbook/assets/hubspot/hubspot_connected.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hubspot/hubspot_connected.png" alt=""><figcaption></figcaption></figure>
 
 ### Configure your new destination
 
@@ -30,7 +30,7 @@ Now, on the page of new Hubspot destination creation, you can choose your just-c
 
 First of all navigate yourself to the configuration of pipelines, by clicking that link on the Tickets page.
 
-<figure><img src="../../.gitbook/assets/hubspot/hubspot_link_to_edit_pipelines.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hubspot/hubspot_link_to_edit_pipelines.png" alt=""><figcaption></figcaption></figure>
 
 In there you will find a list of your pipelines and corresponding stages. By clicking \</>, it will reveal an ID, that you will need to put in your destination configuration.
 
@@ -40,7 +40,7 @@ An owner is the one who creates a ticket. E.g, you could create a special accoun
 \
 You'll see something like this.
 
-<figure><img src="../../.gitbook/assets/hubspot/hubspot_owner_id.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hubspot/hubspot_owner_id.png" alt=""><figcaption></figcaption></figure>
 
 You need to copy a value in the red rectangle.
 
@@ -48,4 +48,4 @@ You need to copy a value in the red rectangle.
 
 After you've done all steps above, your Hubspot configuration in Datamin's will look like this. Now you can use it in your workflows!
 
-<figure><img src="../../.gitbook/assets/hubspot/hubspot_done.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hubspot/hubspot_done.png" alt=""><figcaption></figcaption></figure>
