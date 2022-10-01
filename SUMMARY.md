@@ -29,6 +29,7 @@
 ## Use cases, examples, templates
 
 * [KPI monitoring](use-cases-examples-templates/kpi-monitoring.md)
+* [Other functional use cases](use-cases-examples-templates/other-functional-use-cases.md)
 * [Finance and payments (in progress)](use-cases-examples-templates/finance-and-payments-in-progress.md)
 * [Compliance (in progress)](use-cases-examples-templates/compliance-in-progress.md)
 * [Reporting (in progress)](use-cases-examples-templates/reporting-in-progress.md)
