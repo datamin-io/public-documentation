@@ -19,3 +19,7 @@ Therefore before taking any action with data you need to use **Merge**:
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-01 at 19.57.01.png" alt=""><figcaption><p>Possible workflow</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-01 at 19.57.22.png" alt=""><figcaption><p>Transforming data to CSV report</p></figcaption></figure>
+
+## Call API for each entity in the dataset
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-01 at 19.59.44.png" alt=""><figcaption></figcaption></figure>
