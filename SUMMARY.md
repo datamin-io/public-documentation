@@ -19,13 +19,21 @@
 ## Workflows and actions
 
 * [Workflow management](workflows-and-actions/workflow-management.md)
-* [Tasks](workflows-and-actions/tasks-ip.md)
+* [Tasks](workflows-and-actions/tasks-ip/README.md)
+  * [Transformers](workflows-and-actions/tasks-ip/transformers.md)
+  * [Mathematical functions](workflows-and-actions/tasks-ip/mathematical-functions.md)
 * [Running and scheduling workflows](workflows-and-actions/running-and-scheduling-workflows.md)
 * [Library of templates](workflows-and-actions/library-of-templates.md)
 
-## Use cases
+## Use cases, examples, templates
 
-* [Use cases (in progress)](use-cases/use-cases-in-progress.md)
+* [KPI monitoring](use-cases-examples-templates/kpi-monitoring.md)
+* [Finance and payments (in progress)](use-cases-examples-templates/finance-and-payments-in-progress.md)
+* [Compliance (in progress)](use-cases-examples-templates/compliance-in-progress.md)
+* [Reporting (in progress)](use-cases-examples-templates/reporting-in-progress.md)
+* [E-commerce (in progress)](use-cases-examples-templates/e-commerce-in-progress.md)
+* [Customer success (in progress)](use-cases-examples-templates/customer-success-in-progress.md)
+* [Data issue monitoring (in progress)](use-cases-examples-templates/data-issue-monitoring-in-progress.md)
 
 ## Datamin API
 

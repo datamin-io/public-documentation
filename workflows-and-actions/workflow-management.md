@@ -6,6 +6,6 @@
 
 Workflows represent operational processes you want to automate. In the next pages you will learn how to
 
-* Build workflows from [tasks](tasks-ip.md)
+* Build workflows from [tasks](tasks-ip/)
 * [Schedule](running-and-scheduling-workflows.md#automatically-by-a-schedule) them, run [on demand](running-and-scheduling-workflows.md#manually-on-demand) or via [our API](running-and-scheduling-workflows.md#automatically-via-api.)
 * Use the [library or templates](library-of-templates.md)
