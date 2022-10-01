@@ -10,6 +10,7 @@
 ## Data sources
 
 * [Connecting a data source](data-sources/connecting-a-data-source.md)
+* [Trial data source](data-sources/trial-data-source.md)
 
 ## Destinations
 
