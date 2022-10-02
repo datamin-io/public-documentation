@@ -19,7 +19,3 @@ How to integrate Datamin with Atlassian Jira
 {% embed url="https://youtu.be/hwOWUD6n7Z8" %}
 How to integrate Datamin with Incident.io
 {% endembed %}
-
-{% embed url="https://youtu.be/5leNXF7W2Sw" %}
-Trial data sets
-{% endembed %}
