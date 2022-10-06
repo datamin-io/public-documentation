@@ -1,6 +1,6 @@
-# Reporting (in progress)
+# Reporting
 
-## General reporting
+## General reporting framework
 
 General reporting with Datamin requires the following 4 steps:
 
@@ -13,3 +13,8 @@ General reporting with Datamin requires the following 4 steps:
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-02 at 00.55.23.png" alt=""><figcaption><p>Typical reporing schedule. Every Monday at 7am</p></figcaption></figure>
 
+Other more specific reporting examples you can find on the use case pages:
+
+* [General financial reporting](finance-and-payments-in-progress.md#generate-commercial-reports-and-send-them-to-bi-software-or-directly-to-stakeholders)
+* [Commercial reporting](e-commerce-in-progress.md#generate-commercial-report-and-send-it-to-bi-software-or-directly-to-stakeholders)
+* [Customer engagement report](customer-success.md#customer-engagement-summary-report)

@@ -1,4 +1,4 @@
-# Customer success (in progress)
+# Customer Success
 
 ## Drop in user signups
 
@@ -27,3 +27,19 @@ The same monitoring can be implemented for user logins. Just the query needs to 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.01.26.png" alt=""><figcaption><p>Query task</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.02.06.png" alt=""><figcaption><p>CSV report as a result</p></figcaption></figure>
+
+## Customer engagement summary report
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.32.58.png" alt=""><figcaption><p>Workflow example</p></figcaption></figure>
+
+```sql
+// Simple SQL to get data
+SELECT
+  COUNT(*) as cnt,
+  status
+FROM customer_success.users
+GROUP BY status
+ORDER by cnt DESC;
+```
+
+And the the result can be sent once per a period of time (usually week) to your customer success team.
