@@ -28,6 +28,14 @@ The same monitoring can be implemented for user logins. Just the query needs to 
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.02.06.png" alt=""><figcaption><p>CSV report as a result</p></figcaption></figure>
 
+## Customers stuck in the KYC process for too long
+
+One special modification of the previous example is the monitoring of customers who got stuck in the KYC process for too long.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 18.20.51.png" alt=""><figcaption></figcaption></figure>
+
+If your data source supports such differentiation, you can even automatically detect if the root cause is on your side, your customers' side or if the problem is related to your KYC provider.
+
 ## Customer engagement summary report
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.32.58.png" alt=""><figcaption><p>Workflow example</p></figcaption></figure>
