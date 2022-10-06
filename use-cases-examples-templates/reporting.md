@@ -18,3 +18,4 @@ Other more specific reporting examples you can find on the use case pages:
 * [General financial reporting](finance-and-payments-in-progress.md#generate-commercial-reports-and-send-them-to-bi-software-or-directly-to-stakeholders)
 * [Commercial reporting](e-commerce-in-progress.md#generate-commercial-report-and-send-it-to-bi-software-or-directly-to-stakeholders)
 * [Customer engagement report](customer-success.md#customer-engagement-summary-report)
+* [KPI reports](kpi-monitoring.md#monitor-average-value-per-customer)
