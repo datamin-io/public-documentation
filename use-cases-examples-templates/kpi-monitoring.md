@@ -10,6 +10,14 @@ Typically the result is compared with a certain target and sent as a notificatio
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-01 at 18.23.31.png" alt=""><figcaption><p>Potential workflow</p></figcaption></figure>
 
+## AVG, SUM, MIN, MAX, and other aggregated monitoring
+
+The workflow above can be used for monitoring different KPIs represented by mathematical functions such as average values, number of items, minimal and maximal values, etc.&#x20;
+
+More information about using them in [Condition](../workflows-and-actions/tasks-ip/#condition) and [Aggregator](../workflows-and-actions/tasks-ip/#aggregator) tasks can be found on a [special separate page](../workflows-and-actions/tasks-ip/mathematical-functions.md).
+
+
+
 ## ARR Monitoring
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-01 at 18.12.44.png" alt=""><figcaption><p>Potential workflow</p></figcaption></figure>

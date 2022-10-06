@@ -8,7 +8,13 @@
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-02 at 00.11.07.png" alt=""><figcaption><p>Generated CSV report</p></figcaption></figure>
 
+## Monitoring of failed payments
 
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 17.35.12.png" alt=""><figcaption><p>Possible workflow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 17.35.31.png" alt=""><figcaption><p>Possible data query</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 17.36.10.png" alt=""><figcaption><p>Slack notifications</p></figcaption></figure>
 
 ## Filtering data sets by various values
 
