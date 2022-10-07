@@ -8,6 +8,14 @@
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-01 at 23.43.31.png" alt=""><figcaption><p>Generared CSV report</p></figcaption></figure>
 
+## SLA monitoring for order deliveries
+
+With Datamin it is very easy to monitor KPIs but also SLAs for various cases. One of the examples for e-commerce specifically is to detect orders which are not delivered within SLA time.
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 19.13.03.png" alt=""><figcaption><p>Potential SLA monitoring workflow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 19.13.37.png" alt=""><figcaption><p>Potential SQL query to retrieve data</p></figcaption></figure>
+
 ## Filtering data sets by various values
 
 Filtering data from large data sets is one of the most common and important tasks for e-commerce operations. One of the powerful instruments Datamin offers for that is [Transformer](../workflows-and-actions/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
