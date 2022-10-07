@@ -15,3 +15,11 @@ With this one, you can help your responsible department to automatically detect 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 18.18.08.png" alt=""><figcaption><p>Potential workflow</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 18.18.33.png" alt=""><figcaption></figcaption></figure>
+
+## Too many users created from the same IP
+
+Potential fraud.
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 17.34.09.png" alt=""><figcaption><p>Potential workflow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 17.34.24.png" alt=""><figcaption><p>Potential SQL query to retrieve data</p></figcaption></figure>
