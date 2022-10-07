@@ -29,10 +29,10 @@
 ## Use cases, examples, templates
 
 * [KPI monitoring](use-cases-examples-templates/kpi-monitoring.md)
-* [Finance and payments (in progress)](use-cases-examples-templates/finance-and-payments-in-progress.md)
-* [E-commerce (in progress)](use-cases-examples-templates/e-commerce-in-progress.md)
+* [Finance and payments](use-cases-examples-templates/finance-and-payments.md)
+* [E-commerce](use-cases-examples-templates/e-commerce.md)
 * [Customer Success](use-cases-examples-templates/customer-success.md)
-* [Data issue monitoring (in progress)](use-cases-examples-templates/data-issue-monitoring-in-progress.md)
+* [Data issue monitoring](use-cases-examples-templates/data-issue-monitoring.md)
 * [Security, Risk, and Fraud](use-cases-examples-templates/security-risk-and-fraud.md)
 * [Reporting](use-cases-examples-templates/reporting.md)
 * [Other functional use cases](use-cases-examples-templates/other-functional-use-cases.md)
