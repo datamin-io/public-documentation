@@ -30,6 +30,12 @@ More information about using them in [Condition](../workflows-and-actions/tasks-
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-01 at 18.28.48.png" alt=""><figcaption><p>Potential data extraction</p></figcaption></figure>
 
+## Sales or other revenue KPIs
+
+Sales or other Revenue teams are the most KPI driven in an organization. Datamin allows easily monitor of their KPIs, comparing with a target, and taking different actions depending on whether it is already achieved or not yet:
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 19.24.59.png" alt=""><figcaption><p>Workflow example for Sales KPIs</p></figcaption></figure>
+
 ## Monitor average value per customer
 
 Datamin allows easy monitoring of average values (amounts, orders, bank transfers, contract values) per customer. As an example the following workflow represents the calculation of an average amount per customer and taking actions for different sizes of it:
