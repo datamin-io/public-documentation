@@ -1,4 +1,4 @@
-# Data issue monitoring (in progress)
+# Data issue monitoring
 
 ## Monitoring of missing data
 
@@ -40,3 +40,14 @@ With Datamin it is easily possible to detect all three root causes. To do that, 
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 19.16.23.png" alt=""><figcaption></figcaption></figure>
 
+## Detection of broken data pipelines
+
+In multiple cases, the root cause of missing data is not bugs in the code but broken data pipelines. To control it you can write expectations of how much time can pass between the creation of items in a certain table of your data storage. And if this threshold is passed Datamin will notify your data engineers.
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-09 at 22.36.40.png" alt=""><figcaption><p>Example of a workflow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-09 at 22.36.51.png" alt=""><figcaption><p>SQL query to calculate difference between the last item's creation and now in seconds</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-09 at 22.37.11.png" alt=""><figcaption><p>An expression to check if that value if higher than 24 hours</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-09 at 22.37.32.png" alt=""><figcaption><p>Notification message for data engineers</p></figcaption></figure>
