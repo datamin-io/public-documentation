@@ -1,4 +1,4 @@
-# Finance and payments (in progress)
+# Finance and payments
 
 ## Generate commercial reports and send them to BI software or directly to stakeholders
 
@@ -18,7 +18,7 @@
 
 ## Monitor overpaid orders
 
-In case an organization accepts payments from customers with the direct bank transfers, it opens us a potential for mistakes made in the references or amount.
+In case an organization accepts payments from customers with direct bank transfers, it opens a potential for mistakes made in the references or amount.
 
 The following workflow can help to control and find overpaid orders or invoices.
 
@@ -27,6 +27,16 @@ The following workflow can help to control and find overpaid orders or invoices.
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 17.38.18.png" alt=""><figcaption><p>Potential SQL query to retrieve data</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 17.38.43.png" alt=""><figcaption><p>Potential message to send to stakeholders</p></figcaption></figure>
+
+## Monitor unallocated bank transfers
+
+Another popular modification of the previous two workflows is to monitor unallocated bank transfers. Meaning bank transfers made by customers that the system was not able to allocate to any order, invoice, or any other purchased item.&#x20;
+
+In this case, it is up to you to decide what to do with this transfer. Either return it, or try allocating it manually, or contact the customer and ask about it.&#x20;
+
+That's how the typical workflow may look like:
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-09 at 23.13.52.png" alt=""><figcaption></figcaption></figure>
 
 ## Filtering data sets by various values
 
