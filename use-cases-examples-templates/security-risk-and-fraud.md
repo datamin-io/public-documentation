@@ -23,3 +23,15 @@ Potential fraud.
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 17.34.09.png" alt=""><figcaption><p>Potential workflow</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 17.34.24.png" alt=""><figcaption><p>Potential SQL query to retrieve data</p></figcaption></figure>
+
+## Detection of XSS attempts
+
+Cross-site scripting (XSS) is a vulnerability that your application should prevent and be secured from. However, automatic XSS attempts can be monitored with Datamin by detecting the word "script" in the database items.&#x20;
+
+In case of detecting your data or engineering teams need to block the attack and further improve the application and security in order to avoid such situations in the future.
+
+Here is an example of a workflow that will allow you to detect it:
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 13.51.36.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 13.51.48.png" alt=""><figcaption><p>SQL query example</p></figcaption></figure>
