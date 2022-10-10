@@ -26,6 +26,14 @@ The following workflow can help to control and find overpaid orders.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 18.12.02.png" alt=""><figcaption><p>Potential SQL query</p></figcaption></figure>
 
+## Warehouse stock monitoring
+
+With Datamin you can control the size of your stock and send alerts to the operational teams if it is necessary to restock some items:
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 18.19.31.png" alt=""><figcaption><p>Example of the workflow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 18.28.35.png" alt=""><figcaption><p>Example of the message to the ops team</p></figcaption></figure>
+
 ## Filtering data sets by various values
 
 Filtering data from large data sets is one of the most common and important tasks for e-commerce operations. One of the powerful instruments Datamin offers for that is [Transformer](../workflows-and-actions/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
