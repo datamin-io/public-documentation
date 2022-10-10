@@ -1,4 +1,4 @@
-# E-commerce (in progress)
+# E-commerce
 
 ## Generate commercial report and send it to BI software or directly to stakeholders
 
@@ -15,6 +15,16 @@ With Datamin it is very easy to monitor KPIs but also SLAs for various cases. On
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 19.13.03.png" alt=""><figcaption><p>Potential SLA monitoring workflow</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 19.13.37.png" alt=""><figcaption><p>Potential SQL query to retrieve data</p></figcaption></figure>
+
+## Monitor overpaid orders
+
+In case an organization accepts payments from customers with direct bank transfers, it opens a potential for mistakes made in the references or amount.
+
+The following workflow can help to control and find overpaid orders.
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 18.11.52.png" alt=""><figcaption><p>Potential workflow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 18.12.02.png" alt=""><figcaption><p>Potential SQL query</p></figcaption></figure>
 
 ## Filtering data sets by various values
 
