@@ -24,6 +24,16 @@ As an example, the following workflow represents monitoring that for all users i
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-07 at 17.27.04.png" alt=""><figcaption><p>Possible SQL query</p></figcaption></figure>
 
+## Detecting NULLs instead of data
+
+Yes, indeed while creating a table, you can specify that it should not contain NULLs. But it is quite often necessary to lower such strict requirements, for example, when until a certain moment data in a column can be NULL, but should not be NULL after a certain action.
+
+For example, let's take a look at user onboarding in a classical FinTech company. When a user is created in the database, fields like scoring or risk class can be NULL, but after some time when a scoring report is pulled from the 3rd-party scoring provider, these data should be filled. Unless the scoring provider doesn't provide it. And such situations can be monitored with Datamin.
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 14.46.40.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 14.45.21.png" alt=""><figcaption><p>Query example</p></figcaption></figure>
+
 ## Detecting bugs in code with monitoring of missing data
 
 Missing or broken data can be caused by various reasons:
