@@ -1,6 +1,10 @@
 # Connecting Hubspot
 
-HubSpot is a software platform designed to help your company market and sell more effectively (CRM, ROI).
+HubSpot is a software platform designed to help your company market and sell more effectively (CRM, ROI).\
+\
+Instructions are available as the video or in text below.
+
+{% embed url="https://youtu.be/BXkJbxm4gbQ" %} How to integrate Datamin with Hubspot {% endembed %}
 
 ### How to connect?
 
