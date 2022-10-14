@@ -32,3 +32,17 @@ Here is an example of the workflow to monitor large transaction amounts
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-14 at 19.18.39.png" alt=""><figcaption><p>SQL query to retrieve number of transactions between two accounts</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-14 at 19.18.53.png" alt=""><figcaption><p>Message to the responsible team</p></figcaption></figure>
+
+## Other AML use cases
+
+The idea is clear. Using the following examples and templates from our library you can set up your own AML monitoring workflows with SQL queries of any complexity.
+
+Some other examples of what you can monitor with Datamin:
+
+* Users with a high volume of transactions every day
+* Transactions from or to suspicious or dangerous locations, which you can define on your own
+* Suspicious reference data
+* Suspicious bank account owners
+* Suspicious and inconsistent activities. For example, a high volume of transactions but following the long breaks
+* Unusual amounts per user
+* Etc.
