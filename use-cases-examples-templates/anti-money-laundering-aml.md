@@ -24,3 +24,11 @@ Here is an example of the workflow to monitor large transaction amounts
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-14 at 18.35.46.png" alt=""><figcaption><p>SQL query example to retrieve the number of transactions today grouped by bank account</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-14 at 18.36.18.png" alt=""><figcaption><p>Message to the responsible team</p></figcaption></figure>
+
+## Too many transactions between the same accounts in X days
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-14 at 19.18.30.png" alt=""><figcaption><p>Possible workflow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-14 at 19.18.39.png" alt=""><figcaption><p>SQL query to retrieve number of transactions between two accounts</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-14 at 19.18.53.png" alt=""><figcaption><p>Message to the responsible team</p></figcaption></figure>
