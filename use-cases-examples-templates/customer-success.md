@@ -4,7 +4,7 @@
 
 The following workflow example helps to retrieve all signups from today, compare the number of them with the target and notify the customer success team if it is lower than expected:
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 14.48.30.png" alt=""><figcaption><p>Workflow example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 14.48.30 (1).png" alt=""><figcaption><p>Workflow example</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 14.49.00.png" alt=""><figcaption><p>Query task</p></figcaption></figure>
 
@@ -26,7 +26,7 @@ The same monitoring can be implemented for user logins. Just the query needs to 
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.01.26.png" alt=""><figcaption><p>Query task</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.02.06.png" alt=""><figcaption><p>CSV report as a result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-10-06 at 15.02.06 (1).png" alt=""><figcaption><p>CSV report as a result</p></figcaption></figure>
 
 ## Customers stuck in the KYC process for too long
 

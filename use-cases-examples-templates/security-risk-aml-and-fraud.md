@@ -1,4 +1,4 @@
-# Security, Risk, AML, and Fraud
+# Security, Risk, and Fraud
 
 ## Monitoring of organizations with a high-risk score
 
@@ -52,3 +52,5 @@ Here is an example of the workflow to monitor large transaction amounts
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 15.40.05.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-10-10 at 15.39.41.png" alt=""><figcaption><p>Query example to detect large transactions</p></figcaption></figure>
+
+More examples of AML use cases are described on a [separate page](anti-money-laundering-aml.md).
