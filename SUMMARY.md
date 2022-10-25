@@ -30,7 +30,7 @@
 
 * [KPI monitoring](use-cases-examples-templates/kpi-monitoring.md)
 * [Finance and payments](use-cases-examples-templates/finance-and-payments.md)
-* [E-commerce](use-cases-examples-templates/e-commerce.md)
+* [E-commerce & Logistics](use-cases-examples-templates/e-commerce.md)
 * [Customer Success](use-cases-examples-templates/customer-success.md)
 * [Data issue monitoring](use-cases-examples-templates/data-issue-monitoring.md)
 * [Security, Risk, and Fraud](use-cases-examples-templates/security-risk-aml-and-fraud.md)
