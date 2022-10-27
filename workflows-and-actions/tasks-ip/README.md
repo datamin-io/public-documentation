@@ -44,6 +44,14 @@ The result of the **Query** or **API Call** can be sent to Aggregators, Conditio
 
 **For Each** allows running the next task for each of the items in the dataset separately. Working with this block is pretty straightforward and doesn't even require any configuration, except the name.&#x20;
 
+### Filter
+
+Simple filters allow you to filter your dataset by a certain value of a certain key:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-27 at 20.37.42.png" alt=""><figcaption></figcaption></figure>
+
+If you are looking for more advanced filtering options, let's look at what [transformers](transformers.md#extracting-and-filtering-data-with-gjson) provide.
+
 ### Transformer
 
 **Transformers** help you to transform data into different formats or extract values.
