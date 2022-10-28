@@ -1,5 +1,7 @@
 # Library of templates
 
+{% embed url="https://youtu.be/HTgfFhLqoC8" %}
+
 When you create a new workflow, you have a choice to create it from scratch or use one of the templates from a library:
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-16 at 21.20.18.png" alt=""><figcaption></figcaption></figure>
