@@ -12,6 +12,10 @@ To stay up-to-date you can watch them here or subscribe to our [Youtube channel]
 How to use the library of templates
 {% endembed %}
 
+{% embed url="https://youtu.be/I2p12m5IxbM" %}
+How to filter datasets
+{% endembed %}
+
 {% embed url="https://youtu.be/BXkJbxm4gbQ" %}
 How to integrate Datamin with Hubspot
 {% endembed %}
