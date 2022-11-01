@@ -13,6 +13,10 @@
 
 Only important major releases are present in this list:
 
+### Release date: 01.11.2022
+
+* Cloning of workflows
+
 ### Release date: 20.10.2022
 
 * New task "**Filter**"
