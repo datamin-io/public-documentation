@@ -8,6 +8,8 @@ In order to make your learning curve more smooth and your user experience more U
 
 To stay up-to-date you can watch them here or subscribe to our [Youtube channel](https://www.youtube.com/channel/UCbrmYg0YhbqUVlUVX1QIg9w) for more content.
 
+## Practical real-life use cases
+
 {% embed url="https://youtu.be/HTgfFhLqoC8" %}
 How to use the library of templates
 {% endembed %}
@@ -15,6 +17,12 @@ How to use the library of templates
 {% embed url="https://youtu.be/I2p12m5IxbM" %}
 How to filter datasets
 {% endembed %}
+
+{% embed url="https://youtu.be/Qtq-sxvM17k" %}
+How to automate reporting tasks with Datamin
+{% endembed %}
+
+## Integrations with external software
 
 {% embed url="https://youtu.be/BXkJbxm4gbQ" %}
 How to integrate Datamin with Hubspot
