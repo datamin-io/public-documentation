@@ -6,12 +6,15 @@
 
 * New integrations: **Google Spreadsheets, Salesforce, PagerDuty**
 * Integration of workflows with data streaming platforms as data sources: **Kafka** first.
-* Sign in with a **Google** account
 * Introducing metrics and thresholds
 
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release date: 03.11.2022
+
+* Sign in with a **Google** account
 
 ### Release date: 01.11.2022
 
