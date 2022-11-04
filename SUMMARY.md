@@ -34,7 +34,7 @@
 * [E-commerce & Logistics](use-cases-examples-templates/e-commerce.md)
 * [Customer Success](use-cases-examples-templates/customer-success.md)
 * [Data Issues & Incidents](use-cases-examples-templates/data-issue-monitoring.md)
-* [Security, Risk, and Fraud](use-cases-examples-templates/security-risk-aml-and-fraud.md)
+* [Security, Risk, and Anti-Fraud](use-cases-examples-templates/security-risk-aml-and-fraud.md)
 * [Anti-Money Laundering (AML)](use-cases-examples-templates/anti-money-laundering-aml.md)
 * [Reporting](use-cases-examples-templates/reporting.md)
 * [Other functional use cases](use-cases-examples-templates/other-functional-use-cases.md)
