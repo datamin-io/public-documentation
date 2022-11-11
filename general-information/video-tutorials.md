@@ -22,6 +22,10 @@ How to filter datasets
 How to automate reporting tasks with Datamin
 {% endembed %}
 
+{% embed url="https://youtu.be/Z1WsYga8nc4" %}
+How to monitor SLAs
+{% endembed %}
+
 ## Integrations with external software
 
 {% embed url="https://youtu.be/BXkJbxm4gbQ" %}
