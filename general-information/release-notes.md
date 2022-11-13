@@ -4,13 +4,21 @@
 
 ### Release timeline: November 2022
 
-* New integrations: **Google Spreadsheets, Salesforce, PagerDuty**
+* New integrations: **Google Spreadsheets, PagerDuty**
 * Integration of workflows with data streaming platforms as data sources: **Kafka** first.
 * Introducing metrics and thresholds
 
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release date: 13.11.2022
+
+* Getting rid of free trial version and making basic version of Datamin free forever
+
+### Release date: 10.11.2022
+
+* Integration with **Salesforce**
 
 ### Release date: 03.11.2022
 
