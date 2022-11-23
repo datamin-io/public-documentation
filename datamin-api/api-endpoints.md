@@ -57,3 +57,104 @@ Bearer: %%access\_token%%\
   }
 ]
 ```
+
+## Get various statistics of runs for workflows and separate tasks
+
+**Endpoint**\
+****GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/stats/%%DATE\_FROM%%/%%DATE\_TO%%
+
+and
+
+**Endpoint** \
+****GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/stats/%%DATE\_FROM%%/%%DATE\_TO%%
+
+**Request body:**\
+empty\
+\
+**Authorization:**\
+Bearer: %%access\_token%%\
+\
+**Response example:**
+
+```
+{
+  "num_of_successes": int, 
+  "num_of_failures": int, 
+  "average_duration": int (e.g. in milliseconds), 
+  "is_last_run_successful": bool, 
+  "last_run_executed_at": datetime, 
+  "last_run_duration": int (e.g. in milliseconds)
+}
+```
+
+**Endpoint:** \
+GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
+
+and
+
+**Endpoint:** \
+****GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
+
+%%PERIOD%% here has five possible values: day, week, month, quarter, year.
+
+E.g. GET /tasks/%%UUID%%/aggregated-stats/2020-01-01/month/12 will return a JSON array with 12 (or less if some don’t exist) elements each of which represent an aggregated statistic for a month period of time starting on 2020-01-01.
+
+**Request body:**\
+empty\
+\
+**Authorization:**\
+Bearer: %%access\_token%%\
+\
+**Response example:**
+
+```
+{[
+  {
+    "date_from": string, 
+    "date_to": string, 
+    "num_of_successes": int, 
+    "num_of_failures": int, 
+    "average_duration": int (e.g. in milliseconds),
+  }, 
+  {
+    "date_from": string, 
+    "date_to": string, 
+    "num_of_successes": int, 
+    "num_of_failures": int, 
+    "average_duration": int (e.g. in milliseconds),
+  },
+  {
+    "date_from": string,
+    "date_to": string, 
+    "num_of_successes": int,
+    "num_of_failures": int,
+    "average_duration": int (e.g. in milliseconds),
+  }, 
+  ...
+]}
+```
+
+**Endpoint:** \
+****GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/last-run/stats
+
+and
+
+**Endpoint:** \
+****GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/last-run/stats
+
+**Request body:**\
+empty\
+\
+**Authorization:**\
+Bearer: %%access\_token%%\
+\
+**Response example:**
+
+```
+{
+  "is_successful": bool, 
+  "executed_at": datetime,
+  "duration": int (e.g. in milliseconds),
+}
+```
+

@@ -20,6 +20,8 @@ In the case of **SMS** and **Email**, we will also ask you to verify a phone and
 * **Atlassian Jira**. For creating support and bug tickets for engineering and product teams.
 * ****[**Hubspot**](connecting-a-hubspot.md). For creating tickets for revenue teams.
 * **Incident.io**. For creating data incidents to be solved by your team in Slack.
+* **Salesforce**. For creating tickets for revenue teams.
+* **Google Sheets**. For saving data to Google Sheets
 
 ### API Calls
 
