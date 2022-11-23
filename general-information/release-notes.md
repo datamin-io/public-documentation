@@ -12,6 +12,10 @@
 
 Only important major releases are present in this list:
 
+### Release date: 23.11.2022
+
+* Extended API. Added multiple endpoints to pull statistics about workflow and task runs
+
 ### Release date: 13.11.2022
 
 * Getting rid of free trial version and making basic version of Datamin free forever
