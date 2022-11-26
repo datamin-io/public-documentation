@@ -4,13 +4,17 @@
 
 ### Release timeline: November 2022
 
-* New integrations: **Google Spreadsheets, PagerDuty**
+* New integrations: **PagerDuty**
 * Integration of workflows with data streaming platforms as data sources: **Kafka** first.
 * Introducing metrics and thresholds
 
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release date: 26.11.2022
+
+* Integration with **Google Spreadsheets** as a destination
 
 ### Release date: 23.11.2022
 
