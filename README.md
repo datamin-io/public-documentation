@@ -4,7 +4,7 @@ description: Make your data act with Datamin
 
 # Introduction to Datamin
 
-**Datamin is the one, and only 100% real-time and no-code software for operational analytics allowing teams to convert data into actions.**
+Datamin is the one, and only **100% no-code and real-time** platform for operational analytics allowing teams to convert data into actions.
 
 {% embed url="https://youtu.be/6g1ZvWoXZmQ" %}
 Introduction to Datamin
