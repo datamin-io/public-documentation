@@ -67,3 +67,11 @@ More detailed examples of how to use transformers are described on a [separate p
 In the end, you can either call APIs with **API Calls** or send notifications with **Notification** tasks to the [Destinations](../../destinations/connecting-a-destination.md) you've configured before.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-09-16 at 18.21.46.png" alt=""><figcaption></figcaption></figure>
+
+### External trigger
+
+When placed as a first task in a workflow, **external\_trigger** allows you to trigger workflows from your data streaming platforms to make it 100% real-time.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-28 at 18.09.50.png" alt=""><figcaption></figcaption></figure>
+
+The first data streaming platform we integrate with is **Kafka**. And the open-source library that can trigger workflows from it is hosted on our Github:  [https://github.com/datamin-io/kafka-trigger](https://github.com/datamin-io/kafka-trigger)
