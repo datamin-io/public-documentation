@@ -2,15 +2,19 @@
 
 ## Upcoming releases
 
-### Release timeline: November 2022
+### Release timeline: December 2022
 
-* New integrations: **PagerDuty**
-* Integration of workflows with data streaming platforms as data sources: **Kafka** first.
+* New destinations: **PagerDuty**
+* **Amazon Redshift** as data source
 * Introducing metrics and thresholds
 
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release: 28.11.2022
+
+* Integration of workflows with data streaming platforms as data sources: **Kafka** first.
 
 ### Release date: 26.11.2022
 
