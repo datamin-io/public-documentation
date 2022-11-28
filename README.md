@@ -4,7 +4,9 @@ description: Make your data act with Datamin
 
 # Introduction to Datamin
 
-Datamin is the one, and only **100% no-code and real-time** platform for operational analytics allowing teams to convert data into actions.
+Datamin is the only **100% no-code** and **real-time** platform for operational analytics.&#x20;
+
+We allow you to convert data into actions by building real-time data applications on top of Kafka, databases, or data warehouses without writing any code.
 
 {% embed url="https://youtu.be/6g1ZvWoXZmQ" %}
 Introduction to Datamin
