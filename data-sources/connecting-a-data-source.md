@@ -30,7 +30,7 @@ Connecting an SQL-based data source is easy. You just need to create us a read-o
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 22.43.16.png" alt=""><figcaption></figcaption></figure>
 
-API-based data sources
+### API-based data sources
 
 On top of that, Datamin also supports JSON APIs as data sources. Any API which returns JSON data can be used as a data source, such as typically:
 
