@@ -25,6 +25,7 @@
   * [Mathematical functions](workflows-and-actions/tasks-ip/mathematical-functions.md)
 * [Running and scheduling workflows](workflows-and-actions/running-and-scheduling-workflows.md)
 * [Library of templates](workflows-and-actions/library-of-templates.md)
+* [Environment variables](workflows-and-actions/environment-variables.md)
 
 ## Use cases, examples, templates
 

@@ -1,5 +1,9 @@
 # Release notes
 
+##
+
+##
+
 ## Upcoming releases
 
 ### Release timeline: December 2022
@@ -11,6 +15,10 @@
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release: 09.12.2022
+
+* Environment variables
 
 ### Release: 28.11.2022
 
