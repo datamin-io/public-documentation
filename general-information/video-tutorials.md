@@ -11,31 +11,35 @@ To stay up-to-date you can watch them here or subscribe to our [Youtube channel]
 ## Practical real-life use cases
 
 {% embed url="https://youtu.be/HTgfFhLqoC8" %}
-How to use the library of templates
+How to use the library of templates. By Artem Demchenkov
+{% endembed %}
+
+{% embed url="https://youtu.be/BQoFwRUqyEA" %}
+How to use environment variables. By Oliver Schäfer
 {% endembed %}
 
 {% embed url="https://youtu.be/I2p12m5IxbM" %}
-How to filter datasets
+How to filter datasets. By Artem Demchenkov
 {% endembed %}
 
 {% embed url="https://youtu.be/Qtq-sxvM17k" %}
-How to automate reporting tasks with Datamin
+How to automate reporting tasks with Datamin. By Sruthi Janardhanan
 {% endembed %}
 
 {% embed url="https://youtu.be/Z1WsYga8nc4" %}
-How to monitor SLAs
+How to monitor SLAs. By Sruthi Janardhanan
 {% endembed %}
 
 ## Integrations with external software
 
 {% embed url="https://youtu.be/BXkJbxm4gbQ" %}
-How to integrate Datamin with Hubspot
+How to integrate Datamin with Hubspot. By Nikolai Besschetnov
 {% endembed %}
 
 {% embed url="https://youtu.be/JDTawGqBK_Y" %}
-How to integrate Datamin with Atlassian Jira
+How to integrate Datamin with Atlassian Jira. By Artem Demchenkov
 {% endembed %}
 
 {% embed url="https://youtu.be/hwOWUD6n7Z8" %}
-How to integrate Datamin with Incident.io
+How to integrate Datamin with Incident.io. By Nikolai Besschetnov
 {% endembed %}

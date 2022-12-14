@@ -21,3 +21,7 @@ For example, if you have a KPI threshold equal to **100**, you can set its varia
 </div>
 
 Then if you want to make it **110** instead of **100**, you can do it in one place, instead of changing all of your workflows and metrics.
+
+For more information take a look at our video tutorial:
+
+{% embed url="https://youtu.be/BQoFwRUqyEA" %}
