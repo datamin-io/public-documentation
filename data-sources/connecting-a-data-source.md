@@ -16,7 +16,8 @@ At the moment we support a wide range of **SQL-based** data sources, such as&#x2
 * **Snowflake**,&#x20;
 * **Postgres**,&#x20;
 * **Google Big Query**, ****&#x20;
-* **AWS RDS**,&#x20;
+* **AWS RDS**,
+* **Amazon Redshift**&#x20;
 * **Immuta**
 * **Planetscale**
 * **ElasticSearch**

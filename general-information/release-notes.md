@@ -9,12 +9,15 @@
 ### Release timeline: December 2022
 
 * New destinations: **PagerDuty**
-* **Amazon Redshift** as data source
 * Introducing metrics and thresholds
 
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release 19.12.2022
+
+* **Amazon Redshift** as a data source
 
 ### Release: 09.12.2022
 
