@@ -1,9 +1,5 @@
 # Release notes
 
-##
-
-##
-
 ## Upcoming releases
 
 ### Release timeline: December 2022
