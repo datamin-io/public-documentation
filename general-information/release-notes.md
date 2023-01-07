@@ -2,14 +2,19 @@
 
 ## Upcoming releases
 
-### Release timeline: December 2022
+### Release timeline: January - February 2023
 
 * New destinations: **PagerDuty**
-* Introducing metrics and thresholds
+* Introducing **Python** for data transformation in workflows
+* Integration with **dbt** metrics
 
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release 07.01.2023
+
+* Introducing metrics and thresholds
 
 ### Release 19.12.2022
 
