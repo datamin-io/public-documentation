@@ -75,3 +75,19 @@ When placed as a first task in a workflow, **external\_trigger** allows you to t
 <figure><img src="../../.gitbook/assets/Screenshot 2022-11-28 at 18.09.50.png" alt=""><figcaption></figcaption></figure>
 
 The first data streaming platform we integrate with is **Kafka**. And the open-source library that can trigger workflows from it is hosted on our Github:  [https://github.com/datamin-io/kafka-trigger](https://github.com/datamin-io/kafka-trigger)
+
+### Run workflow
+
+This task allows you to connect workflows to each other by running one from another one.&#x20;
+
+The main benefit of it is in the **DRY** principle, instead of repeating the same logic in multiple workflows, it can be re-used by connecting workflows to each other as a chain.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-09 at 16.40.53.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-09 at 16.40.34.png" alt=""><figcaption></figcaption></figure>
+
+</div>
