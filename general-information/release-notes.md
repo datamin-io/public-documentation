@@ -12,6 +12,10 @@
 
 Only important major releases are present in this list:
 
+### Release 09.01.2023
+
+* Supporting **ClickHouse** as a data source
+
 ### Release 07.01.2023
 
 * Introducing metrics and thresholds

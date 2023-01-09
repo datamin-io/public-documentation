@@ -16,15 +16,17 @@ At the moment we support a wide range of **SQL-based** data sources, such as&#x2
 * **Snowflake**,&#x20;
 * **Postgres**,&#x20;
 * **Google Big Query**, ****&#x20;
-* **AWS RDS**,&#x20;
+* **AWS RDS**,
+* **Amazon Redshift**&#x20;
 * **Immuta**
 * **Planetscale**
+* **ClickHouse**
 * **ElasticSearch**
 * and others.&#x20;
 
 And this list is growing since we are adding new ones.
 
-Connecting an SQL-based data source is easy. You just need to create us a read-only user, give it the necessary permissions, and don't forget to add an additional security layer such as SSH-tunnel or/and enabling connections from our IP, which you can find in the data source form.
+Connecting an SQL-based data source is easy. You just need to create us a read-only user, give it the necessary permissions, and don't forget to add an additional security layer such as SSH tunnel or/and enabling connections from our IP, which you can find in the data source form.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 22.44.13.png" alt=""><figcaption></figcaption></figure>
 
@@ -47,7 +49,7 @@ The unique feature of **Datamin** that makes us 100% real-time is an integration
 
 In order to do it, you need to make two steps:
 
-1. Install and configure our [open-source kafka-trigger library](https://github.com/datamin-io/kafka-trigger). A detailed description how to do it is in its README.
+1. Install and configure our [open-source kafka-trigger library](https://github.com/datamin-io/kafka-trigger). A detailed description of how to do it is in its README.
 2. Create a workflow you want to trigger, starting with the [External\_trigger](../workflows-and-actions/tasks-ip/#external-trigger) task.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-28 at 18.09.50.png" alt=""><figcaption></figcaption></figure>
