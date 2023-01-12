@@ -12,6 +12,11 @@
 
 Only important major releases are present in this list:
 
+### Release 12.01.2023
+
+* Folders and templates for metrics
+* Grid/list views for metrics and workflows
+
 ### Release 09.01.2023
 
 * Supporting **ClickHouse** as a data source
