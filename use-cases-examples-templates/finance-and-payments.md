@@ -1,4 +1,4 @@
-# Finance and payments
+# Finance and Payments
 
 ## Generate commercial reports and send them to BI software or directly to stakeholders
 
@@ -40,7 +40,7 @@ That's how the typical workflow may look like:
 
 ## Filtering data sets by various values
 
-Filtering data from large data sets is one of the most common and important tasks for payment operations. One of the powerful instruments Datamin offers for that is [Transformer](../workflows-and-actions/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
+Filtering data from large data sets is one of the most common and important tasks for payment operations. One of the powerful instruments Datamin offers for that is [Transformer](../workflows/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
 
 Let's imagine we have the following dataset and we need to filter it in various ways:
 

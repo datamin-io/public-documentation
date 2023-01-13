@@ -16,7 +16,7 @@ To be able to utilize the power of your data in a most effective way, you need t
 
 * [Connect your data source(s)](data-sources/connecting-a-data-source.md)
 * [Configure your destinations](destinations/connecting-a-destination.md)
-* [Create and schedule workflows](workflows-and-actions/workflow-management.md)
+* [Create and schedule workflows](workflows/workflow-management.md)
 
 {% embed url="https://youtu.be/S4xnEkfrWKg" %}
 Product demo

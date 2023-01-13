@@ -1,4 +1,4 @@
-# E-commerce
+# E-commerce & Logistics
 
 ## Generate commercial report and send it to BI software or directly to stakeholders
 
@@ -36,7 +36,7 @@ With Datamin you can control the size of your stock and send alerts to the opera
 
 ## Filtering data sets by various values
 
-Filtering data from large data sets is one of the most common and important tasks for e-commerce operations. One of the powerful instruments Datamin offers for that is [Transformer](../workflows-and-actions/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
+Filtering data from large data sets is one of the most common and important tasks for e-commerce operations. One of the powerful instruments Datamin offers for that is [Transformer](../workflows/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
 
 Let's imagine we have the following dataset and we need to filter it in various ways:
 

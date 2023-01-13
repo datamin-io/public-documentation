@@ -1,10 +1,10 @@
-# KPI monitoring
+# KPI Monitoring
 
 ## General KPI monitoring
 
 Datamin provides an extremely powerful way of calculating various KPIs from commonly known metrics (ARR, MRR, LTV, etc) to custom ones, that you can define on your own.
 
-Metrics can be calculated in the [Query](../workflows-and-actions/tasks-ip/#query) itself or using an [Aggregator](../workflows-and-actions/tasks-ip/#aggregator).
+Metrics can be calculated in the [Query](../workflows/tasks-ip/#query) itself or using an [Aggregator](../workflows/tasks-ip/#aggregator).
 
 Typically the result is compared with a certain target and sent as a notification to **Slack** or channels afterward.
 
@@ -14,7 +14,7 @@ Typically the result is compared with a certain target and sent as a notificatio
 
 The workflow above can be used for monitoring different KPIs represented by mathematical functions such as average values, number of items, minimal and maximal values, etc.&#x20;
 
-More information about using them in [Condition](../workflows-and-actions/tasks-ip/#condition) and [Aggregator](../workflows-and-actions/tasks-ip/#aggregator) tasks can be found on a [special separate page](../workflows-and-actions/tasks-ip/mathematical-functions.md).
+More information about using them in [Condition](../workflows/tasks-ip/#condition) and [Aggregator](../workflows/tasks-ip/#aggregator) tasks can be found on a [special separate page](../workflows/tasks-ip/mathematical-functions.md).
 
 
 

@@ -18,15 +18,15 @@
   * [Connecting Hubspot](destinations/connecting-a-hubspot.md)
 * [Formatting of messages](destinations/formatting-of-messages.md)
 
-## Workflows and actions
+## Workflows
 
-* [Workflow management](workflows-and-actions/workflow-management.md)
-* [Tasks](workflows-and-actions/tasks-ip/README.md)
-  * [Transformers](workflows-and-actions/tasks-ip/transformers.md)
-  * [Mathematical functions](workflows-and-actions/tasks-ip/mathematical-functions.md)
-* [Running and scheduling workflows](workflows-and-actions/running-and-scheduling-workflows.md)
-* [Library of templates](workflows-and-actions/library-of-templates.md)
-* [Environment variables](workflows-and-actions/environment-variables.md)
+* [Workflow management](workflows/workflow-management.md)
+* [Tasks](workflows/tasks-ip/README.md)
+  * [Transformers](workflows/tasks-ip/transformers.md)
+  * [Mathematical functions](workflows/tasks-ip/mathematical-functions.md)
+* [Running and scheduling workflows](workflows/running-and-scheduling-workflows.md)
+* [Library of templates](workflows/library-of-templates.md)
+* [Environment variables](workflows/environment-variables.md)
 
 ## Use cases, examples, templates
 

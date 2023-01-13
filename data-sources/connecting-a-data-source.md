@@ -41,7 +41,7 @@ On top of that, Datamin also supports JSON APIs as data sources. Any API which r
 * **Your own backend APIs**
 * etc.
 
-In this case, instead of using a [Query](../workflows-and-actions/tasks-ip/#query) task start your workflow with an [API\_Call](../workflows-and-actions/tasks-ip/#api-call) task and the rest stays the same.
+In this case, instead of using a [Query](../workflows/tasks-ip/#query) task start your workflow with an [API\_Call](../workflows/tasks-ip/#api-call) task and the rest stays the same.
 
 ### Data streaming platforms as data sources
 
@@ -50,7 +50,7 @@ The unique feature of **Datamin** that makes us 100% real-time is an integration
 In order to do it, you need to make two steps:
 
 1. Install and configure our [open-source kafka-trigger library](https://github.com/datamin-io/kafka-trigger). A detailed description of how to do it is in its README.
-2. Create a workflow you want to trigger, starting with the [External\_trigger](../workflows-and-actions/tasks-ip/#external-trigger) task.
+2. Create a workflow you want to trigger, starting with the [External\_trigger](../workflows/tasks-ip/#external-trigger) task.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-28 at 18.09.50.png" alt=""><figcaption></figcaption></figure>
 
