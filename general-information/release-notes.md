@@ -4,9 +4,12 @@
 
 ### Release timeline: January - February 2023
 
-* New destinations: **PagerDuty**
+* Improved output and **debugging** features for the workflow canvas
 * Introducing **Python** for data transformation in workflows
-* Integration with **dbt** metrics
+* New destinations: **PagerDuty**
+* Integration with **dbt** for metrics
+
+
 
 ## Release history
 
