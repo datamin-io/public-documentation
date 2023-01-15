@@ -15,6 +15,10 @@
 
 Only important major releases are present in this list:
 
+**Release 15.01.2023**
+
+* Sending messages in private groups in Slack
+
 ### Release 12.01.2023
 
 * Folders and templates for metrics

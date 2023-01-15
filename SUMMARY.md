@@ -15,6 +15,7 @@
 ## Destinations
 
 * [Connecting a destination](destinations/connecting-a-destination.md)
+  * [Private groups in Slack](destinations/connecting-a-destination/private-groups-in-slack.md)
   * [Connecting Hubspot](destinations/connecting-a-hubspot.md)
 * [Formatting of messages](destinations/formatting-of-messages.md)
 
