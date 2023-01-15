@@ -29,6 +29,10 @@
 * [Library of templates](workflows/library-of-templates.md)
 * [Environment variables](workflows/environment-variables.md)
 
+## Metrics
+
+* [Metric management](metrics/metric-management.md)
+
 ## Use cases, examples, templates
 
 * [Use cases. Homepage](use-cases-examples-templates/use-cases.-homepage.md)
