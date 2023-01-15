@@ -5,6 +5,7 @@ Datamin is an industry-agnostic software that multiple departments inside an org
 Therefore our functionality covers a broad variety of business use cases:
 
 * [KPI Monitoring](kpi-monitoring.md)
+* [OKRs and custom metrics](okrs-and-custom-metrics.md)
 * [Finance and Payments](finance-and-payments.md)
 * [E-commerce & Logistics](e-commerce.md)
 * [Customer Success](customer-success.md)
