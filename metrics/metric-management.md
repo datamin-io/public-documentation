@@ -28,7 +28,7 @@ Scheduling workflows are described [here](../workflows/running-and-scheduling-wo
 
 ## Define thresholds and workflows to run
 
-And now as the final and the most important step, you can define which workflows to execute depending on the value of your metric:
+And now as the final and most important step, you can define which workflows to execute depending on the value of your metric:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 22.14.06.png" alt=""><figcaption></figcaption></figure>
 

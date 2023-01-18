@@ -1,6 +1,6 @@
 # Running and scheduling workflows
 
-Datamin’s workflows can be triggered in 3 different ways:
+Datamin’s workflows can be triggered in 5 different ways:
 
 ### Manually on-demand
 
@@ -23,8 +23,24 @@ Scheduling is the most common way of triggering workflows. It can be configured 
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-16 at 18.55.53.png" alt=""><figcaption></figcaption></figure>
 
-### Automatically via API.&#x20;
+### From a metric when its value matches a condition
+
+In each [metric](broken-reference), you can define which workflows to execute depending on the value of your metric:
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 22.14.06.png" alt=""><figcaption></figcaption></figure>
+
+Some of the more detailed examples of metrics can be found here in the list of our use cases. Our [library of templates](library-of-templates.md) also contains multiple ones, which you can use for configuring your own metrics.
+
+### Automatically via API as a webhook.&#x20;
 
 For example, by Apache Airflow, Jenkins, or any other software that is already used in your company for workflow or pipeline orchestration.
 
 More information about triggering workflows via API can be found in the [OAuth Clients](../datamin-api/oauth-clients.md) and [API Endpoints](../datamin-api/api-endpoints.md).
+
+### In real-time from Kafka
+
+When placed as a first task in a workflow, **external\_trigger** allows you to trigger workflows from your data streaming platforms to make it 100% real-time.
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-11-28 at 18.09.50.png" alt=""><figcaption></figcaption></figure>
+
+The first data streaming platform we integrate with is **Kafka**. And the open-source library that can trigger workflows from it is hosted on our Github:  [https://github.com/datamin-io/kafka-trigger](https://github.com/datamin-io/kafka-trigger)
