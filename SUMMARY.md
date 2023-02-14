@@ -32,6 +32,7 @@
 ## Metrics
 
 * [Metric management](metrics/metric-management.md)
+* [Using the average value of a metric](metrics/using-the-average-value-of-a-metric.md)
 
 ## Use cases, examples, templates
 

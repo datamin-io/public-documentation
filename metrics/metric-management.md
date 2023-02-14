@@ -32,4 +32,6 @@ And now as the final and most important step, you can define which workflows to 
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 22.14.06.png" alt=""><figcaption></figcaption></figure>
 
+An even more exciting feature allows you to compare the current value of the metric with an average one within a certain period of time. More examples of how to do it are [described here](using-the-average-value-of-a-metric.md).
+
 Some of the more detailed examples of metrics can be found here in the list of our use cases. Our [library of templates](../workflows/library-of-templates.md) also contains multiple ones, which you can use for configuring your own metrics.
