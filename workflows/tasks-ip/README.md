@@ -91,3 +91,21 @@ The main benefit of it is in the **DRY** principle, instead of repeating the sam
 <figure><img src="../../.gitbook/assets/Screenshot 2023-01-09 at 16.40.34.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Python
+
+As with each and every no-code solution, we still allow using some code if necessary:-)
+
+Therefore, we developed a new special task called **Python**, which can be used for transforming data sets on the fly.
+
+Here is an example, of how Python can help you iterate through input data, extracting from the database and transforming it on the fly. In this particular case, converting numbers into strings.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-17 at 13.54.01.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-17 at 13.53.48.png" alt=""><figcaption></figcaption></figure>
+
+</div>
