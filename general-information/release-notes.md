@@ -15,7 +15,15 @@
 
 Only important major releases are present in this list:
 
-**Release 15.01.2023**
+### Release 17.02.2023
+
+* Adding [METRIC\_AVG](../workflows/tasks-ip/mathematical-functions.md) function to metrics
+
+### Release 16.02.2023
+
+* Introducing [Python](../workflows/tasks-ip/) for data transformation in workflows
+
+### Release 15.01.2023
 
 * Sending messages in private groups in Slack
 
