@@ -63,4 +63,4 @@ input = {
 
 ### Limitations
 
-You can import standard Python modules, but not the `sockets`.
+You can import standard Python modules, but not the `socket`.
