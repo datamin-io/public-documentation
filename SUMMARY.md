@@ -25,6 +25,7 @@
 * [Tasks](workflows/tasks-ip/README.md)
   * [Transformers](workflows/tasks-ip/transformers.md)
   * [Mathematical functions](workflows/tasks-ip/mathematical-functions.md)
+  * [Using Python](workflows/tasks-ip/python.md)
 * [Running and scheduling workflows](workflows/running-and-scheduling-workflows.md)
 * [Library of templates](workflows/library-of-templates.md)
 * [Environment variables](workflows/environment-variables.md)
