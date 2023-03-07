@@ -5,7 +5,7 @@
 ### Release timeline: February - March 2023
 
 * Improved output and **debugging** features for the workflow canvas
-* New destinations: **PagerDuty**
+* New destinations: **PagerDuty, Opsgenie**
 * Integration with **dbt** for metrics
 
 
