@@ -5,7 +5,7 @@
 ### Release timeline: February - March 2023
 
 * Improved output and **debugging** features for the workflow canvas
-* New destinations: **PagerDuty, Opsgenie**
+* New destinations: **PagerDuty**
 * Integration with **dbt** for metrics
 
 
@@ -13,6 +13,10 @@
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release 14.03.2023
+
+* [Atlassian Opsgenie](https://www.atlassian.com/software/opsgenie) as a new destination for alerts
 
 ### Release 17.02.2023
 
