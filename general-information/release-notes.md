@@ -8,11 +8,13 @@
 * New destinations: **PagerDuty**
 * Integration with **dbt** for metrics
 
-
-
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release 18.03.2023
+
+* New functions for metrics: METRIC\_QUANTILE, METRIC\_MEDIAN.
 
 ### Release 14.03.2023
 
