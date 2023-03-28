@@ -12,6 +12,11 @@
 
 Only important major releases are present in this list:
 
+### Release 27.03.2023
+
+* New destination: **Jenkins**. Jobs can now be triggered directly from Datamin's workflows
+* Improvements in demo workflows and metrics
+
 ### Release 18.03.2023
 
 * New functions for metrics: METRIC\_QUANTILE, METRIC\_MEDIAN.
