@@ -61,12 +61,12 @@ Bearer: %%access\_token%%\
 ## Get various statistics of runs for workflows and separate tasks
 
 **Endpoint**\
-****GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/stats/%%DATE\_FROM%%/%%DATE\_TO%%
+GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/stats/%%DATE\_FROM%%/%%DATE\_TO%%
 
 and
 
 **Endpoint** \
-****GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/stats/%%DATE\_FROM%%/%%DATE\_TO%%
+GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/stats/%%DATE\_FROM%%/%%DATE\_TO%%
 
 **Request body:**\
 empty\
@@ -93,7 +93,7 @@ GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/aggregated-stats/%%DATE\_FROM
 and
 
 **Endpoint:** \
-****GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
+GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
 
 %%PERIOD%% here has five possible values: day, week, month, quarter, year.
 
@@ -135,12 +135,12 @@ Bearer: %%access\_token%%\
 ```
 
 **Endpoint:** \
-****GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/last-run/stats
+GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/last-run/stats
 
 and
 
 **Endpoint:** \
-****GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/last-run/stats
+GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/last-run/stats
 
 **Request body:**\
 empty\

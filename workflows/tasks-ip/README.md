@@ -109,3 +109,19 @@ Here is an example, of how Python can help you iterate through input data, extra
 <figure><img src="../../.gitbook/assets/Screenshot 2023-02-17 at 13.53.48.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### GPT
+
+From now on you can utilize the power of GPT by OpenAI as a dedicated task in workflows for transforming, cleaning, or completing your data.
+
+<div>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-09 at 22.37.43 (1).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-09 at 22.17.42.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Find more use cases on a [dedicated page](../../use-cases-examples-templates/gpt-by-openai.md).

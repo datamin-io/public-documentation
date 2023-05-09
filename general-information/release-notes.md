@@ -1,16 +1,12 @@
 # Release notes
 
-## Upcoming releases
-
-### Release timeline: February - March 2023
-
-* Improved output and **debugging** features for the workflow canvas
-* New destinations: **PagerDuty**
-* Integration with **dbt** for metrics
-
 ## Release history
 
 Only important major releases are present in this list:
+
+### Release 10.05.2023
+
+* Integration with **OpenAI GPT** as a task in workflows
 
 ### Release 27.03.2023
 

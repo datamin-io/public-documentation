@@ -40,6 +40,7 @@
 * [Use cases. Homepage](use-cases-examples-templates/use-cases.-homepage.md)
 * [KPI Monitoring](use-cases-examples-templates/kpi-monitoring.md)
 * [OKRs and custom metrics](use-cases-examples-templates/okrs-and-custom-metrics.md)
+* [GPT by OpenAI](use-cases-examples-templates/gpt-by-openai.md)
 * [Finance and Payments](use-cases-examples-templates/finance-and-payments.md)
 * [E-commerce & Logistics](use-cases-examples-templates/e-commerce.md)
 * [Customer Success](use-cases-examples-templates/customer-success.md)
