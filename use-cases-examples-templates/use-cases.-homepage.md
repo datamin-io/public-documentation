@@ -6,6 +6,7 @@ Therefore our functionality covers a broad variety of business use cases:
 
 * [KPI Monitoring](kpi-monitoring.md)
 * [OKRs and custom metrics](okrs-and-custom-metrics.md)
+* [GPT by OpenAI](gpt-by-openai.md)
 * [Finance and Payments](finance-and-payments.md)
 * [E-commerce & Logistics](e-commerce.md)
 * [Customer Success](customer-success.md)
