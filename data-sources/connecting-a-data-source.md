@@ -28,7 +28,11 @@ And this list is growing since we are adding new ones.
 
 Connecting an SQL-based data source is easy. You just need to create us a read-only user, give it the necessary permissions, and don't forget to add an additional security layer such as SSH tunnel or/and enabling connections from our IP, which you can find in the data source form.
 
+<div align="center">
+
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 22.44.13.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 22.43.16.png" alt=""><figcaption></figcaption></figure>
 

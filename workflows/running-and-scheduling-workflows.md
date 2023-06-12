@@ -44,3 +44,14 @@ When placed as a first task in a workflow, **external\_trigger** allows you to t
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-28 at 18.09.50.png" alt=""><figcaption></figcaption></figure>
 
 The first data streaming platform we integrate with is **Kafka**. And the open-source library that can trigger workflows from it is hosted on our Github:  [https://github.com/datamin-io/kafka-trigger](https://github.com/datamin-io/kafka-trigger)
+
+### In real-time from Google Cloud Pub/Sub
+
+Triggering Datamin's workflow from Google Cloud Pub/Sub is as easy as just triggering it via API.
+
+You need to create an [OAuth Client](../datamin-api/oauth-clients.md), and then use it together with the client ID and client secret in the Endpoint URL field of the subscription form of the Cloud Pub/Sub.
+
+\
+\[GET/POST] https://api.datamin.io/v1/oauth/token?client\_id=%%CLIENT\_ID%%\&client\_secret=%%CLIENT\_SECRET%%\&grant\_type=client\_credentials
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-12 at 23.04.06.png" alt=""><figcaption></figcaption></figure>

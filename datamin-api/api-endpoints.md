@@ -28,7 +28,11 @@ empty\
 
 Workflow UUID can be found in the list of workflows:
 
+<div align="center">
+
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 19.21.26.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 **Endpoint:**\
 POST https://api.datamin.io/v1/workflows/%%WORKFLOW\_UUID%%/runs/\
