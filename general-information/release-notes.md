@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 23.07.2023
+
+* New UI for workflows for better profiling and debugging
+
 ### Release 10.05.2023
 
 * Integration with **OpenAI GPT** as a task in workflows
