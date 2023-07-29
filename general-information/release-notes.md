@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 29.07.2023
+
+* Improved visibility of historical metric values on the statistic page and in the list of metrics
+
 ### Release 23.07.2023
 
 * New UI for workflows for better profiling and debugging
