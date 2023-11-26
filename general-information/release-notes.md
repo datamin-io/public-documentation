@@ -4,6 +4,13 @@
 
 Only important major releases are present in this list:
 
+### Release 26.11.2023
+
+* Better organized workflows and metric views with tabs
+* Bigger and more informative forms for editing tasks
+* Better code highlighting and line numbers in all the fields with SQL, Python, and Long texts
+* As a preparation for introducing more programming languages in workflows, the Python task was renamed to Code
+
 ### Release 29.07.2023
 
 * Improved visibility of historical metric values on the statistic page and in the list of metrics
