@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 04.01.2023
+
+* Open source library for streaming data from RabbitMQ: [https://github.com/datamin-io/datamin-rabbitmq-consumer](https://github.com/datamin-io/datamin-rabbitmq-consumer)
+
 ### Release 26.11.2023
 
 * Better organized workflows and metric views with tabs
