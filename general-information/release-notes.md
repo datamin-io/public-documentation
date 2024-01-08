@@ -4,6 +4,13 @@
 
 Only important major releases are present in this list:
 
+### Release 09.01.2024
+
+* Introduction of the dark mode/light mode
+* A new informative and powerful dashboard
+* Searching bar for workflows, metrics, and tasks
+* Performance improvements and a higher speed of resource loading
+
 ### Release 20.12.2023
 
 * Open source library for streaming data from RabbitMQ: [https://github.com/datamin-io/datamin-rabbitmq-consumer](https://github.com/datamin-io/datamin-rabbitmq-consumer)
