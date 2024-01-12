@@ -4,6 +4,11 @@
 
 Only important major releases are present in this list:
 
+### Release 12.01.2024
+
+* "Pandas" Python data analytics library is available in the "Code" task
+* Logs of runs for workflows
+
 ### Release 09.01.2024
 
 * Introduction of the dark mode/light mode
