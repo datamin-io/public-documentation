@@ -4,6 +4,11 @@
 
 Only important major releases are present in this list:
 
+### Release 14.01.2024
+
+* Logs for metrics
+* Improvements in statistics for workflows and metrics
+
 ### Release 12.01.2024
 
 * "Pandas" Python data analytics library is available in the "Code" task
