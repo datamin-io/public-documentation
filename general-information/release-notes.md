@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 17.01.2024
+
+* Profiling of slow queries and other tasks
+
 ### Release 14.01.2024
 
 * Logs for metrics
