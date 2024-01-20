@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 19.01.2024
+
+* Significantly improved performance, load balancing and resource consumption of the workflow scheduler and runner
+
 ### Release 17.01.2024
 
 * Profiling of slow queries and other tasks
