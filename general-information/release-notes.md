@@ -4,6 +4,11 @@
 
 Only important major releases are present in this list:
 
+### Release 22.01.2024
+
+* New task: Processor with the functionality of [jq](https://jqlang.github.io/jq/) library
+* Frontend improvements and bugfixes
+
 ### Release 19.01.2024
 
 * Significantly improved performance, load balancing and resource consumption of the workflow scheduler and runner
