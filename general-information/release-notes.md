@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 20.02.2024
+
+* Performance improvements for statistics and profiling modules
+
 ### Release 22.01.2024
 
 * New task: Processor with the functionality of [jq](https://jqlang.github.io/jq/) library
@@ -11,7 +15,7 @@ Only important major releases are present in this list:
 
 ### Release 19.01.2024
 
-* Significantly improved performance, load balancing and resource consumption of the workflow scheduler and runner
+* Significantly improved performance, load balancing, and resource consumption of the workflow scheduler and runner
 
 ### Release 17.01.2024
 
@@ -47,7 +51,7 @@ Only important major releases are present in this list:
 
 ### Release 29.07.2023
 
-* Improved visibility of historical metric values on the statistic page and in the list of metrics
+* Improved visibility of historical metric values on the statistics page and in the list of metrics
 
 ### Release 23.07.2023
 
