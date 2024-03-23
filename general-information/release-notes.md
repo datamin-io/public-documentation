@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 23.03.2024
+
+* **Integrations** instead of data sources and destinations.
+
 ### Release 20.02.2024
 
 * Performance improvements for statistics and profiling modules
