@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 26.03.2024
+
+* Insert/Update data in SQL-databases with Query task
+
 ### Release 23.03.2024
 
 * **Integrations** instead of data sources and destinations.
