@@ -4,9 +4,13 @@
 
 Only important major releases are present in this list:
 
+### Release 02.04.2024
+
+* Pipelines instead of workflows
+
 ### Release 26.03.2024
 
-* Insert/Update data in SQL-databases with Query task
+* Insert/Update data in SQL databases with Query task
 
 ### Release 23.03.2024
 
