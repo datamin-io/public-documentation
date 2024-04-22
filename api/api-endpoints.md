@@ -6,9 +6,14 @@ Currently, the following API endpoints are available:
 
 ## Generate OAuth2 token
 
-**Endpoint**\
-\[GET/POST] https://api.datamin.io/v1/oauth/token?client\_id=%%CLIENT\_ID%%\&client\_secret=%%CLIENT\_SECRET%%\&grant\_type=client\_credentials\
-\
+**Endpoint**
+
+{% code overflow="wrap" %}
+```bash
+[GET/POST] https://api.datamin.io/v1/oauth/token?client_id=%%CLIENT_ID%%&client_secret=%%CLIENT_SECRET%%&grant_type=client_credentials
+```
+{% endcode %}
+
 **Request body**\
 empty\
 \
@@ -30,9 +35,14 @@ Pipeline UUID can be found either in the list of pipelines or on the detailed pa
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-17 at 13.22.34.png" alt=""><figcaption></figcaption></figure>
 
-**Endpoint**\
-POST https://api.datamin.io/v1/pipelines/%%PIPELINE\_UUID%%/runs/\
-\
+**Endpoint**
+
+{% code overflow="wrap" %}
+```
+POST https://api.datamin.io/v1/pipelines/%%PIPELINE_UUID%%/runs/
+```
+{% endcode %}
+
 **Request body**\
 empty\
 \
@@ -60,8 +70,13 @@ Bearer: %%ACCESS\_TOKEN%%\
 
 ## Get a log of runs for a pipeline
 
-**Endpoint** \
-GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/logs/%%DATE\_TIME\_FROM%%/%%DATE\_TIME\_TO%%
+**Endpoint**&#x20;
+
+{% code overflow="wrap" %}
+```
+GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/logs/%%DATE_TIME_FROM%%/%%DATE_TIME_TO%%
+```
+{% endcode %}
 
 **Formatting notice**\
 DATE\_TIME\_FROM and DATE\_TIME\_TO must be in the format "Y-m-d H:i:s". For example, "2024-01-01 14:23:01"
@@ -114,13 +129,23 @@ The "Output" field in the response in Base64 is encrypted and needs to be decryp
 
 ## Get consolidated statistics of runs for pipelines and tasks
 
-**Endpoint**\
-GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/stats/%%DATE\_TIME\_FROM%%/%%DATE\_TIME\_TO%%
+**Endpoint**
+
+{% code overflow="wrap" %}
+```
+GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/stats/%%DATE_TIME_FROM%%/%%DATE_TIME_TO%%
+```
+{% endcode %}
 
 and
 
-**Endpoint** \
-GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/stats/%%DATE\_TIME\_FROM%%/%%DATE\_TIME\_TO%%
+**Endpoint**&#x20;
+
+{% code overflow="wrap" %}
+```markup
+GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/stats/%%DATE_TIME_FROM%%/%%DATE_TIME_TO%%
+```
+{% endcode %}
 
 **Formatting notice**\
 DATE\_TIME\_FROM and DATE\_TIME\_TO must be in the format "Y-m-d H:i:s". For example, "2024-01-01 14:23:01"
@@ -146,13 +171,23 @@ Bearer: %%ACCESS\_TOKEN%%\
 
 ## Get aggregated statistics of runs for pipelines and tasks for the period of time
 
-**Endpoint**\
-GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
+**Endpoint**
+
+{% code overflow="wrap" %}
+```
+GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/aggregated-stats/%%DATE_FROM%%/%%PERIOD%%/%%NUMBER_OF_PERIODS%%
+```
+{% endcode %}
 
 and
 
-**Endpoint**\
-GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
+**Endpoint**
+
+{% code overflow="wrap" %}
+```
+GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/aggregated-stats/%%DATE_FROM%%/%%PERIOD%%/%%NUMBER_OF_PERIODS%%
+```
+{% endcode %}
 
 %%PERIOD%% here has five possible values: day, week, month, quarter, year.
 
@@ -196,13 +231,23 @@ Bearer: %%ACCESS\_TOKEN%%\
 
 ## Get statistics of the last run for pipelines and tasks
 
-**Endpoint**\
+**Endpoint**
+
+{% code overflow="wrap" %}
+```
 GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/last-run/stats
+```
+{% endcode %}
 
 and
 
-**Endpoint**\
+**Endpoint**
+
+{% code overflow="wrap" %}
+```
 GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/last-run/stats
+```
+{% endcode %}
 
 **Request body**\
 empty\
