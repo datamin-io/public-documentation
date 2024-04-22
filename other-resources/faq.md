@@ -6,7 +6,7 @@
 
 <summary>What industries is Datamin made for?</summary>
 
-Any product where data change frequently in any ops-heavy or regulated industry can benefit from using Datamin. Meaning it is FinTech, Logistics, HealthTech, EnsuranceTech, E-commerce, Quick-commerce, Security, and Compliance. But not only.
+Any organization where data changes frequently and needs to be distributed across the organization as fast as possible in any ops-heavy or regulated industry can benefit from using Datamin. Meaning it is FinTech, Logistics, HealthTech, EnsuranceTech, E-commerce, Quick-commerce, Security, Compliance, Production industries, and Media. But not only.
 
 </details>
 
@@ -14,7 +14,9 @@ Any product where data change frequently in any ops-heavy or regulated industry 
 
 <summary>Which departments can benefit from using Datamin?</summary>
 
-Operations, Engineering, Data, Product, Revenue, Sales, and Customer success. So, absolutely, any department which wants to make decisions more data-driven.&#x20;
+Key users of Datamin are typically Data engineers. However, depending on how your organization is structured it can also be DevOps or Software Engineering.&#x20;
+
+At the same time, key beneficiary owners who will get significant value from Datamin being introduced into your data stack are Operations, Engineering, Data, Product, Revenue, Sales, and Customer success. So, any department that wants to make decision-making processes more data-driven.&#x20;
 
 </details>
 
@@ -22,7 +24,7 @@ Operations, Engineering, Data, Product, Revenue, Sales, and Customer success. So
 
 <summary>Do I need to have the technical expertise to use Datamin?</summary>
 
-Not at all. The only tech skills are required to connect Datamin to your data source. Afterwards the product is 100% no-code.
+Not at all. Using Datamin doesn't require any programming or deployment skills. However, in some cases, you might still want to program in Python in the pipelines to make its functionality more extendable.
 
 </details>
 
@@ -30,7 +32,7 @@ Not at all. The only tech skills are required to connect Datamin to your data so
 
 <summary>Is it possible to integrate Datamin into the existing software stack in the organization?</summary>
 
-Yes, Datamin is designed to fit the existing data stack without a need to replace anything. More information is described in a [separate article](../general-information/datamin-in-a-modern-data-stack.md).
+Yes, Datamin is designed to fit the existing data stack without a need to replace anything. Typically organizations who start looking for software like Datamin already have at least a data warehouse, a BI platform, and a couple of data sources which they want to stream data from.
 
 </details>
 
@@ -38,19 +40,9 @@ Yes, Datamin is designed to fit the existing data stack without a need to replac
 
 <details>
 
-<summary>Is there a dedicated Information Security Officer in Datamin?</summary>
-
-We don't have a dedicated one, but this reponsibility is taken care of by our CEO Artem Demchenkov, who has solid Information Security experience, including 8 years of being responsible for it in the FinTech industry (Funding Circle Germany, Billie) as Head of Engineering and CTO. Billie is regulated by a German regulator BAFIN and Artem was taking care of the CIRO responsibilities there for 4.5 years.&#x20;
-
-On top of that, he is also deeply familiar with PCI DSS, since he as a consultant helped a B2B cryptocurrency company Mercuryo to get a PCI license and prepare their infrastructure and documentation for quarterly audits.
-
-</details>
-
-<details>
-
 <summary>Are you using public cloud service providers?</summary>
 
-Yes, we use AWS and the data center is located in Frankfurt.
+Yes,  for our cloud version, we use AWS, and the default data center is located in Frankfurt (Germany). However, depending on customers' regulatory requirements we can also provide them separate Datamin instances in other locations.
 
 </details>
 
@@ -58,7 +50,7 @@ Yes, we use AWS and the data center is located in Frankfurt.
 
 <summary>How is personal data information (PII) stored and secured (employees, customers, etc.)? Is there data processed outside the EU?</summary>
 
-All data is stored in the EU in the AWS data center in Frankfurt. That's where the personal information of employees is also stored. The PII of customers is stored in Salesforce in their EU data center in Frankfurt as well.
+By default, all data is stored in the EU in the AWS data center in Frankfurt (Germany). That's where the personal information of customers is also stored. Unless it is a separate Datamin's instance located in a custom location required by a customer.
 
 </details>
 
@@ -66,7 +58,17 @@ All data is stored in the EU in the AWS data center in Frankfurt. That's where t
 
 <summary>Do you conduct regular internal or external audits?</summary>
 
-A basic audit is done by the engineering team for every new deployment of the new code or infrastructure, and then a more extended one is done once per quarter.
+A basic audit is done by the engineering team for every new deployment of the new code or infrastructure, and then a more extended one is done once per quarter. Once per year, we conduct an external audit with one of the independent external firms.
+
+</details>
+
+<details>
+
+<summary>Is there a dedicated Information Security Officer in Datamin?</summary>
+
+We don't have a dedicated one, but this responsibility is taken care of by our CEO Artem Demchenkov, who has solid Information Security experience, including 8 years of being responsible for it in the FinTech industry (Funding Circle Germany, Billie) as Head of Engineering and CTO. Billie is regulated by a German regulator BAFIN and Artem has been taking care of the CIRO responsibilities there for 4.5 years.&#x20;
+
+On top of that, he is also deeply familiar with PCI DSS, since he as a consultant helped a B2B cryptocurrency company Mercuryo to get a PCI license and prepare their infrastructure and documentation for quarterly audits.
 
 </details>
 

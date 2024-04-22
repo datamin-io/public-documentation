@@ -1,8 +1,8 @@
 # Metric management
 
-The functionality of metrics allows you quickly and easily create [OKRs, KPIs, SLAs, and custom metrics](../use-cases-examples-templates/okrs-and-custom-metrics.md), schedule them and execute various workflows based on their value.
+The functionality of metrics allows you to quickly create OKRs, KPIs, SLAs, and other custom metrics, schedule them, monitor their value, and execute various pipelines based on them.
 
-Management of metrics consists 5 simple steps:
+[Management of metrics](https://app.datamin.io/metrics) consists 5 simple steps:
 
 ## Give metric a name
 
@@ -10,28 +10,30 @@ Management of metrics consists 5 simple steps:
 
 ## Define how to retrieve data for your metric
 
-As same as in the case of workflows you can choose between using a visual UI or an SQL interface:
+As same as in the case of the pipeline task "Query" you can choose between using a visual UI or an SQL interface:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 22.13.02.png" alt=""><figcaption></figcaption></figure>
 
 ## Define how to calculate your metric
 
-The same [mathematical functions](../workflows/tasks-ip/mathematical-functions.md) as in the case of workflow tasks are supported:
+[Mathematical functions](../pipelines/mathematical-functions.md) are supported here:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 22.13.19.png" alt=""><figcaption></figcaption></figure>
 
 ## Define how often or when to calculate your metric
 
-Scheduling workflows are described [here](../workflows/running-and-scheduling-workflows.md#automatically-by-a-schedule).
-
 <figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 22.13.38.png" alt=""><figcaption></figcaption></figure>
 
-## Define thresholds and workflows to run
+More scheduling information can be found [here](../pipelines/running-and-scheduling-workflows.md#automatically-by-a-schedule).
 
-And now as the final and most important step, you can define which workflows to execute depending on the value of your metric:
+## Define thresholds and pipelines to run
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 22.14.06.png" alt=""><figcaption></figcaption></figure>
+And now as the final and most important step, you can define which pipeline to execute depending on the value of your metric:
 
-An even more exciting feature allows you to compare the current value of the metric with an average one within a certain period of time. More examples of how to do it are [described here](using-the-average-value-of-a-metric.md).
+<figure><img src="../.gitbook/assets/Screenshot 2024-04-17 at 13.56.04.png" alt=""><figcaption></figcaption></figure>
 
-Some of the more detailed examples of metrics can be found here in the list of our use cases. Our [library of templates](../workflows/library-of-templates.md) also contains multiple ones, which you can use for configuring your own metrics.
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-04-17 at 13.55.55.png" alt=""><figcaption></figcaption></figure>
+
+Some of the more detailed examples of metrics can be found here in the list of our use cases. Our [library of templates](../pipelines/library-of-templates.md) also contains multiple ones, which you can use for configuring your metrics.

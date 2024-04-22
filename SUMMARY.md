@@ -1,61 +1,102 @@
 # Table of contents
 
-## General information
+## 🗒️ General information
 
 * [Introduction to Datamin](README.md)
-* [Video tutorials](general-information/video-tutorials.md)
-* [Datamin in a modern data stack](general-information/datamin-in-a-modern-data-stack.md)
+* [Quick start guide](general-information/quick-start-guide.md)
 * [Release notes](general-information/release-notes.md)
 
-## Data sources
+## 💡 Integrations
 
-* [Connecting a data source](data-sources/connecting-a-data-source.md)
-* [Trial data source](data-sources/trial-data-source.md)
+* [Library of integrations](integrations/library-of-integrations/README.md)
+  * [Amazon Redshift](integrations/library-of-integrations/amazon-redshift.md)
+  * [Apache Kafka](integrations/library-of-integrations/apache-kafka.md)
+  * [APIs](integrations/library-of-integrations/apis.md)
+  * [Atlassian Jira](integrations/library-of-integrations/atlassian-jira.md)
+  * [AWS Lambda](integrations/library-of-integrations/aws-lambda.md)
+  * [AWS RDS](integrations/library-of-integrations/aws-rds.md)
+  * [AWS S3](integrations/library-of-integrations/aws-s3.md)
+  * [ClickHouse](integrations/library-of-integrations/clickhouse.md)
+  * [Elasticsearch](integrations/library-of-integrations/elasticsearch.md)
+  * [E-mail](integrations/library-of-integrations/e-mail.md)
+  * [Google Big Query](integrations/library-of-integrations/google-big-query.md)
+  * [Google Cloud SQL](integrations/library-of-integrations/google-cloud-sql.md)
+  * [Google Pub/Sub](integrations/library-of-integrations/google-pub-sub.md)
+  * [Google Sheets](integrations/library-of-integrations/google-sheets.md)
+  * [Immuta](integrations/library-of-integrations/immuta.md)
+  * [Incident.io](integrations/library-of-integrations/incident.io.md)
+  * [Jenkins](integrations/library-of-integrations/jenkins.md)
+  * [Hubspot](integrations/library-of-integrations/hubspot.md)
+  * [Microsoft Azure SQL](integrations/library-of-integrations/microsoft-azure-sql.md)
+  * [MySQL](integrations/library-of-integrations/mysql.md)
+  * [Opsgenie](integrations/library-of-integrations/opsgenie.md)
+  * [PostgreSQL](integrations/library-of-integrations/postgresql.md)
+  * [PlanetScale](integrations/library-of-integrations/planetscale.md)
+  * [RabbitMQ](integrations/library-of-integrations/rabbitmq.md)
+  * [Salesforce](integrations/library-of-integrations/salesforce.md)
+  * [Slack](integrations/library-of-integrations/slack.md)
+  * [Snowflake](integrations/library-of-integrations/snowflake.md)
+  * [Tableau](integrations/library-of-integrations/tableau.md)
+* [Connecting a data source](integrations/connecting-a-data-source.md)
+* [Trial data source](integrations/trial-data-source.md)
+* [Connecting a destination](integrations/connecting-a-destination/README.md)
+  * [Private groups in Slack](integrations/connecting-a-destination/private-groups-in-slack.md)
+  * [Connecting Hubspot](integrations/connecting-a-destination/connecting-a-hubspot.md)
 
-## Destinations
+## 🚡 Pipelines
 
-* [Connecting a destination](destinations/connecting-a-destination.md)
-  * [Private groups in Slack](destinations/connecting-a-destination/private-groups-in-slack.md)
-  * [Connecting Hubspot](destinations/connecting-a-hubspot.md)
-* [Formatting of messages](destinations/formatting-of-messages.md)
+* [Pipeline management](pipelines/pipeline-management.md)
+* [Tasks](pipelines/tasks-ip/README.md)
+  * [Aggregator](pipelines/tasks-ip/aggregator.md)
+  * [API Call](pipelines/tasks-ip/api-call.md)
+  * [Code](pipelines/tasks-ip/code.md)
+  * [Condition](pipelines/tasks-ip/condition.md)
+  * [External trigger](pipelines/tasks-ip/external-trigger.md)
+  * [Filter](pipelines/tasks-ip/filter.md)
+  * [For each](pipelines/tasks-ip/for-each.md)
+  * [Merge](pipelines/tasks-ip/merge.md)
+  * [Notification](pipelines/tasks-ip/notification.md)
+  * [Query](pipelines/tasks-ip/query.md)
+  * [Pipeline runner](pipelines/tasks-ip/pipeline-runner.md)
+  * [Processor](pipelines/tasks-ip/processor.md)
+  * [Transformer](pipelines/tasks-ip/transformers.md)
+* [Running and scheduling workflows](pipelines/running-and-scheduling-workflows.md)
+* [Library of templates](pipelines/library-of-templates.md)
+* [Environment variables](pipelines/environment-variables.md)
+* [Mathematical functions](pipelines/mathematical-functions.md)
+* [Formatting of messages](pipelines/formatting-of-messages.md)
 
-## Workflows
+## 📈 Statistics and profiling
 
-* [Workflow management](workflows/workflow-management.md)
-* [Tasks](workflows/tasks-ip/README.md)
-  * [Transformers](workflows/tasks-ip/transformers.md)
-  * [Mathematical functions](workflows/tasks-ip/mathematical-functions.md)
-  * [Using Python](workflows/tasks-ip/python.md)
-* [Running and scheduling workflows](workflows/running-and-scheduling-workflows.md)
-* [Library of templates](workflows/library-of-templates.md)
-* [Environment variables](workflows/environment-variables.md)
+* [Statistics of runs](statistics-and-profiling/statistics-of-runs.md)
+* [Slow tasks](statistics-and-profiling/slow-tasks.md)
 
-## Metrics
+## 📊 Metrics
 
 * [Metric management](metrics/metric-management.md)
-* [Using the average value of a metric](metrics/using-the-average-value-of-a-metric.md)
+* [Using previous values of a metric](metrics/using-the-average-value-of-a-metric.md)
 
-## Use cases, examples, templates
+## 💼 Use cases, examples, templates <a href="#use-cases" id="use-cases"></a>
 
-* [Use cases. Homepage](use-cases-examples-templates/use-cases.-homepage.md)
-* [KPI Monitoring](use-cases-examples-templates/kpi-monitoring.md)
-* [OKRs and custom metrics](use-cases-examples-templates/okrs-and-custom-metrics.md)
-* [GPT by OpenAI](use-cases-examples-templates/gpt-by-openai.md)
-* [Finance and Payments](use-cases-examples-templates/finance-and-payments.md)
-* [E-commerce & Logistics](use-cases-examples-templates/e-commerce.md)
-* [Customer Success](use-cases-examples-templates/customer-success.md)
-* [Data Issues & Incidents](use-cases-examples-templates/data-issue-monitoring.md)
-* [Security, Risk, and Anti-Fraud](use-cases-examples-templates/security-risk-aml-and-fraud.md)
-* [Anti-Money Laundering (AML)](use-cases-examples-templates/anti-money-laundering-aml.md)
-* [Reporting](use-cases-examples-templates/reporting.md)
-* [Other functional use cases](use-cases-examples-templates/other-functional-use-cases.md)
+* [Use cases. Homepage](use-cases/use-cases.-homepage.md)
+* [KPI Monitoring](use-cases/kpi-monitoring.md)
+* [OKRs and custom metrics](use-cases/okrs-and-custom-metrics.md)
+* [GPT by OpenAI](use-cases/gpt-by-openai.md)
+* [Finance and Payments](use-cases/finance-and-payments.md)
+* [E-commerce & Logistics](use-cases/e-commerce.md)
+* [Customer Success](use-cases/customer-success.md)
+* [Data Issues & Incidents](use-cases/data-issue-monitoring.md)
+* [Security, Risk, and Anti-Fraud](use-cases/security-risk-aml-and-fraud.md)
+* [Anti-Money Laundering (AML)](use-cases/anti-money-laundering-aml.md)
+* [Reporting](use-cases/reporting.md)
+* [Other functional use cases](use-cases/other-functional-use-cases.md)
 
-## Datamin API
+## 🔌 API
 
-* [OAuth clients](datamin-api/oauth-clients.md)
-* [API Endpoints](datamin-api/api-endpoints.md)
+* [OAuth clients](api/oauth-clients.md)
+* [API Reference](api/api-endpoints.md)
 
-## Other resources
+## 👁️‍🗨️ Other resources
 
 * [FAQ](other-resources/faq.md)
 * [Our blog on Medium](https://medium.com/datamin)
