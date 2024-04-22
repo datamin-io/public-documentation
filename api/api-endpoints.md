@@ -6,13 +6,13 @@ Currently, the following API endpoints are available:
 
 ## Generate OAuth2 token
 
-**Endpoint:**\
+**Endpoint**\
 \[GET/POST] https://api.datamin.io/v1/oauth/token?client\_id=%%CLIENT\_ID%%\&client\_secret=%%CLIENT\_SECRET%%\&grant\_type=client\_credentials\
 \
-**Request body:**\
+**Request body**\
 empty\
 \
-**Response example:**
+**Response example**
 
 ```json
 {
@@ -30,16 +30,16 @@ Pipeline UUID can be found either in the list of pipelines or on the detailed pa
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-17 at 13.22.34.png" alt=""><figcaption></figcaption></figure>
 
-**Endpoint:**\
+**Endpoint**\
 POST https://api.datamin.io/v1/pipelines/%%PIPELINE\_UUID%%/runs/\
 \
-**Request body:**\
+**Request body**\
 empty\
 \
-**Authorization:**\
+**Authorization**\
 Bearer: %%ACCESS\_TOKEN%%\
 \
-**Response example:**
+**Response example**
 
 ```json
 [
@@ -58,6 +58,60 @@ Bearer: %%ACCESS\_TOKEN%%\
 ]
 ```
 
+## Get a log of runs for a pipeline
+
+**Endpoint** \
+GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/logs/%%DATE\_TIME\_FROM%%/%%DATE\_TIME\_TO%%
+
+**Formatting notice**\
+DATE\_TIME\_FROM and DATE\_TIME\_TO must be in the format "Y-m-d H:i:s". For example, "2024-01-01 14:23:01"
+
+**Request body**\
+empty\
+\
+**Authorization**\
+Bearer: %%ACCESS\_TOKEN%%\
+\
+**Response example**
+
+```
+[
+    {
+        "workflow_run_uuid": "f05eeffa-1683-4dcc-88aa-5d7da344ccd9",
+        "task_uuid": "eff48172-2e75-4229-aff9-6c5d658db248",
+        "task_type": "query",
+        "is_successful": true,
+        "duration": 105,
+        "output": "W3siYW1vdW50IjoyOTkuNzYsImNyZWF0ZWRfYXQiOiIyMDIyLTA5LTMwIDE4OjUzOjM1IiwiY3VycmVuY3kiOiJFVVIiLCJjdXN0b21lcl9mcm9tX2lkIjoxLCJjdXN0b21lcl90b19pZCI6MiwiaWQiOjEsInVwZGF0ZWRfYXQiOiIyMDIyLTA5LTMwIDE4OjUzOjM1In0seyJhbW91bnQiOjExLjAxLCJjcmVhdGVkX2F0IjoiMjAyMi0wOS0zMCAxODo1NzozNSIsImN1cnJlbmN5IjoiRVVSIiwiY3VzdG9tZXJfZnJvbV9pZCI6MSwiY3VzdG9tZXJfdG9faWQiOjIsImlkIjoyLCJ1cGRhdGVkX2F0IjoiMjAyMi0wOS0zMCAxODo1MzozNSJ9LHsiYW1vdW50IjoxMS4wMSwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTM6MzUiLCJjdXJyZW5jeSI6IkVVUiIsImN1c3RvbWVyX2Zyb21faWQiOjEsImN1c3RvbWVyX3RvX2lkIjoyLCJpZCI6MywidXBkYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTM6MzUifSx7ImFtb3VudCI6MTMwMCwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTQ6MjYiLCJjdXJyZW5jeSI6IlVTRCIsImN1c3RvbWVyX2Zyb21faWQiOjMsImN1c3RvbWVyX3RvX2lkIjo1LCJpZCI6NCwidXBkYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTQ6MjYifSx7ImFtb3VudCI6MTMwMCwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTQ6MjYiLCJjdXJyZW5jeSI6IlVTRCIsImN1c3RvbWVyX2Zyb21faWQiOjMsImN1c3RvbWVyX3RvX2lkIjo1LCJpZCI6NSwidXBkYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTQ6MjYifSx7ImFtb3VudCI6MTUwNC4zNiwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTQ6MzkiLCJjdXJyZW5jeSI6IlVTRCIsImN1c3RvbWVyX2Zyb21faWQiOjUsImN1c3RvbWVyX3RvX2lkIjozLCJpZCI6NiwidXBkYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTQ6MzkifSx7ImFtb3VudCI6MzQuODksImNyZWF0ZWRfYXQiOiIyMDIyLTA5LTMwIDE4OjU1OjEwIiwiY3VycmVuY3kiOiJFVVIiLCJjdXN0b21lcl9mcm9tX2lkIjo0LCJjdXN0b21lcl90b19pZCI6MSwiaWQiOjcsInVwZGF0ZWRfYXQiOiIyMDIyLTA5LTMwIDE4OjU1OjEwIn0seyJhbW91bnQiOjU2NC44OSwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTU6MjgiLCJjdXJyZW5jeSI6IkVVUiIsImN1c3RvbWVyX2Zyb21faWQiOjEsImN1c3RvbWVyX3RvX2lkIjo0LCJpZCI6OCwidXBkYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTU6MjgifSx7ImFtb3VudCI6MTU2Ny41MSwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTU6MjgiLCJjdXJyZW5jeSI6IkVVUiIsImN1c3RvbWVyX2Zyb21faWQiOjEsImN1c3RvbWVyX3RvX2lkIjo0LCJpZCI6OSwidXBkYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTU6MjgifSx7ImFtb3VudCI6MjEuMTEsImNyZWF0ZWRfYXQiOiIyMDIyLTA5LTMwIDE4OjU2OjA2IiwiY3VycmVuY3kiOiJFVVIiLCJjdXN0b21lcl9mcm9tX2lkIjoyLCJjdXN0b21lcl90b19pZCI6MSwiaWQiOjEwLCJ1cGRhdGVkX2F0IjoiMjAyMi0wOS0zMCAxODo1NjowNiJ9LHsiYW1vdW50IjozNC4zNSwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTY6MjYiLCJjdXJyZW5jeSI6IlVTRCIsImN1c3RvbWVyX2Zyb21faWQiOjMsImN1c3RvbWVyX3RvX2lkIjo1LCJpZCI6MTEsInVwZGF0ZWRfYXQiOiIyMDIyLTA5LTMwIDE4OjU2OjI2In0seyJhbW91bnQiOjExMi41NiwiY3JlYXRlZF9hdCI6IjIwMjItMDktMzAgMTg6NTY6NDQiLCJjdXJyZW5jeSI6IlVTRCIsImN1c3RvbWVyX2Zyb21faWQiOjUsImN1c3RvbWVyX3RvX2lkIjozLCJpZCI6MTIsInVwZGF0ZWRfYXQiOiIyMDIyLTA5LTMwIDE4OjU2OjQ0In1d",
+        "metric_value": 0,
+        "executed_at": "2024-03-22T12:57:49Z"
+    },
+    {
+        "workflow_run_uuid": "746a0443-e3ff-4350-af4b-c7ac01b05acd",
+        "task_uuid": "eff48172-2e75-4229-aff9-6c5d658db248",
+        "task_type": "query",
+        "is_successful": false,
+        "duration": 1245,
+        "output": "+iIYz/dFRiOhzfOmibIOxQ==",
+        "metric_value": 0,
+        "executed_at": "2024-03-22T12:57:02Z"
+    },
+    {
+        "workflow_run_uuid": "5f96ec22-6b1c-42a4-a43c-bbb49b920937",
+        "task_uuid": "eff48172-2e75-4229-aff9-6c5d658db248",
+        "task_type": "query",
+        "is_successful": false,
+        "duration": 294,
+        "output": "",
+        "metric_value": 0,
+        "executed_at": "2024-03-22T12:56:38Z"
+    },
+]
+```
+
+**Formatting notice**\
+The "Output" field in the response in Base64 is encrypted and needs to be decrypted on the API client side.
+
 ## Get consolidated statistics of runs for pipelines and tasks
 
 **Endpoint**\
@@ -66,17 +120,18 @@ GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/stats/%%DATE\_TIME\_FROM%%/%%
 and
 
 **Endpoint** \
-GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/stats/%%DATE\_TIME\_FROM%%/%%DATE\_TIME\_TO%%
+GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/stats/%%DATE\_TIME\_FROM%%/%%DATE\_TIME\_TO%%
 
-:warning:DATE\_TIME\_FROM and DATE\_TIME\_TO must be in the format "Y-m-d H:i:s". For example, "2024-01-01 14:23:01"
+**Formatting notice**\
+DATE\_TIME\_FROM and DATE\_TIME\_TO must be in the format "Y-m-d H:i:s". For example, "2024-01-01 14:23:01"
 
-**Request body:**\
+**Request body**\
 empty\
 \
-**Authorization:**\
+**Authorization**\
 Bearer: %%ACCESS\_TOKEN%%\
 \
-**Response example:**
+**Response example**
 
 ```
 {
@@ -91,25 +146,26 @@ Bearer: %%ACCESS\_TOKEN%%\
 
 ## Get aggregated statistics of runs for pipelines and tasks for the period of time
 
-**Endpoint:** \
+**Endpoint**\
 GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
 
 and
 
-**Endpoint:** \
-GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
+**Endpoint**\
+GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/aggregated-stats/%%DATE\_FROM%%/%%PERIOD%%/%%NUMBER\_OF\_PERIODS%%
 
 %%PERIOD%% here has five possible values: day, week, month, quarter, year.
 
-E.g. GET /tasks/%%UUID%%/aggregated-stats/2020-01-01/month/12 will return a JSON array with 12 (or less if some don’t exist) elements each of which represents an aggregated statistic for a month starting on 2020-01-01.
+**Request example**\
+GET /tasks/%%UUID%%/aggregated-stats/2020-01-01/month/12 will return a JSON array with 12 (or less if some don’t exist) elements each of which represents an aggregated statistic for a month starting on 2020-01-01.
 
-**Request body:**\
+**Request body**\
 empty\
 \
-**Authorization:**\
+**Authorization**\
 Bearer: %%ACCESS\_TOKEN%%\
 \
-**Response example:**
+**Response example**
 
 ```
 {[
@@ -138,23 +194,23 @@ Bearer: %%ACCESS\_TOKEN%%\
 ]}
 ```
 
-## Get statistics of a last run for pipelines and tasks
+## Get statistics of the last run for pipelines and tasks
 
-**Endpoint:** \
+**Endpoint**\
 GET https://api.datamin.io/v1/stats/tasks/%%UUID%%/last-run/stats
 
 and
 
-**Endpoint:** \
-GET https://api.datamin.io/v1/stats/workflows/%%UUID%%/last-run/stats
+**Endpoint**\
+GET https://api.datamin.io/v1/stats/pipelines/%%UUID%%/last-run/stats
 
-**Request body:**\
+**Request body**\
 empty\
 \
-**Authorization:**\
+**Authorization**\
 Bearer: %%access\_token%%\
 \
-**Response example:**
+**Response example**
 
 ```
 {
