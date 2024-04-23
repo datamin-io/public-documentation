@@ -8,6 +8,7 @@
 
 ## 💡 Integrations
 
+* [Connecting an integration](integrations/connecting-a-data-source.md)
 * [Library of integrations](integrations/library-of-integrations/README.md)
   * [Amazon Redshift](integrations/library-of-integrations/amazon-redshift.md)
   * [Apache Kafka](integrations/library-of-integrations/apache-kafka.md)
@@ -17,7 +18,7 @@
   * [AWS RDS](integrations/library-of-integrations/aws-rds.md)
   * [AWS S3](integrations/library-of-integrations/aws-s3.md)
   * [ClickHouse](integrations/library-of-integrations/clickhouse.md)
-  * [Elasticsearch](integrations/library-of-integrations/elasticsearch.md)
+  * [ElasticSearch](integrations/library-of-integrations/elasticsearch.md)
   * [E-mail](integrations/library-of-integrations/e-mail.md)
   * [Google Big Query](integrations/library-of-integrations/google-big-query.md)
   * [Google Cloud SQL](integrations/library-of-integrations/google-cloud-sql.md)
@@ -37,11 +38,7 @@
   * [Slack](integrations/library-of-integrations/slack.md)
   * [Snowflake](integrations/library-of-integrations/snowflake.md)
   * [Tableau](integrations/library-of-integrations/tableau.md)
-* [Connecting a data source](integrations/connecting-a-data-source.md)
 * [Trial data source](integrations/trial-data-source.md)
-* [Connecting a destination](integrations/connecting-a-destination/README.md)
-  * [Private groups in Slack](integrations/connecting-a-destination/private-groups-in-slack.md)
-  * [Connecting Hubspot](integrations/connecting-a-destination/connecting-a-hubspot.md)
 
 ## 🚡 Pipelines
 
@@ -60,7 +57,7 @@
   * [Pipeline runner](pipelines/tasks-ip/pipeline-runner.md)
   * [Processor](pipelines/tasks-ip/processor.md)
   * [Transformer](pipelines/tasks-ip/transformers.md)
-* [Running and scheduling workflows](pipelines/running-and-scheduling-workflows.md)
+* [Running and scheduling pipelines](pipelines/running-and-scheduling-workflows.md)
 * [Library of templates](pipelines/library-of-templates.md)
 * [Environment variables](pipelines/environment-variables.md)
 * [Mathematical functions](pipelines/mathematical-functions.md)

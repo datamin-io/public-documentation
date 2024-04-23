@@ -64,7 +64,7 @@ More detailed examples of how to use transformers are described on a [separate p
 
 ### Notification
 
-In the end, you can either call APIs with **API Calls** or send notifications with **Notification** tasks to the [Destinations](../../integrations/connecting-a-destination/) you've configured before.
+In the end, you can either call APIs with **API Calls** or send notifications with **Notification** tasks to the [Destinations](broken-reference) you've configured before.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-09-16 at 18.21.46.png" alt=""><figcaption></figcaption></figure>
 
