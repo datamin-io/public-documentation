@@ -24,7 +24,7 @@ An API-first solution with dozens of integrations allows you to set up data stre
 * Lowest entry barrier on the market.&#x20;
 * API-first design and dozens of integrations that allow to extend functionality within minutes.
 
-Learn more about Datamin from:
+## Learn more about Datamin
 
 
 
