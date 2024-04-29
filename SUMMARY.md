@@ -76,17 +76,20 @@
 ## 💼 Use cases, examples, templates <a href="#use-cases" id="use-cases"></a>
 
 * [Use cases. Homepage](use-cases/use-cases.-homepage.md)
-* [KPI Monitoring](use-cases/kpi-monitoring.md)
-* [OKRs and custom metrics](use-cases/okrs-and-custom-metrics.md)
-* [GPT by OpenAI](use-cases/gpt-by-openai.md)
-* [Finance and Payments](use-cases/finance-and-payments.md)
-* [E-commerce & Logistics](use-cases/e-commerce.md)
-* [Customer Success](use-cases/customer-success.md)
-* [Data Issues & Incidents](use-cases/data-issue-monitoring.md)
-* [Security, Risk, and Anti-Fraud](use-cases/security-risk-aml-and-fraud.md)
-* [Anti-Money Laundering (AML)](use-cases/anti-money-laundering-aml.md)
-* [Reporting](use-cases/reporting.md)
-* [Other functional use cases](use-cases/other-functional-use-cases.md)
+* [Messaging patterns](use-cases/messaging-patterns/README.md)
+  * [Publish-subscribe](use-cases/messaging-patterns/publish-subscribe.md)
+  * [Message bus](use-cases/messaging-patterns/message-bus.md)
+* [Functional use-cases](use-cases/functional-use-cases/README.md)
+  * [KPI Monitoring](use-cases/functional-use-cases/kpi-monitoring.md)
+  * [OKRs and custom metrics](use-cases/functional-use-cases/okrs-and-custom-metrics.md)
+  * [Finance and Payments](use-cases/functional-use-cases/finance-and-payments.md)
+  * [E-commerce & Logistics](use-cases/functional-use-cases/e-commerce.md)
+  * [Customer Success](use-cases/functional-use-cases/customer-success.md)
+  * [Data Issues & Incidents](use-cases/functional-use-cases/data-issue-monitoring.md)
+  * [Security, Risk, and Anti-Fraud](use-cases/functional-use-cases/security-risk-aml-and-fraud.md)
+  * [Anti-Money Laundering (AML)](use-cases/functional-use-cases/anti-money-laundering-aml.md)
+  * [Reporting](use-cases/functional-use-cases/reporting.md)
+  * [Other functional use cases](use-cases/functional-use-cases/other-functional-use-cases.md)
 
 ## 🔌 API
 

@@ -9,13 +9,11 @@ We support a wide range of integrations that belong to the following categories:
 * Write ([Google Sheets](library-of-integrations/google-sheets.md), [Slack](library-of-integrations/slack.md), [Tableau](library-of-integrations/tableau.md), and other software)
 * Read-only ([Elasticsearch](library-of-integrations/elasticsearch.md))
 
-More integrations can be found in our [library](library-of-integrations/). And this list is growing since we are adding new ones.
+More integrations and information about how to connect them can be found in our [library](library-of-integrations/). And this list is growing since we are constantly adding new ones.
 
 {% hint style="info" %}
 We recommend having both production and testing integrations connected, so you can always properly test your pipelines before using them on production.
 {% endhint %}
-
-And this list is growing since we are adding new ones.
 
 
 

@@ -12,30 +12,30 @@ Datamin's framework of metrics and workflows perfectly fits the task of converti
 
 Retrieve data from the data source, where you store your HR data. It can be an API of Personio, BambooHR or your custom DWH, or any other data storage
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.29.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.29.24.png" alt=""><figcaption></figcaption></figure>
 
 And then calculated the number of items with the aggregated function COUNT():
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.29.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.29.33.png" alt=""><figcaption></figcaption></figure>
 
 ## Customer success OKR. Number of sign-ins per month
 
 First, you need to retrieve data from your data source when sign-ins are in the current month:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.34.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.34.02.png" alt=""><figcaption></figcaption></figure>
 
 And then as same as in the previous example, to calculate a number of it:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.34.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.34.10.png" alt=""><figcaption></figcaption></figure>
 
 ## Marketing OKR. The average number of website actions per user
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.36.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.36.30.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.36.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.36.37.png" alt=""><figcaption></figcaption></figure>
 
 ## Sales or Operations OKR. Monthly shipped amount
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.42.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.42.30.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-01-15 at 20.42.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.42.39.png" alt=""><figcaption></figcaption></figure>
