@@ -8,7 +8,9 @@ Integration with Slack allows you to send messages to various channels including
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-23 at 16.58.30.png" alt=""><figcaption></figcaption></figure>
 
-:warning: Please note that you need admin permissions for your Slack organization to authorize Datamin to send messages to it.
+{% hint style="info" %}
+Please note that you need admin permissions for your Slack organization to authorize Datamin to send messages to it.
+{% endhint %}
 
 ## Authorizing Datamin in private Slack channels
 

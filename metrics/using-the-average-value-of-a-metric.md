@@ -12,7 +12,9 @@ Examples:
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-17 at 14.02.12.png" alt=""><figcaption><p>Metric quantile</p></figcaption></figure>
 
-More information about these functions can be found on the page of [Mathematical functions](../pipelines/mathematical-functions.md).
+More information about these functions can be found on [Mathematical functions](../pipelines/mathematical-functions.md).
 
-⚠️ The critical thing to keep in mind is that this function only uses the values of this metric from the moment it was created and first run. For example, if you created and scheduled this metric on February 25th and want to calculate an average value, it won't consider the values before that date.
+{% hint style="info" %}
+These functions only use the values of this metric from the moment it was created and first run. For example, if you created and scheduled this metric on February 25th and want to calculate an average value, it won't consider the values before that date.
+{% endhint %}
 
