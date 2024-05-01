@@ -108,7 +108,47 @@ Now, when the pipeline is scheduled, you can follow its [statistics and executio
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 15.15.38 (1).png" alt=""><figcaption></figcaption></figure>
 
-## Example 2. Streaming from Apache Kafka to a database
+## Example 2. Streaming from Apache Kafka to an API
+
+Now that you know how to build simple scheduling pipelines, it will be easier to make real-time streaming one.
+
+### Triggering a pipeline from outside of Datamin
+
+The main change that we need to make to the previous one is to replace the "**Query**" block with the "**External trigger**":
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-01 at 10.26.21.png" alt=""><figcaption></figcaption></figure>
+
+By doing this we don't need to retrieve the invoices created within the last 30 minutes from the database and run this pipeline every 30 minutes anymore.&#x20;
+
+Instead, the pipeline can be integrated with one of the message brokers or queue software if they are already used in your organization. It can be [Apache Kafka](../integrations/library-of-integrations/apache-kafka.md), [RabbitMQ](../integrations/library-of-integrations/rabbitmq.md), Amazon SQS, [Google Pub/Sub](../integrations/library-of-integrations/google-pub-sub.md), and others. As soon as the new invoice is created, you can send it to one of these solutions and it will automatically trigger the pipeline at Datamin and forward the JSON data to it.
+
+### Remove the scheduling
+
+First of all, we need to remove the scheduling since it is not needed anymore. &#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 15.18.22.png" alt=""><figcaption></figcaption></figure>
+
+1. Click on "**Edit pipeline schedule**"
+2. Click on "**Clear**"
+3. Click on "**Save**"
+
+Now the schedule is cleared and the pipeline won't be run by it anymore.
+
+### Installing and configuring the Apache Kafka Trigger library
+
+Let's imagine, that you have Apache Kafka already used in your organization. The good news, we already have an [open-source listener for Kafka topics](https://github.com/datamin-io/kafka-trigger), that you can install and configure to send data to this particular pipeline.
+
+Kafka-trigger is configured with environment variables. Besides the conventional way, the config variables can also be specified in the `.env` or `.env.local` file.
+
+To configure from which Kafka topic you want to stream to this pipeline, you will need the pipeline UUID, which can be found on the preview page:
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-01 at 10.38.48.png" alt=""><figcaption></figcaption></figure>
+
+For example, if the Kafka topic you want to stream from is called `test_topic` and the pipeline UUID: is `e87ddc79-8e3f-4dae-92a8-8fff57ca81d3` the topic-to-pipeline mapping will be `DTMN_KT_KAFKA_TOPIC_MAPPING="test_topic:e87ddc79-8e3f-4dae-92a8-8fff57ca81d3"`
+
+As soon as you have the Kafka trigger installed and configured, you can start pushing data to the topic and see in the statistics of runs and logs, how the pipeline handles it.
+
+That's pretty much it for the start!
 
 Now that you are familiar with the basic concepts of how to set up data streaming with Datamin, you can learn more about
 
