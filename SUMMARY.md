@@ -75,22 +75,24 @@
 
 ## 💼 Use cases, examples, templates <a href="#use-cases" id="use-cases"></a>
 
-* [Use cases. Homepage](use-cases/use-cases.-homepage.md)
+* [Use-cases](use-cases/use-cases.-homepage.md)
 * [Messaging patterns](use-cases/messaging-patterns/README.md)
-  * [Point-to-Point](use-cases/messaging-patterns/point-to-point.md)
-  * [Publish-Subscribe](use-cases/messaging-patterns/publish-subscribe.md)
+  * [Messaging Bridge](use-cases/messaging-patterns/messaging-bridge.md)
   * [Message Bus](use-cases/messaging-patterns/message-bus.md)
+  * [Publish-Subscribe Channel](use-cases/messaging-patterns/publish-subscribe-channel.md)
+  * [Point-to-Point Channel](use-cases/messaging-patterns/point-to-point-channel.md)
 * [Functional use-cases](use-cases/functional-use-cases/README.md)
   * [KPI Monitoring](use-cases/functional-use-cases/kpi-monitoring.md)
   * [OKRs and custom metrics](use-cases/functional-use-cases/okrs-and-custom-metrics.md)
-  * [Finance and Payments](use-cases/functional-use-cases/finance-and-payments.md)
-  * [E-commerce & Logistics](use-cases/functional-use-cases/e-commerce.md)
   * [Customer Success](use-cases/functional-use-cases/customer-success.md)
   * [Data Issues & Incidents](use-cases/functional-use-cases/data-issue-monitoring.md)
-  * [Security, Risk, and Anti-Fraud](use-cases/functional-use-cases/security-risk-aml-and-fraud.md)
-  * [Anti-Money Laundering (AML)](use-cases/functional-use-cases/anti-money-laundering-aml.md)
   * [Reporting](use-cases/functional-use-cases/reporting.md)
   * [Other functional use cases](use-cases/functional-use-cases/other-functional-use-cases.md)
+* [Industry-specific use-cases](use-cases/industry-specific-use-cases/README.md)
+  * [Finance and Payments](use-cases/industry-specific-use-cases/finance-and-payments.md)
+  * [E-commerce & Logistics](use-cases/industry-specific-use-cases/e-commerce.md)
+  * [Security, Risk, and Anti-Fraud](use-cases/industry-specific-use-cases/security-risk-aml-and-fraud.md)
+  * [Anti-Money Laundering (AML)](use-cases/industry-specific-use-cases/anti-money-laundering-aml.md)
 
 ## 🔌 API
 

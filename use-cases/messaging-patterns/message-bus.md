@@ -6,8 +6,8 @@ And that is what Datamin is perfectly made for.
 
 Typically Message Bus implements one of the following models:
 
-* [Publish-subscribe](publish-subscribe.md)
-* [Point-to-point](point-to-point.md)
+* [Publish-subscribe](publish-subscribe-channel.md)
+* [Point-to-point](point-to-point-channel.md)
 
 Click on the links above :point\_up: to read about how both patterns can be implemented with Datamin.
 

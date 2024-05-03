@@ -1,20 +1,10 @@
-# Use cases. Homepage
+# Use-cases
 
-Datamin is an industry-agnostic software that multiple departments inside an organization can benefit from.
+Datamin is an industry-agnostic data streaming software that multiple departments inside an organization can benefit from.
 
-Therefore our functionality covers a broad variety of business use cases:
+Therefore our functionality covers a broad variety of business use cases. We split them into three groups to simplify your access to the best practice ones you are looking for to solve your challenge:
 
-* [KPI Monitoring](functional-use-cases/kpi-monitoring.md)
-* [OKRs and custom metrics](functional-use-cases/okrs-and-custom-metrics.md)
-* [GPT by OpenAI](broken-reference)
-* [Finance and Payments](functional-use-cases/finance-and-payments.md)
-* [E-commerce & Logistics](functional-use-cases/e-commerce.md)
-* [Customer Success](functional-use-cases/customer-success.md)
-* [Monitoring of Data Incidents and Issues](functional-use-cases/data-issue-monitoring.md)
-* [Security, Risk, and Anti-Fraud](functional-use-cases/security-risk-aml-and-fraud.md)
-* [Anti-Money Laundering (AML)](functional-use-cases/anti-money-laundering-aml.md)
-* [Reporting](functional-use-cases/reporting.md)
-* [Other functional use cases](functional-use-cases/other-functional-use-cases.md)
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Messaging patterns</strong></td><td></td><td></td><td><a href="messaging-patterns/">messaging-patterns</a></td><td><a href="../.gitbook/assets/Datamin elements-04.png">Datamin elements-04.png</a></td></tr><tr><td><strong>Functional use-cases</strong></td><td></td><td></td><td><a href="functional-use-cases/">functional-use-cases</a></td><td><a href="../.gitbook/assets/Datamin elements-07.png">Datamin elements-07.png</a></td></tr><tr><td><strong>Industry-specific use-cases</strong></td><td></td><td></td><td><a href="industry-specific-use-cases/">industry-specific-use-cases</a></td><td><a href="../.gitbook/assets/Datamin elements-05.png">Datamin elements-05.png</a></td></tr></tbody></table>
 
-All of these use cases are also saved in our library of templates in the product itself and you can build your own workflows based on them.
+Many of these use cases are also available in our [library of templates](../pipelines/library-of-templates.md) in the product and you can re-use them to build your pipelines.
 
