@@ -1,6 +1,6 @@
 # Environment variables
 
-Environment variables allow you to set variables in one place and reuse it in workflows and metrics as **ENV\_variable\_name**.
+[Environment variables](https://app.datamin.io/env-variables) allow you to set variables in one place and reuse them in tasks of pipelines and metrics as **ENV\_variable\_name**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-12-09 at 19.27.01.png" alt=""><figcaption></figcaption></figure>
 

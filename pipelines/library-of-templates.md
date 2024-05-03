@@ -2,20 +2,26 @@
 
 {% embed url="https://youtu.be/HTgfFhLqoC8" %}
 
-When you create a new workflow, you have a choice to create it from scratch or use one of the templates from a library:
+When you create a new pipeline or a new metric, you have a choice to create it from scratch or use one of the templates from a library:
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-09-16 at 21.20.18.png" alt=""><figcaption></figcaption></figure>
 
-If you select `Create from template` you will see a powerful library of templates, created by our team:
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-09-16 at 21.21.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-03 at 18.46.35.png" alt=""><figcaption></figcaption></figure>
 
-These templates can give you an opportunity to automate some common functional tasks, such as converting data to various reports and sending it somewhere or you can also automate your role-specific processes.&#x20;
+If you select "**Create from template**" you will see a powerful library of templates, created by our team:
 
-For example, if you work for payment operations, you will find powerful workflows to automate the monitoring of failed payments, stuck bank transactions, and so on.
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-03 at 18.47.43.png" alt=""><figcaption></figcaption></figure>
 
-In addition to that, you save your own workflows as templates and the other users from your organization will be able to reuse them.
+These templates allow you to automate common streaming or functional tasks, such as streaming from an API to a database and the other way around, accepting streaming from queue messengers, converting data to various formats, and sending it somewhere or you can also automate your role-specific processes.&#x20;
 
-To do it, just go to the [list of workflows](https://app.datamin.io/workflows), select the necessary workflow and click on `Save as template`
+In addition to that, you can save your pipelines as templates and the other users from your organization will be able to reuse them.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-09-16 at 21.25.48.png" alt=""><figcaption></figcaption></figure>
+To do it, just go to the list of pipelines, select the necessary workflow, and click on "**Save as template"**
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-03 at 18.47.27.png" alt=""><figcaption></figcaption></figure>
+
+And the new template will be available under the tabs "**My organization's templates**" and "**My templates**":
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-03 at 18.50.13.png" alt=""><figcaption></figcaption></figure>

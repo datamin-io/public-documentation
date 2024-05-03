@@ -1,6 +1,6 @@
 # Formatting of messages
 
-Datamin supports a wide selection of formatting syntaxes depending on your destination software.
+Datamin supports a wide selection of formatting syntaxes depending on the destination software you want to stream data to.
 
 For example, you can use Slack's formatting syntax if you want to send messages to Slack. If you create tickets in Jira, use Atlassian's syntax.&#x20;
 
