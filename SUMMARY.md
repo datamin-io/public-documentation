@@ -77,8 +77,9 @@
 
 * [Use cases. Homepage](use-cases/use-cases.-homepage.md)
 * [Messaging patterns](use-cases/messaging-patterns/README.md)
-  * [Publish-subscribe](use-cases/messaging-patterns/publish-subscribe.md)
-  * [Message bus](use-cases/messaging-patterns/message-bus.md)
+  * [Point-to-Point](use-cases/messaging-patterns/point-to-point.md)
+  * [Publish-Subscribe](use-cases/messaging-patterns/publish-subscribe.md)
+  * [Message Bus](use-cases/messaging-patterns/message-bus.md)
 * [Functional use-cases](use-cases/functional-use-cases/README.md)
   * [KPI Monitoring](use-cases/functional-use-cases/kpi-monitoring.md)
   * [OKRs and custom metrics](use-cases/functional-use-cases/okrs-and-custom-metrics.md)
