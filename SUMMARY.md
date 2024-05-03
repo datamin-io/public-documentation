@@ -77,8 +77,10 @@
 
 * [Use-cases](use-cases/use-cases.-homepage.md)
 * [Messaging patterns](use-cases/messaging-patterns/README.md)
+  * [Message Dispatcher](use-cases/messaging-patterns/message-dispatcher.md)
   * [Messaging Bridge](use-cases/messaging-patterns/messaging-bridge.md)
   * [Message Bus](use-cases/messaging-patterns/message-bus.md)
+  * [Message Router](use-cases/messaging-patterns/message-router.md)
   * [Publish-Subscribe Channel](use-cases/messaging-patterns/publish-subscribe-channel.md)
   * [Point-to-Point Channel](use-cases/messaging-patterns/point-to-point-channel.md)
 * [Functional use-cases](use-cases/functional-use-cases/README.md)
