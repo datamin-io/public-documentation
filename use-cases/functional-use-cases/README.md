@@ -1,2 +1,9 @@
-# Functional use-cases
+# Functional use cases
 
+Functional use cases of Datamin represent how our framework for creating and running pipelines can be used for:
+
+* Streaming from different sources to different destinations
+* Data orchestration, filtering, cleaning, transforming, enriching, and ingestion
+* Various types of on-fly calculations, monitoring, and reporting
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>KPI Monitoring</strong></td><td></td><td></td><td><a href="kpi-monitoring.md">kpi-monitoring.md</a></td><td><a href="../../.gitbook/assets/Screenshot 2024-05-03 at 14.04.49.png">Screenshot 2024-05-03 at 14.04.49.png</a></td></tr><tr><td><strong>OKRs and custom metrics</strong></td><td></td><td></td><td><a href="okrs-and-custom-metrics.md">okrs-and-custom-metrics.md</a></td><td><a href="../../.gitbook/assets/Screenshot 2024-05-03 at 23.29.34.png">Screenshot 2024-05-03 at 23.29.34.png</a></td></tr><tr><td><strong>Data Issues &#x26; Incidents</strong></td><td></td><td></td><td><a href="data-issue-monitoring.md">data-issue-monitoring.md</a></td><td><a href="../../.gitbook/assets/Screenshot 2024-05-03 at 20.35.43.png">Screenshot 2024-05-03 at 20.35.43.png</a></td></tr><tr><td><strong>Reporting</strong></td><td></td><td></td><td><a href="reporting.md">reporting.md</a></td><td><a href="../../.gitbook/assets/Screenshot 2024-05-03 at 21.43.16 (1).png">Screenshot 2024-05-03 at 21.43.16 (1).png</a></td></tr><tr><td><strong>Other functional use-cases</strong></td><td></td><td></td><td><a href="other-functional-use-cases.md">other-functional-use-cases.md</a></td><td><a href="../../.gitbook/assets/Screenshot 2024-05-03 at 21.36.24.png">Screenshot 2024-05-03 at 21.36.24.png</a></td></tr></tbody></table>

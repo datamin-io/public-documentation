@@ -1,10 +1,14 @@
 # Customer Success
 
+Customer Success is typically the first department that receives calls from customers. It is your first line of defense that will take the hit when something goes wrong.&#x20;
+
+Therefore notifying them and streaming all the necessary customer information before customer calls to their communication channels and software APIs is important.
+
 ## Drop in user signups
 
-The following workflow example helps to retrieve all signups from today, compare the number of them with the target and notify the customer success team if it is lower than expected:
+The following pipeline example helps to retrieve all signups from today, compare the number of them with the target, and notify the customer success team if it is lower than expected:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 14.48.30 (1).png" alt=""><figcaption><p>Workflow example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 14.48.30 (1).png" alt=""><figcaption><p>Pipeline example</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 14.49.00.png" alt=""><figcaption><p>Query task</p></figcaption></figure>
 
@@ -22,7 +26,7 @@ The same monitoring can be implemented for user logins. Just the query needs to 
 
 ## Monitor customers stuck in the onboarding
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 14.59.58.png" alt=""><figcaption><p>Example workflow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 14.59.58.png" alt=""><figcaption><p>Example pipeline</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 15.01.26.png" alt=""><figcaption><p>Query task</p></figcaption></figure>
 
@@ -34,11 +38,11 @@ One special modification of the previous example is the monitoring of customers 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 18.20.51.png" alt=""><figcaption></figcaption></figure>
 
-If your data source supports such differentiation, you can even automatically detect if the root cause is on your side, your customers' side or if the problem is related to your KYC provider.
+If your data source supports such differentiation, you can even automatically detect if the root cause is on your side, your customers' side, or if the problem is related to your KYC provider.
 
 ## Customer engagement summary report
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 15.32.58.png" alt=""><figcaption><p>Workflow example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 15.32.58.png" alt=""><figcaption><p>Pipeline example</p></figcaption></figure>
 
 ```sql
 // Simple SQL to get data
@@ -50,4 +54,4 @@ GROUP BY status
 ORDER by cnt DESC;
 ```
 
-And the the result can be sent once per a period of time (usually week) to your customer success team.
+The result can be sent once per time (usually per week) to your customer success team.

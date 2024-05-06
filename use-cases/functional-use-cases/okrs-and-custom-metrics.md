@@ -1,16 +1,16 @@
 # OKRs and custom metrics
 
-The functionality of Datamin's metrics allows you to set up actions based on the values of various data KPIs, OKRs, SLAs, or any other custom metric you use in your company.
+The functionality of [Datamin's metrics](broken-reference) allows you to set up actions based on the values of various data KPIs, OKRs, SLAs, or any other custom metric you use in your organization.
 
 ## Objectives and Key Results (OKRs)
 
-OKRs (Objectives and Key Results) is a performance management framework that encourages companies to set, communicate and monitor broad organizational goals and results. The framework is meant to be transparent and to align the business, team, and individual objectives in a hierarchal, measurable way.
+OKRs (Objectives and Key Results) is a performance management framework that encourages companies to set, communicate, and monitor broad organizational goals and results. The framework is meant to be transparent and to align the business, team, and individual objectives in a hierarchal, measurable way.
 
-Datamin's framework of metrics and workflows perfectly fits the task of converting OKRs to practical automated actions.
+Datamin's framework of metrics and pipelines perfectly fits the task of converting OKRs to practical automated actions.
 
 ## HR OKR. Number of monthly hires
 
-Retrieve data from the data source, where you store your HR data. It can be an API of Personio, BambooHR or your custom DWH, or any other data storage
+Retrieve data from the data source, where you store your HR data. It can be an API of Personio, BambooHR your custom DWH, or any other data storage
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-01-15 at 20.29.24.png" alt=""><figcaption></figcaption></figure>
 

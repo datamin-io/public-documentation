@@ -1,18 +1,20 @@
 # E-commerce & Logistics
 
-## Generate commercial report and send it to BI software or directly to stakeholders
+Same as the [financial industry](finance-and-payments.md) E-commers deal with customers, suppliers, and orders between them. Therefore it is an industry where an organization needs to know about any good or positive event related to customers' accounts as fast as possible. Therefore receiving such information in a real-time mode is vital for many departments from BI to risk, operations, or compliance. And that's what Datamin is good at.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-01 at 23.40.47.png" alt=""><figcaption><p>Possible workflow</p></figcaption></figure>
+## Schedule generation of commercial reports and send them to BI software or directly to stakeholders
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-01 at 23.40.47.png" alt=""><figcaption><p>Possible pipeline</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-01 at 23.41.05.png" alt=""><figcaption><p>An example how to retrieve data as SQL</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-01 at 23.43.31.png" alt=""><figcaption><p>Generared CSV report</p></figcaption></figure>
 
-## SLA monitoring for order deliveries
+## Streaming SLA information for order deliveries
 
-With Datamin it is very easy to monitor KPIs but also SLAs for various cases. One of the examples for e-commerce specifically is to detect orders which are not delivered within SLA time.
+With Datamin it is very easy to monitor KPIs but also SLAs for various cases. One of the examples for e-commerce specifically is to detect orders that are not delivered within SLA time.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-07 at 19.13.03.png" alt=""><figcaption><p>Potential SLA monitoring workflow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-07 at 19.13.03.png" alt=""><figcaption><p>Potential SLA monitoring pipeline</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-07 at 19.13.37.png" alt=""><figcaption><p>Potential SQL query to retrieve data</p></figcaption></figure>
 
@@ -20,9 +22,9 @@ With Datamin it is very easy to monitor KPIs but also SLAs for various cases. On
 
 In case an organization accepts payments from customers with direct bank transfers, it opens a potential for mistakes made in the references or amount.
 
-The following workflow can help to control and find overpaid orders.
+The following pipeline can help to control and find overpaid orders.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 18.11.52.png" alt=""><figcaption><p>Potential workflow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 18.11.52.png" alt=""><figcaption><p>Potential pipeline</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 18.12.02.png" alt=""><figcaption><p>Potential SQL query</p></figcaption></figure>
 
@@ -30,11 +32,11 @@ The following workflow can help to control and find overpaid orders.
 
 With Datamin you can control the size of your stock and send alerts to the operational teams if it is necessary to restock some items:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 18.19.31.png" alt=""><figcaption><p>Example of the workflow</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 18.19.31.png" alt=""><figcaption><p>Example of the pipeline</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 18.28.35.png" alt=""><figcaption><p>Example of the message to the ops team</p></figcaption></figure>
 
-## Filtering data sets by various values
+## Filtering data sets by various values on the fly
 
 Filtering data from large data sets is one of the most common and important tasks for e-commerce operations. One of the powerful instruments Datamin offers for that is [Transformer](../../pipelines/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
 
