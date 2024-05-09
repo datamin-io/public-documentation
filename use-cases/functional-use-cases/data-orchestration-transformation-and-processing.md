@@ -29,3 +29,9 @@ For example,&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-09 at 23.51.06.png" alt=""><figcaption></figcaption></figure>
 
+Such an intuitive conversion from human language to pipelines simplifies the communication between stakeholders and data engineers significantly and also:
+
+* Establishes a common vocabulary
+* Reduces time on explanations
+* Accelerates implementation
+* Minimizes errors
