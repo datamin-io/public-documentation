@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 10.05.2024
+
+* Brand new fully reworked documentation
+
 ### Release 02.04.2024
 
 * Pipelines instead of workflows
