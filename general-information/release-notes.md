@@ -4,6 +4,11 @@
 
 Only important major releases are present in this list:
 
+### Release 19.05.2024
+
+* Streaming from AWS S3 to Datamin's pipeline through AWS Lambda
+* An open-source [AWS S3 to pipeline lambda trigger](https://github.com/datamin-io/s3-lambda-trigger).
+
 ### Release 10.05.2024
 
 * Brand new fully reworked documentation

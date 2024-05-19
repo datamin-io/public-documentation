@@ -4,7 +4,7 @@
 
 AWS Lambda allows you to listen to new file arrivals on AWS S3 buckets of your choice. Therefore these data can immediately be streamed to Datamin by triggering our [API for pipelines](../../api/api-endpoints.md#run-pipeline).
 
-We are building an open-source AWS Lambda function for you and it is coming live soon.
+You can write a basic AWS Lambda function on your own and stream data from AWS S3 to Datamin in real time.
 
-Until then you can just write a basic function on your own and stream data from AWS S3 to Datamin in real-time.
+Or use our [open-source trigger library](https://github.com/datamin-io/s3-lambda-trigger) which has a full installation and usage guide in the README file.
 
