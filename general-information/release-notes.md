@@ -4,6 +4,11 @@
 
 Only important major releases are present in this list:
 
+### Release 30.05.2024
+
+* Main dashboard improvements
+* Graphs of pipeline and metric runs per month on the dashboard
+
 ### Release 19.05.2024
 
 * Streaming from AWS S3 to Datamin's pipeline through AWS Lambda
