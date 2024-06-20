@@ -2,25 +2,49 @@
 
 Several tasks such as **Aggregator**, **Condition,** and **Notification** support a powerful set of mathematical functions:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-10-01 at 18.35.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-06-20 at 13.29.58.png" alt=""><figcaption></figcaption></figure>
 
 Most probably you are already familiar with them and used these ones in **SQL databases**, **Microsoft Excel**, or **Google Spreadsheets**.&#x20;
 
-| Formula                                          | Meaning                                            | Example                |
-| ------------------------------------------------ | -------------------------------------------------- | ---------------------- |
-| **AVG(field\_name)**                             | Average value in the input data set                | AVG(amount)            |
-| **SUM(field\_name)**                             | A sum of values in the input data set              | SUM(amount)            |
-| **COUNT()**                                      | Number of rows in the input data set               |                        |
-| **FIRST(field\_name)**                           | First value in the input data set                  |                        |
-| **LAST(field\_name)**                            | Last value in the input data set                   |                        |
-| **MAX(field\_name)**                             | Max value in the input data set                    | MAX(amount)            |
-| **MIN(field\_name)**                             | Min value in the input data set                    | MIN(amount)            |
-| **ROUND(field\_name, precision, "floor\|ceil")** | Round a number up or down with a certain precision | ROUND(tax, 2, "floor") |
-| **NOW()**                                        | Current timestamp                                  |                        |
+### Array functions
+
+| Formula                | Meaning                               | Example     |
+| ---------------------- | ------------------------------------- | ----------- |
+| **AVG(field\_name)**   | Average value in the input data set   | AVG(amount) |
+| **SUM(field\_name)**   | A sum of values in the input data set | SUM(amount) |
+| **COUNT()**            | Number of rows in the input data set  |             |
+| **FIRST(field\_name)** | First value in the input data set     |             |
+| **LAST(field\_name)**  | Last value in the input data set      |             |
+| **MAX(field\_name)**   | Max value in the input data set       | MAX(amount) |
+| **MIN(field\_name)**   | Min value in the input data set       | MIN(amount) |
+
+### Single number functions
+
+| Formula                                          | Meaning                                                                             | Example                |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------- |
+| **ROUND(field\_name, precision, "floor\|ceil")** | Round a number up or down with a certain precision                                  | ROUND(tax, 2, "floor") |
+| **ABS()**                                        | The absolute value of a number                                                      |                        |
+| **NEG()**                                        | Inverts the sign of a number. From "-" to "+" and other way around                  |                        |
+| **SIGN()**                                       | <p>Returns:</p><pre><code>-1 if d &#x3C;  0
+ 0 if d == 0
++1 if d >  0
+</code></pre> |                        |
+| **STRING()**                                     | Converts number to string                                                           |                        |
+| **INT()**                                        | Returns an integer part of a decimal number                                         |                        |
+
+### Other functions
+
+| Formula     | Meaning                                                     | Example                 |
+| ----------- | ----------------------------------------------------------- | ----------------------- |
+| **ENV()**   | Use environment variable in a format of ENV\_variable\_name | ENV\_REVENUE\_THRESHOLD |
+| **NOW()**   | Current timestamp                                           |                         |
+| **INPUT()** | The entire input data set as JSON                           |                         |
+
+### Metric functions
 
 Also, there's an additional set of functions available for [Metrics](broken-reference) only:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-03-17 at 19.48.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-17 at 19.48.49.png" alt=""><figcaption></figcaption></figure>
 
 | Formula                                         | Meaning                                                                                                                                              | Example                                                                    |
 | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
