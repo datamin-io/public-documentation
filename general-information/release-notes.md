@@ -4,6 +4,12 @@
 
 Only important major releases are present in this list:
 
+### Release 20.06.2024
+
+* New [math functions](../pipelines/mathematical-functions.md): ABS, NEG, SIGN, INT, STRING
+* Improvements in the error logging for tasks and pipelines
+* Improvements in the UI for OAuth
+
 ### Release 30.05.2024
 
 * Main dashboard improvements
