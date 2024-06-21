@@ -89,7 +89,8 @@ The following list is supported:
 |\
 &\
 ^\
-\~
+<<\
+\>>
 
 ## Formatting of dates
 
