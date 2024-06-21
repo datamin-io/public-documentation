@@ -80,13 +80,6 @@ The following list is supported:
 \>==\
 <==
 
-### Regular expression comparison
-
-\=\~     // means regular expression is true\
-!\~      // means regular expression is false
-
-Supported syntax for regular expressions: [https://pkg.go.dev/regexp/syntax](https://pkg.go.dev/regexp/syntax)
-
 ### Boolean operators
 
 ||\
@@ -100,6 +93,21 @@ Supported syntax for regular expressions: [https://pkg.go.dev/regexp/syntax](htt
 ^\
 <<\
 \>>
+
+## Regular expression comparison
+
+The following two operations are supported for searching in strings with regular expressions
+
+\=\~     // means a regular expression match is found\
+!\~      // means a regular expression match is not found
+
+For example, the following string placed in the Condition or Aggregator will return `true`
+
+```regex
+"Mountaineering is the best sport in the world. Or engineering?" =~ "[(Engin|Mountain)]eering\\s"
+```
+
+Supported syntax for regular expressions: [https://pkg.go.dev/regexp/syntax](https://pkg.go.dev/regexp/syntax).
 
 ## Formatting of dates
 
