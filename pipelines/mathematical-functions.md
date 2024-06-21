@@ -63,7 +63,9 @@ The following list is supported:
 \+\
 \-\
 /\
-\*
+\*\
+%\
+\*\*
 
 ### Comparison
 
@@ -77,6 +79,13 @@ The following list is supported:
 <=\
 \>==\
 <==
+
+### Regular expression comparison
+
+\=\~     // means regular expression is true\
+!\~      // means regular expression is false
+
+Supported syntax for regular expressions: [https://pkg.go.dev/regexp/syntax](https://pkg.go.dev/regexp/syntax)
 
 ### Boolean operators
 
