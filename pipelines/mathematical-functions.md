@@ -23,14 +23,15 @@ Most probably you are already familiar with them and used these ones in **SQL da
 | Formula                                          | Meaning                                                                             | Example                |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------- |
 | **ROUND(field\_name, precision, "floor\|ceil")** | Round a number up or down with a certain precision                                  | ROUND(tax, 2, "floor") |
-| **ABS()**                                        | The absolute value of a number                                                      |                        |
-| **NEG()**                                        | Inverts the sign of a number. From "-" to "+" and other way around                  |                        |
-| **SIGN()**                                       | <p>Returns:</p><pre><code>-1 if d &#x3C;  0
+| **ABS(field\_name)**                             | The absolute value of a number                                                      |                        |
+| **NEG(field\_name)**                             | Inverts the sign of a number. From "-" to "+" and other way around                  |                        |
+| **SIGN(field\_name)**                            | <p>Returns:</p><pre><code>-1 if d &#x3C;  0
  0 if d == 0
 +1 if d >  0
 </code></pre> |                        |
-| **STRING()**                                     | Converts number to string                                                           |                        |
-| **INT()**                                        | Returns an integer part of a decimal number                                         |                        |
+| **STRING(field\_name)**                          | Converts number to string                                                           |                        |
+| **INT(field\_name)**                             | Returns an integer part of a decimal number                                         |                        |
+| **IS\_NULL(field\_name)**                        | Returns true or false if the value is equal to null or not                          |                        |
 
 ### Other functions
 
