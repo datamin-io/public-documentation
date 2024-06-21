@@ -31,7 +31,6 @@ Most probably you are already familiar with them and used these ones in **SQL da
 </code></pre> |                        |
 | **STRING(field\_name)**                          | Converts number to string                                                           |                        |
 | **INT(field\_name)**                             | Returns an integer part of a decimal number                                         |                        |
-| **IS\_NULL(field\_name)**                        | Returns true or false if the value is equal to null or not                          |                        |
 
 ### Other functions
 
