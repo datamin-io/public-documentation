@@ -60,7 +60,7 @@
 * [Running and scheduling pipelines](pipelines/running-and-scheduling-workflows.md)
 * [Library of templates](pipelines/library-of-templates.md)
 * [Environment variables](pipelines/environment-variables.md)
-* [Mathematical functions](pipelines/mathematical-functions.md)
+* [Mathematical functions and operations](pipelines/mathematical-functions.md)
 * [Formatting of messages](pipelines/formatting-of-messages.md)
 
 ## 📈 Statistics and profiling

@@ -6,7 +6,9 @@ It allows you to branch your pipelines and dynamically execute one part of it if
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-29 at 21.23.50.png" alt=""><figcaption></figcaption></figure>
 
-As same as the "[Aggregator](aggregator.md)" the "**Condition**" can use [mathematical functions](../mathematical-functions.md) like `SUM()`, `AVG()` and other aggregating functions and the result of it can be compared with a desired value.
+As same as the "[Aggregator](aggregator.md)" the "**Condition**" can use [mathematical functions](../mathematical-functions.md) like `SUM()`, `AVG()` and other aggregating functions and operations like `+`,`-`,`==`, `!=`,`<`,`>`. etc. The full list can be found [here](../mathematical-functions.md#arithmetical-and-logical-operations).&#x20;
+
+The result of it can be compared with a desired value.
 
 For example:
 

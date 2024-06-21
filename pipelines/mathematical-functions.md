@@ -1,6 +1,8 @@
-# Mathematical functions
+# Mathematical functions and operations
 
-Several tasks such as **Aggregator**, **Condition,** and **Notification** support a powerful set of mathematical functions:
+Several tasks such as **Aggregator**, **Condition,** and **Notification** are empowered by an extended mathematical editor that supports a powerful set of mathematical functions and operations.
+
+## Mathematical functions
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-21 at 22.19.25.png" alt=""><figcaption></figcaption></figure>
 
@@ -52,3 +54,61 @@ Also, there's an additional set of functions available for [Metrics](broken-refe
 | **METRIC\_QUANTILE(level, "period", duration)** | This function returns a metric quantile within a selected period of time                                                                             | METRIC\_QUANTILE(0.25, "day", 7)                                           |
 | **METRIC\_MEDIAN("period", duration)**          | <p>This function returns a median metric value within a selected period of time.</p><p></p><p>Alias for METRIC_QUANTILE(0.5, "period", duration)</p> | <p>METRIC_MEDIAN("day", 5)<br>or <br>METRIC_MEDIAN("month", 3)<br>etc.</p> |
 
+## Arithmetical and logical operations
+
+The following list is supported:
+
+### Arithmetic
+
+\+\
+\-\
+/\
+\*
+
+### Comparison
+
+\==\
+\===\
+!=\
+!==\
+\>\
+<\
+\>=\
+<=\
+\>==\
+<==
+
+### Boolean operators
+
+||\
+&&\
+!
+
+### Bitmasking
+
+|\
+&\
+^\
+\~
+
+## Formatting of dates
+
+Comparison operations can also be used for comparing dates. The following formats are supported:
+
+* time.UnixDate,&#x20;
+* time.RubyDate,&#x20;
+* time.Kitchen,&#x20;
+* time.RFC3339,&#x20;
+* time.RFC3339Nano,&#x20;
+* "2006-01-02", // RFC 3339&#x20;
+* "2006-01-02 15:04", // RFC 3339 with minutes&#x20;
+* "2006-01-02 15:04:05", // RFC 3339 with seconds&#x20;
+* "2006-01-02 15:04:05-07:00", // RFC 3339 with seconds and timezone&#x20;
+* "2006-01-02T15Z", // ISO8601 with hour without UTC offset&#x20;
+* "2006-01-02T15:04Z", // ISO8601 with minutes without UTC offset&#x20;
+* "2006-01-02T15Z0700", // ISO8601 with hour&#x20;
+* "2006-01-02T15:04:05Z", // ISO8601 with seconds without UTC offset&#x20;
+* "2006-01-02T15:04Z0700", // ISO8601 with minutes&#x20;
+* "2006-01-02T15:04:05Z0700", // ISO8601 with seconds&#x20;
+* "2006-01-02T15:04:05.999999999Z", // ISO8601 with nanoseconds without UTC offset&#x20;
+* "2006-01-02T15:04:05.999999999Z0700", // ISO8601 with nanoseconds
