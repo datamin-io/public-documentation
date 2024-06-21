@@ -2,7 +2,7 @@
 
 Several tasks such as **Aggregator**, **Condition,** and **Notification** support a powerful set of mathematical functions:
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-06-20 at 13.29.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-06-21 at 20.33.31.png" alt=""><figcaption></figcaption></figure>
 
 Most probably you are already familiar with them and used these ones in **SQL databases**, **Microsoft Excel**, or **Google Spreadsheets**.&#x20;
 
