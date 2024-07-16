@@ -4,6 +4,11 @@
 
 Only important major releases are present in this list:
 
+### Release 17.07.2024
+
+* Logging and profiling for "[Run pipeline](../pipelines/tasks-ip/pipeline-runner.md)" task
+* Pipeline canvas UI improvements
+
 ### Release 20.06.2024
 
 * New [math functions](../pipelines/mathematical-functions.md): ABS, NEG, SIGN, INT, STRING
