@@ -6,7 +6,9 @@ Only important major releases are present in this list:
 
 ### Release 17.07.2024
 
-* Logging and profiling for "[Run pipeline](../pipelines/tasks-ip/pipeline-runner.md)" task
+* Dark UI theme as the default theme
+* Logging and profiling for the "[Run pipeline](../pipelines/tasks-ip/pipeline-runner.md)" task
+* Support of several new Python modules for the "[Code](../pipelines/tasks-ip/code.md)" task
 * Pipeline canvas UI improvements
 
 ### Release 20.06.2024
