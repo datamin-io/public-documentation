@@ -73,4 +73,12 @@ Yes, the "Code" supports [Pandas](https://pandas.pydata.org/) framework. This is
 
 ### Limitations
 
-The "**Code**" task supports many standard Python libraries but not all of them. Let us know if you want to use something that is missing and we'll be happy to add it.
+Our Python processor is based on [RestrictedPython](https://pypi.org/project/RestrictedPython/), therefore the "**Code**" task supports many standard Python libraries but not all of them. Let us know if you want to use something that is missing and we'll be happy to add it.
+
+### Currently supported Python-modules
+
+* json
+* re
+* time
+* datetime
+* pandas
