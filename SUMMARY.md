@@ -51,6 +51,7 @@
   * [External trigger](pipelines/tasks-ip/external-trigger.md)
   * [Filter](pipelines/tasks-ip/filter.md)
   * [For each](pipelines/tasks-ip/for-each.md)
+  * [Gpt](pipelines/tasks-ip/gpt.md)
   * [Merge](pipelines/tasks-ip/merge.md)
   * [Notification](pipelines/tasks-ip/notification.md)
   * [Query](pipelines/tasks-ip/query.md)
