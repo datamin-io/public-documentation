@@ -21,3 +21,5 @@ YLEM_INTEGRATIONS_TWILIO_NUMBER_FROM=
 The following variables need to be placed in the root folder file `./.env`.common
 
 Read more about setting up Twilio auth token and account sid [here](https://www.twilio.com/en-us/messaging/programmable-messaging-api).
+
+Accounts and API tokens can be viewed in the Twilio dashboard here: [https://console.twilio.com/us1/account/keys-credentials/api-keys](https://console.twilio.com/us1/account/keys-credentials/api-keys)
