@@ -1,10 +1,10 @@
-# Gpt
+# GPT
 
 {% hint style="info" %}
-:warning: This task is currently unavailable in the cloud version
+:warning: This task is currently only available in the on-premise and open-source editions but not in the cloud version
 {% endhint %}
 
-"Gpt" is a task that allows you to enrich or transform your data with AI using OpenAI's [chat completion](https://platform.openai.com/docs/guides/chat-completions) models.
+"GPT" is a task that allows you to enrich or transform your data with AI using OpenAI's [chat completion](https://platform.openai.com/docs/guides/chat-completions) models.
 
 ### Usage
 
@@ -88,5 +88,7 @@ To be able to use this task, you need to configure your API Secret Key and choos
 TASK_RUNNER_OPENAI_GPT_KEY=%%YOUR_KEY_IS_HERE%%
 TASK_RUNNER_OPENAI_MODEL=gpt-4o-mini
 ```
+
+The following two variables need to be placed in the file `./processor/taskrunner/.env`.
 
 Read more about [API Keys](https://platform.openai.com/api-keys) and [available models](https://platform.openai.com/docs/models) in the official OpenAI reference guide.

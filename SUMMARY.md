@@ -30,6 +30,7 @@
   * [Hubspot](integrations/library-of-integrations/hubspot.md)
   * [Microsoft Azure SQL](integrations/library-of-integrations/microsoft-azure-sql.md)
   * [MySQL](integrations/library-of-integrations/mysql.md)
+  * [OpenAI ChatGPT](integrations/library-of-integrations/openai-chatgpt.md)
   * [Opsgenie](integrations/library-of-integrations/opsgenie.md)
   * [PostgreSQL](integrations/library-of-integrations/postgresql.md)
   * [PlanetScale](integrations/library-of-integrations/planetscale.md)
@@ -38,6 +39,7 @@
   * [Slack](integrations/library-of-integrations/slack.md)
   * [Snowflake](integrations/library-of-integrations/snowflake.md)
   * [Tableau](integrations/library-of-integrations/tableau.md)
+  * [Twilio. SMS](integrations/library-of-integrations/twilio.-sms.md)
 * [Trial data source](integrations/trial-data-source.md)
 
 ## 🚡 Pipelines
@@ -51,7 +53,7 @@
   * [External trigger](pipelines/tasks-ip/external-trigger.md)
   * [Filter](pipelines/tasks-ip/filter.md)
   * [For each](pipelines/tasks-ip/for-each.md)
-  * [Gpt](pipelines/tasks-ip/gpt.md)
+  * [GPT](pipelines/tasks-ip/gpt.md)
   * [Merge](pipelines/tasks-ip/merge.md)
   * [Notification](pipelines/tasks-ip/notification.md)
   * [Query](pipelines/tasks-ip/query.md)
