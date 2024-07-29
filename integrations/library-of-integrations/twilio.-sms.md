@@ -12,7 +12,7 @@ Datamin supports sending critical SMS alerts to the verified phone numbers of me
 
 If you use on-premise or open-source editions of Datamin, to be able to use this task, you need to create your own [Twilio](https://www.twilio.com/) account and configure the following parameters:
 
-```
+```bash
 YLEM_INTEGRATIONS_TWILIO_ACCOUNT_SID=
 YLEM_INTEGRATIONS_TWILIO_AUTH_TOKEN=
 YLEM_INTEGRATIONS_TWILIO_NUMBER_FROM=

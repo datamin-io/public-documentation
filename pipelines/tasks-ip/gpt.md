@@ -84,7 +84,7 @@ You will get the perfect result;
 
 To be able to use this task, you need to configure your API Secret Key and choose a model you want to use:
 
-```
+```bash
 TASK_RUNNER_OPENAI_GPT_KEY=%%YOUR_KEY_IS_HERE%%
 TASK_RUNNER_OPENAI_MODEL=gpt-4o-mini
 ```
