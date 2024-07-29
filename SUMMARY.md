@@ -112,6 +112,10 @@
 * [OAuth clients](api/oauth-clients.md)
 * [API Reference](api/api-endpoints.md)
 
+## 🔬 Open-source edition
+
+* [Task processing architecture](open-source-edition/task-processing-architecture.md)
+
 ## 👁️‍🗨️ Other resources
 
 * [FAQ](other-resources/faq.md)
