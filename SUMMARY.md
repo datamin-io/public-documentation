@@ -120,4 +120,4 @@
 ## 👁️‍🗨️ Other resources
 
 * [FAQ](other-resources/faq.md)
-* [Our blog on Medium](https://medium.com/datamin)
+* [Our blog on Medium](https://blog.ylem.co)
