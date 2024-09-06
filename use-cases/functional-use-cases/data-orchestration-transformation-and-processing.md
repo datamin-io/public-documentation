@@ -1,8 +1,8 @@
 # Data orchestration, transformation and processing
 
-Not only can you stream data from one place to another using Datamin, but also fully orchestrate the process and do the entire data transformation and processing.
+Not only can you stream data from one place to another using Ylem, but also fully orchestrate the process and do the entire data transformation and processing.
 
-Everything that is happening in pipelines between the retrieval of data to sending it outside of Datamin can be orchestrated by the set of the following pipeline tasks:
+Everything that is happening in pipelines between the retrieval of data to sending it outside of Ylem can be orchestrated by the set of the following pipeline tasks:
 
 * **"**[**Aggregator**](../../pipelines/tasks-ip/aggregator.md)**"** is designed to transform an input dataset into one single variable. To do that it uses [mathematical functions](../../pipelines/mathematical-functions.md) like `SUM()`, `AVG()` and other aggregating functions.
 * **"**[**Code**](../../pipelines/tasks-ip/code.md)**"** is a task that allows you to use Python and Pandas framework for complex logic.

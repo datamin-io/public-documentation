@@ -1,6 +1,6 @@
 # E-commerce & Logistics
 
-Same as the [financial industry](finance-and-payments.md) E-commers deal with customers, suppliers, and orders between them. Therefore it is an industry where an organization needs to know about any good or positive event related to customers' accounts as fast as possible. Therefore receiving such information in a real-time mode is vital for many departments from BI to risk, operations, or compliance. And that's what Datamin is good at.
+Same as the [financial industry](finance-and-payments.md) E-commers deal with customers, suppliers, and orders between them. Therefore it is an industry where an organization needs to know about any good or positive event related to customers' accounts as fast as possible. Therefore receiving such information in a real-time mode is vital for many departments from BI to risk, operations, or compliance. And that's what Ylem is good at.
 
 ## Schedule generation of commercial reports and send them to BI software or directly to stakeholders
 
@@ -12,7 +12,7 @@ Same as the [financial industry](finance-and-payments.md) E-commers deal with cu
 
 ## Streaming SLA information for order deliveries
 
-With Datamin it is very easy to monitor KPIs but also SLAs for various cases. One of the examples for e-commerce specifically is to detect orders that are not delivered within SLA time.
+With Ylem it is very easy to monitor KPIs but also SLAs for various cases. One of the examples for e-commerce specifically is to detect orders that are not delivered within SLA time.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-07 at 19.13.03.png" alt=""><figcaption><p>Potential SLA monitoring pipeline</p></figcaption></figure>
 
@@ -30,7 +30,7 @@ The following pipeline can help to control and find overpaid orders.
 
 ## Warehouse stock monitoring
 
-With Datamin you can control the size of your stock and send alerts to the operational teams if it is necessary to restock some items:
+With Ylem you can control the size of your stock and send alerts to the operational teams if it is necessary to restock some items:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 18.19.31.png" alt=""><figcaption><p>Example of the pipeline</p></figcaption></figure>
 
@@ -38,7 +38,7 @@ With Datamin you can control the size of your stock and send alerts to the opera
 
 ## Filtering data sets by various values on the fly
 
-Filtering data from large data sets is one of the most common and important tasks for e-commerce operations. One of the powerful instruments Datamin offers for that is [Transformer](../../pipelines/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
+Filtering data from large data sets is one of the most common and important tasks for e-commerce operations. One of the powerful instruments Ylem offers for that is [Transformer](../../pipelines/tasks-ip/transformers.md#extracting-and-filtering-data-with-gjson) with GJSON query language.
 
 Let's imagine we have the following dataset and we need to filter it in various ways:
 

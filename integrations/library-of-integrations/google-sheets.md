@@ -18,7 +18,7 @@ Integration with Google Sheets allows you to stream data from any data source to
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-07-26 at 18.57.06.png" alt=""><figcaption></figcaption></figure>
 
-Steps 2 and 3 are optional and are not needed if you want to make basic Datamin's integration work. As soon as the service account is created, create a key with JSON credentials for it:
+Steps 2 and 3 are optional and are not needed if you want to make basic Ylem's integration work. As soon as the service account is created, create a key with JSON credentials for it:
 
 1. Click the email address of the service account that you want to create a key for.
 2. Click the **Keys** tab.
@@ -49,7 +49,7 @@ Go to the Google Sheet you want to stream data to, click on File -> Share -> Sha
 
 ### Step 4. Create an integration
 
-Now you can create an integration in Datamin by adding JSON credentials, Spreadsheet ID, and Sheet ID. The last two parameters you can get from the URL of the spreadsheet you just created:
+Now you can create an integration in Ylem by adding JSON credentials, Spreadsheet ID, and Sheet ID. The last two parameters you can get from the URL of the spreadsheet you just created:
 
 
 

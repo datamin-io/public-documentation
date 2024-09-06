@@ -1,6 +1,6 @@
 # Code
 
-Datamin is a no-code solution but as with every modern no-code solution, you still can write code if you want to:-)
+Ylem is a no-code solution but as with every modern no-code solution, you still can write code if you want to:-)
 
 From time to time you need to resort to complex data transformations. Say a single filter is not enough, so you can write custom Python 3.9 code with a full range of features over your data work.
 

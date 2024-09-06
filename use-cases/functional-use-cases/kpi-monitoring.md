@@ -2,7 +2,7 @@
 
 ## General KPI monitoring
 
-Datamin provides an extremely powerful way of calculating various KPIs from commonly known metrics (ARR, MRR, LTV, etc) to custom ones, that you can define on your own.
+Ylem provides an extremely powerful way of calculating various KPIs from commonly known metrics (ARR, MRR, LTV, etc) to custom ones, that you can define on your own.
 
 Metrics can be calculated in the [Query](../../pipelines/tasks-ip/query.md) itself or using an [Aggregator](../../pipelines/tasks-ip/aggregator.md).
 
@@ -32,13 +32,13 @@ More information about using them in [Condition](../../pipelines/tasks-ip/condit
 
 ## Stream sales or other revenue KPIs
 
-Sales or other Revenue teams are the most KPI-driven in an organization. Datamin allows easy monitoring of their KPIs, comparing with a target, and taking different actions depending on whether it is already achieved or not yet:
+Sales or other Revenue teams are the most KPI-driven in an organization. Ylem allows easy monitoring of their KPIs, comparing with a target, and taking different actions depending on whether it is already achieved or not yet:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-07 at 19.24.59.png" alt=""><figcaption><p>Pipeline example for Sales KPIs</p></figcaption></figure>
 
 ## Monitor average value per customer
 
-Datamin allows easy monitoring of average values (amounts, orders, bank transfers, contract values) per customer. As an example the following pipeline represents the calculation of an average amount per customer and taking actions for different sizes of it:
+Ylem allows easy monitoring of average values (amounts, orders, bank transfers, contract values) per customer. As an example the following pipeline represents the calculation of an average amount per customer and taking actions for different sizes of it:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-06 at 17.21.28.png" alt=""><figcaption><p>Pipeline example</p></figcaption></figure>
 

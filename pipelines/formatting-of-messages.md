@@ -1,12 +1,12 @@
 # Formatting of messages
 
-Datamin supports a wide selection of formatting syntaxes depending on the destination software you want to stream data to.
+Ylem supports a wide selection of formatting syntaxes depending on the destination software you want to stream data to.
 
 For example, you can use Slack's formatting syntax if you want to send messages to Slack. If you create tickets in Jira, use Atlassian's syntax.&#x20;
 
 ## Jira
 
-Output message in Datamin's Notification task:
+Output message in Ylem's Notification task:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-01-09 at 17.46.45.png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ More detailed information about Atlassian's syntax is here: [https://jira.atlass
 
 ## Slack
 
-Output message in Datamin's Notification task:
+Output message in Ylem's Notification task:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-01-09 at 17.54.19.png" alt=""><figcaption></figcaption></figure>
 

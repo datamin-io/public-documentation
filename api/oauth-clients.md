@@ -1,6 +1,6 @@
 # OAuth clients
 
-In case you want to execute Datamin's pipelines by triggering our [API Endpoints](api-endpoints.md) from external applications (e.g. AWS Lambda, Airflow, Jenkins, etc), first you need to create an OAuth client.
+In case you want to execute Ylem's pipelines by triggering our [API Endpoints](api-endpoints.md) from external applications (e.g. AWS Lambda, Airflow, Jenkins, etc), first you need to create an OAuth client.
 
 To do that go to [https://app.datamin.io/api-clients](https://app.datamin.io/api-clients) and click on "**Add OAuth Client**"
 

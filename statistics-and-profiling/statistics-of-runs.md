@@ -1,6 +1,6 @@
 # Statistics of runs
 
-Datamin is a full-cycle data streaming software, therefore not only does it help manage and execute pipelines but also collects detailed statistics of runs for each pipeline and task.
+Ylem is a full-cycle data streaming software, therefore not only does it help manage and execute pipelines but also collects detailed statistics of runs for each pipeline and task.
 
 What information is collected:
 
@@ -15,7 +15,7 @@ What information is collected:
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 13.42.29.png" alt=""><figcaption></figcaption></figure>
 
-Having this information for each of the pipelines Datamin provides users with multiple different ways of working with the statistics:
+Having this information for each of the pipelines Ylem provides users with multiple different ways of working with the statistics:
 
 * A main[ dashboard](https://app.datamin.io/dashboard) that contains accumulated statistics about all pipelines and metrics
 * Log of runs for every pipeline and tasks

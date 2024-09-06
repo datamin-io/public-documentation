@@ -1,6 +1,6 @@
 # Pipeline management
 
-**Pipelines** are the data streaming heart of Datamin. The UI canvas and the powerful engine behind it allow our users to orchestrate the entire process between receiving input data from outside to sending it to a destination. It is also a place where you will spend most of your time at Datamin.
+**Pipelines** are the data streaming heart of Ylem. The UI canvas and the powerful engine behind it allow our users to orchestrate the entire process between receiving input data from outside to sending it to a destination. It is also a place where you will spend most of your time at Ylem.
 
 Pipeline management canvas is a drag-and-drop no-code interface where you can create tasks, connect them, configure each task, and run and schedule pipelines.
 

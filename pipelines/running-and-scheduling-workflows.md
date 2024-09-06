@@ -1,6 +1,6 @@
 # Running and scheduling pipelines
 
-Datamin’s pipelines can be triggered in 5 different ways:
+Ylem’s pipelines can be triggered in 5 different ways:
 
 ### Manually on-demand
 

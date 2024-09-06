@@ -1,6 +1,6 @@
 # Usage of Python and Pandas
 
-Datamin is a no-code solution but as with every modern no-code solution, you still can write code if you want to:-)
+Ylem is a no-code solution but as with every modern no-code solution, you still can write code if you want to:-)
 
 That is what the "[Code](../../pipelines/tasks-ip/code.md)" task is for that supports Python 3.9 with some additional libraries
 

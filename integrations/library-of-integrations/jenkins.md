@@ -2,7 +2,7 @@
 
 **Integration type**:  `Write`
 
-With Jenkins integration, you can Jenkins jobs from your Datamin pipelines in real time.
+With Jenkins integration, you can Jenkins jobs from your Ylem pipelines in real time.
 
 **Data for the connection:**
 

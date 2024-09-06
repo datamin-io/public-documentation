@@ -2,7 +2,7 @@
 
 Anti-Money Laundering (AML) regulations require businesses to monitor transactions and report suspicious ones to authorities.
 
-Datamin can help you with automating the data streaming for the following critical processes:
+Ylem can help you with automating the data streaming for the following critical processes:
 
 * Unusual transaction amounts;
 * Unusual series of transactions (e.g., too many cash credits);
@@ -37,7 +37,7 @@ Here is an example of the pipeline to monitor large transaction amounts
 
 The idea is clear. Using the following examples and templates from our library you can set up your own AML monitoring pipelines with SQL queries of any complexity.
 
-Some other examples of what you can monitor with Datamin:
+Some other examples of what you can monitor with Ylem:
 
 * Users with a high volume of transactions every day
 * Transactions from or to suspicious or dangerous locations, which you can define on your own

@@ -26,7 +26,7 @@ Potential fraud.
 
 ## Technical real-time detection of XSS attempts
 
-Cross-site scripting (XSS) is a vulnerability that your application should prevent and be secured from. However, automatic XSS attempts can be monitored with Datamin by detecting the word "script" in the database items.&#x20;
+Cross-site scripting (XSS) is a vulnerability that your application should prevent and be secured from. However, automatic XSS attempts can be monitored with Ylem by detecting the word "script" in the database items.&#x20;
 
 In case of detecting your data engineering teams need to block the attack and further improve the application and security to avoid such situations in the future.
 
@@ -40,7 +40,7 @@ Here is an example of a pipeline that will allow you to detect it:
 
 Anti-Money Laundering (AML) regulations require businesses to monitor transactions and report suspicious ones to authorities.
 
-Datamin can help you with automating the following critical processes:
+Ylem can help you with automating the following critical processes:
 
 * Unusual transaction amounts;
 * Unusual series of transactions (e.g., several cash credits);

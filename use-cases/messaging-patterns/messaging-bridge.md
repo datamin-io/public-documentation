@@ -4,7 +4,7 @@ Imagine that you have multiple messaging systems used in your organization. How 
 
 A **Messaging Bridge**, is a connection between messaging systems, to replicate messages between systems.
 
-It is very easy to implement this pattern with Datamin. You just need to create a pipeline that begins with the "**External\_trigger**" task accepts the input message from one system and then uses the "**API\_call**" to publish the input message to the API of another system.
+It is very easy to implement this pattern with Ylem. You just need to create a pipeline that begins with the "**External\_trigger**" task accepts the input message from one system and then uses the "**API\_call**" to publish the input message to the API of another system.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-03 at 20.32.12.png" alt=""><figcaption></figcaption></figure>
 

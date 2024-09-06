@@ -28,7 +28,7 @@ As an example, the following pipeline represents monitoring that for all users i
 
 Yes, indeed while creating a table, you can specify that it should not contain NULLs. But it is quite often necessary to lower such strict requirements, for example, when until a certain moment data in a column can be NULL, but should not be NULL after a certain action.
 
-For example, let's take a look at user onboarding in a classical FinTech company. When a user is created in the database, fields like scoring or risk class can be NULL, but after some time when a scoring report is pulled from the 3rd-party scoring provider, these data should be filled. Unless the scoring provider doesn't provide it. Such situations can be monitored with Datamin.
+For example, let's take a look at user onboarding in a classical FinTech company. When a user is created in the database, fields like scoring or risk class can be NULL, but after some time when a scoring report is pulled from the 3rd-party scoring provider, these data should be filled. Unless the scoring provider doesn't provide it. Such situations can be monitored with Ylem.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-10 at 14.46.40.png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@ Missing or broken data can be caused by various reasons:
 * Broken 3rd-party or internal APIs
 * Bugs in the code that produces such data
 
-With Datamin it is easily possible to detect all three root causes. To do that, run the following simple pipeline, for example, once per minute:
+With Ylem it is easily possible to detect all three root causes. To do that, run the following simple pipeline, for example, once per minute:
 
 * Retrieve expected data
 * Compare it with what you expect to get. For example, the number of items is higher than 0
@@ -52,7 +52,7 @@ With Datamin it is easily possible to detect all three root causes. To do that, 
 
 ## Detection of broken data pipelines
 
-In multiple cases, the root cause of missing data is not bugs in the code but broken data pipelines. To control it you can write expectations of how much time can pass between the creation of items in a certain table of your data storage. And if this threshold is passed Datamin will notify your data engineers.
+In multiple cases, the root cause of missing data is not bugs in the code but broken data pipelines. To control it you can write expectations of how much time can pass between the creation of items in a certain table of your data storage. And if this threshold is passed Ylem will notify your data engineers.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-09 at 22.36.40.png" alt=""><figcaption><p>Example of a pipeline</p></figcaption></figure>
 

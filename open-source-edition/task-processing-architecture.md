@@ -1,6 +1,6 @@
 # Task processing architecture
 
-Datamin uses Apache Kafka topics for exchanging pipeline task messages while processing them. Several services are connected to it to produce messages on the topics or consume messages from it.
+Ylem uses Apache Kafka topics for exchanging pipeline task messages while processing them. Several services are connected to it to produce messages on the topics or consume messages from it.
 
 The high-level architecture looks like this:
 

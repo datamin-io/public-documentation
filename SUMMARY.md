@@ -2,7 +2,7 @@
 
 ## 🗒️ General information
 
-* [Introduction to Datamin](README.md)
+* [Introduction to Ylem](README.md)
 * [Quick start guide](general-information/quick-start-guide.md)
 * [Release notes](general-information/release-notes.md)
 

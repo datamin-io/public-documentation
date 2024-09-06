@@ -1,12 +1,12 @@
 # Configuring integrations with .env variables
 
-The open-source edition of Datamin enables you to configure some integrations by creating your accounts there first and then using credentials such as tokens, API keys, or secret keys in Datamin's environment variables to make it work.
+The open-source edition of Ylem enables you to configure some integrations by creating your accounts there first and then using credentials such as tokens, API keys, or secret keys in Ylem's environment variables to make it work.
 
 Here on this page, we describe all of such integrations and the environment variables you need to configure to make it work. However, you can also find necessary information at the global `.env.common` file in the root folder or the `.env` files of every microservice.
 
 ## User authentication with Google
 
-If you want to enable user authentication in Datamin's UI through Google, you need to configure the following parameters in the `./backend/users/.env` file:
+If you want to enable user authentication in Ylem's UI through Google, you need to configure the following parameters in the `./backend/users/.env` file:
 
 ```sh
 USERS_GOOGLE_CLIENT_ID=

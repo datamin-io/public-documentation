@@ -1,6 +1,6 @@
 # API Reference
 
-As soon as you create your first [OAuth client](oauth-clients.md) and save its client secret you can start integrating Datamin with your application via API.
+As soon as you create your first [OAuth client](oauth-clients.md) and save its client secret you can start integrating Ylem with your application via API.
 
 Currently, the following API endpoints are available:
 

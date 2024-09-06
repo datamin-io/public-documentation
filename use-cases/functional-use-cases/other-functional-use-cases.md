@@ -2,7 +2,7 @@
 
 ## Using API as a data source
 
-Datamin not only easily supports any modern database, data warehouse, or any other kind of data storage as a data source but is also very easy to use any API endpoint that returns JSON data as a data source.&#x20;
+Ylem not only easily supports any modern database, data warehouse, or any other kind of data storage as a data source but is also very easy to use any API endpoint that returns JSON data as a data source.&#x20;
 
 To do that just configure an [API integration](../../integrations/library-of-integrations/apis.md) first:
 

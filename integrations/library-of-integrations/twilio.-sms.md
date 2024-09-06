@@ -2,7 +2,7 @@
 
 **Integration type**:  `Write`
 
-Datamin supports sending critical SMS alerts to the verified phone numbers of members of your organization.
+Ylem supports sending critical SMS alerts to the verified phone numbers of members of your organization.
 
 **Data for the connection:**
 
@@ -10,7 +10,7 @@ Datamin supports sending critical SMS alerts to the verified phone numbers of me
 
 ### On-Premise/Open-Source Configuration
 
-If you use on-premise or open-source editions of Datamin, to be able to use this task, you need to create your own [Twilio](https://www.twilio.com/) account and configure the following parameters:
+If you use on-premise or open-source editions of Ylem, to be able to use this task, you need to create your own [Twilio](https://www.twilio.com/) account and configure the following parameters:
 
 ```bash
 YLEM_INTEGRATIONS_TWILIO_ACCOUNT_SID=

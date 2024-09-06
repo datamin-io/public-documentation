@@ -1,8 +1,8 @@
 ---
-description: Datamin is an open-source data streaming platform.
+description: Ylem is an open-source data streaming platform.
 ---
 
-# Introduction to Datamin
+# Introduction to Ylem
 
 ## **Our mission**
 
@@ -24,7 +24,7 @@ An API-first solution with dozens of integrations allows you to set up data stre
 * Lowest entry barrier on the market.&#x20;
 * API-first design and dozens of integrations that allow to extend functionality within minutes.
 
-## Learn more about Datamin
+## Learn more about Ylem
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Quick start guide</strong></td><td></td><td></td><td><a href=".gitbook/assets/Datamin elements-42.png">Datamin elements-42.png</a></td><td><a href="general-information/quick-start-guide.md">quick-start-guide.md</a></td></tr><tr><td><strong>Integrations</strong></td><td></td><td></td><td><a href=".gitbook/assets/Datamin elements-48.png">Datamin elements-48.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Pipelines</strong></td><td></td><td></td><td><a href=".gitbook/assets/Datamin elements-22.png">Datamin elements-22.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Use cases</strong></td><td><p></p><p><strong>Use cases</strong></p></td><td></td><td><a href=".gitbook/assets/Datamin elements-50.png">Datamin elements-50.png</a></td><td><a href="use-cases/use-cases.-homepage.md">use-cases.-homepage.md</a></td></tr><tr><td><strong>Metrics</strong></td><td><p></p><p><strong>Metrics</strong></p></td><td></td><td><a href=".gitbook/assets/Datamin elements-47.png">Datamin elements-47.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>API</strong></td><td><p></p><p><strong>API</strong></p></td><td></td><td><a href=".gitbook/assets/Datamin elements-49.png">Datamin elements-49.png</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 

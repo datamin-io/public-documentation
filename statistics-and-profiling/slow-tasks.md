@@ -1,6 +1,6 @@
 # Slow tasks
 
-Sometimes pipelines become slow. And there are multiple reasons for this that in 95% of cases are external to Datamin:
+Sometimes pipelines become slow. And there are multiple reasons for this that in 95% of cases are external to Ylem:
 
 * Slow processing of information on the database side
 * Slow response from external networks

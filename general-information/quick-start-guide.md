@@ -1,6 +1,6 @@
 # Quick start guide
 
-The shortest path to start streaming data with Datamin is to integrate with the source from where you want to stream, with the destination to where you want to stream and build a streaming pipeline for it.
+The shortest path to start streaming data with Ylem is to integrate with the source from where you want to stream, with the destination to where you want to stream and build a streaming pipeline for it.
 
 Let's create two simple pipeline examples.&#x20;
 
@@ -96,7 +96,7 @@ Close the canvas and go to "**Triggers**":
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 15.15.38.png" alt=""><figcaption></figcaption></figure>
 
-Datamin is an agile software and supports multiple ways of triggering the pipeline.
+Ylem is an agile software and supports multiple ways of triggering the pipeline.
 
 Let's not focus on all of them for the quick start purpose, more information can be found in the [pipeline documentation](../pipelines/running-and-scheduling-workflows.md).
 
@@ -112,7 +112,7 @@ Now, when the pipeline is scheduled, you can follow its [statistics and executio
 
 Now that you know how to build simple scheduling pipelines, it will be easier to make real-time streaming one.
 
-### Triggering a pipeline from outside of Datamin
+### Triggering a pipeline from outside of Ylem
 
 The main change that we need to make to the previous one is to replace the "**Query**" block with the "**External trigger**":
 
@@ -120,7 +120,7 @@ The main change that we need to make to the previous one is to replace the "**Qu
 
 By doing this we don't need to retrieve the invoices created within the last 30 minutes from the database and run this pipeline every 30 minutes anymore.&#x20;
 
-Instead, the pipeline can be integrated with one of the message brokers or queue software if they are already used in your organization. It can be [Apache Kafka](../integrations/library-of-integrations/apache-kafka.md), [RabbitMQ](../integrations/library-of-integrations/rabbitmq.md), Amazon SQS, [Google Pub/Sub](../integrations/library-of-integrations/google-pub-sub.md), and others. As soon as the new invoice is created, you can send it to one of these solutions and it will automatically trigger the pipeline at Datamin and forward the JSON data to it.
+Instead, the pipeline can be integrated with one of the message brokers or queue software if they are already used in your organization. It can be [Apache Kafka](../integrations/library-of-integrations/apache-kafka.md), [RabbitMQ](../integrations/library-of-integrations/rabbitmq.md), Amazon SQS, [Google Pub/Sub](../integrations/library-of-integrations/google-pub-sub.md), and others. As soon as the new invoice is created, you can send it to one of these solutions and it will automatically trigger the pipeline at Ylem and forward the JSON data to it.
 
 ### Remove the scheduling
 
@@ -136,7 +136,7 @@ Now the schedule is cleared and the pipeline won't be run by it anymore.
 
 ### Installing and configuring the Apache Kafka Trigger library
 
-Let's imagine, that you have Apache Kafka already used in your organization. The good news, we already have an [open-source listener for Kafka topics](https://github.com/datamin-io/kafka-trigger), that you can install and configure to send data to this particular pipeline.
+Let's imagine, that you have Apache Kafka already used in your organization. The good news, we already have an [open-source listener for Kafka topics](https://github.com/ylem-co/ylem-kafka-trigger), that you can install and configure to send data to this particular pipeline.
 
 Kafka-trigger is configured with environment variables. Besides the conventional way, the config variables can also be specified in the `.env` or `.env.local` file.
 
@@ -150,7 +150,7 @@ As soon as you have the Kafka trigger installed and configured, you can start pu
 
 That's pretty much it for the start!
 
-Now that you are familiar with the basic concepts of how to set up data streaming with Datamin, you can learn more about
+Now that you are familiar with the basic concepts of how to set up data streaming with Ylem, you can learn more about
 
 * [Integrations](broken-reference)
 * [Pipelines](broken-reference)

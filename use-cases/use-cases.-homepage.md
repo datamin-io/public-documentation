@@ -1,6 +1,6 @@
 # Use cases
 
-Datamin is an industry-agnostic data streaming software that multiple departments inside an organization can benefit from.
+Ylem is an industry-agnostic data streaming software that multiple departments inside an organization can benefit from.
 
 Therefore our functionality covers a broad variety of business use cases. We split them into three groups to simplify your access to the best practice ones you are looking for to solve your challenge:
 

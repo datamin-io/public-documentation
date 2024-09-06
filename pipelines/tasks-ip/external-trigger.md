@@ -1,6 +1,6 @@
 # External trigger
 
-The task "**External trigger**" needs to be placed at the very beginning of the pipeline if you want to execute it by calling [Datamin's API](../../api/api-endpoints.md#run-pipeline) from the outside.
+The task "**External trigger**" needs to be placed at the very beginning of the pipeline if you want to execute it by calling [Ylem's API](../../api/api-endpoints.md#run-pipeline) from the outside.
 
 The following cases are the most common for such a situation:
 

@@ -2,7 +2,7 @@
 
 ## General reporting framework
 
-General reporting with Datamin requires the following 4 steps:
+General reporting with Ylem requires the following 4 steps:
 
 * Retrieve data or receive it automatically from streaming or queueing software
 * Convert to CSV or XML format

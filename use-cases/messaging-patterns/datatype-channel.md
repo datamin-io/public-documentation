@@ -2,7 +2,7 @@
 
 The **Datatype Channel** for each data type is a pattern that makes sure that a certain data consumer receives messages of a certain type.
 
-In theory, this pattern can be implemented with Datamin, using the same approach that is used for [Message Router](message-router.md).
+In theory, this pattern can be implemented with Ylem, using the same approach that is used for [Message Router](message-router.md).
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-03 at 21.36.24.png" alt=""><figcaption></figcaption></figure>
 

@@ -1,6 +1,6 @@
 # Functional use cases
 
-Functional use cases of Datamin represent how our framework for creating and running pipelines can be used for:
+Functional use cases of Ylem represent how our framework for creating and running pipelines can be used for:
 
 * Streaming from different sources to different destinations
 * Data orchestration, filtering, cleaning, transforming, enriching, and ingestion

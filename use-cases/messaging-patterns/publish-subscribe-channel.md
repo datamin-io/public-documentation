@@ -2,11 +2,11 @@
 
 The main difference between a [Point-to-Point](point-to-point-channel.md) and **Publish-Subscribe** messaging model is that a message is not sent to a specific receiver but to a specific topic, and all the subscribed receivers receive the message.
 
-If you have a specific message producer ([Apache Kafka](../../integrations/library-of-integrations/apache-kafka.md), [RabbitMQ](../../integrations/library-of-integrations/rabbitmq.md), [AWS Lambda](../../integrations/library-of-integrations/aws-lambda.md), [Google Pub/Sub](publish-subscribe-channel.md)), that delivers this message to a specific Datamin's pipeline by calling its [API Endpoint](../../api/api-endpoints.md#run-pipeline), this pipeline acts as a topic that has a specific distribution logic responsible for forwarding the message to subscribed pipelines (receivers).
+If you have a specific message producer ([Apache Kafka](../../integrations/library-of-integrations/apache-kafka.md), [RabbitMQ](../../integrations/library-of-integrations/rabbitmq.md), [AWS Lambda](../../integrations/library-of-integrations/aws-lambda.md), [Google Pub/Sub](publish-subscribe-channel.md)), that delivers this message to a specific Ylem's pipeline by calling its [API Endpoint](../../api/api-endpoints.md#run-pipeline), this pipeline acts as a topic that has a specific distribution logic responsible for forwarding the message to subscribed pipelines (receivers).
 
 The pipeline itself needs to begin with the "[External trigger](../../pipelines/tasks-ip/external-trigger.md)" task and can contain a set of conditions that define what pipelines to forward this message to.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-03 at 14.04.49.png" alt=""><figcaption><p>Publish-subscribe implementation using Datamin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-03 at 14.04.49.png" alt=""><figcaption><p>Publish-subscribe implementation using Ylem</p></figcaption></figure>
 
 As we can see from this pipeline, there are two subscription condition checks. And how to define a condition itself is up to you. We recommend having a standard message type in your message schema that will always be present in all the messages and then the condition will check if that matches a certain value.
 

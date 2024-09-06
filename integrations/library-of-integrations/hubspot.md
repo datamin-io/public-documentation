@@ -7,7 +7,7 @@ Integration with Hubspot allows you to create tickets there in a real-time strea
 Instructions are available in the video or the text below.
 
 {% embed url="https://youtu.be/BXkJbxm4gbQ" %}
-How to integrate Datamin with Hubspot
+How to integrate Ylem with Hubspot
 {% endembed %}
 
 ### How to connect?
@@ -40,7 +40,7 @@ In there you will find a list of your pipelines and corresponding stages. By cli
 
 #### Owner id
 
-An owner is the one who creates a ticket. E.g, you could create a special account for just Datamin or use any other natural person account. In order to find the owner id, please go to the ticket properties, find a property "Ticket Owner", and click "Edit".\
+An owner is the one who creates a ticket. E.g, you could create a special account for just Ylem or use any other natural person account. In order to find the owner id, please go to the ticket properties, find a property "Ticket Owner", and click "Edit".\
 \
 You'll see something like this.
 
@@ -50,6 +50,6 @@ You need to copy a value in the red rectangle.
 
 ### Example of the configured destination
 
-After you've done all the steps above, your Hubspot configuration in Datamin will look like this. Now you can use it in your pipelines!
+After you've done all the steps above, your Hubspot configuration in Ylem will look like this. Now you can use it in your pipelines!
 
 <figure><img src="../../.gitbook/assets/hubspot/hubspot_done.png" alt=""><figcaption></figcaption></figure>
