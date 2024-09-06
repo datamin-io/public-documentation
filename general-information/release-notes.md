@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 06.09.2024
+
+* Datamin becomes Ylem
+
 ### Release 17.07.2024
 
 * Dark UI theme as the default theme
