@@ -68,6 +68,12 @@ It is the same way how it works in our cloud version. You need to create your ow
 
 Here you can read more about how to manage [OAuth 2.0 authentication with Hubspot](https://developers.hubspot.com/docs/api/oauth-quickstart-guide).
 
+By default you will only need a scope to create tickets:
+
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-09-17 at 15.31.34.png" alt=""><figcaption></figcaption></figure>
+
 As soon as the application is created, you will get OAuth 2.0 `CLIENT_ID` and `CLIENT_SECRET` that must be placed into the `./backend/integrations/.env` file of Ylem together with the redirect URL to your Ylem instance:
 
 ```
