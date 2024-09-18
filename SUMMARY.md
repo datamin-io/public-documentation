@@ -40,7 +40,7 @@
   * [Snowflake](integrations/library-of-integrations/snowflake.md)
   * [Tableau](integrations/library-of-integrations/tableau.md)
   * [Twilio. SMS](integrations/library-of-integrations/twilio.-sms.md)
-* [Trial data source](integrations/trial-data-source.md)
+* [Initial demo data source](integrations/trial-data-source.md)
 
 ## 🚡 Pipelines
 
