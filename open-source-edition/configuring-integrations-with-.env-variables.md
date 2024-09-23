@@ -52,10 +52,10 @@ Ylem supports integration with AWS KMS for encrypting/decrypting information abo
 The following variables need to be placed in the root folder file `./.env.common`
 
 ```bash
-YLEM_AWS_KMS_KEY_ID= 
-YLEM_AWS_REGION= 
-YLEM_AWS_ACCESS_KEY_ID= 
-YLEM_AWS_SECRET_ACCESS_KEY=
+AWS_KMS_KEY_ID= 
+AWS_REGION= 
+AWS_ACCESS_KEY_ID= 
+AWS_SECRET_ACCESS_KEY=
 ```
 
 This integration is optional and if these variables are left empty, the information will be stored unencrypted.
