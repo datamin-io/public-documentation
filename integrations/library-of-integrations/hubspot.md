@@ -64,7 +64,7 @@ If you don't use the cloud version of Ylem but have it installed on your infrast
 
 ### Using Hubspot and OAuth 2.0
 
-It is the same way how it works in our cloud version. You need to create your own Hubspot Application and integrate your Ylem instance with it so that your users will be able to authorize Ylem to access their Atlassian accounts.
+It is the same way how it works in our cloud version. You need to create your own Hubspot Application and integrate your Ylem instance with it so that your users will be able to authorize Ylem to access their Hubspot accounts.
 
 Here you can read more about how to manage [OAuth 2.0 authentication with Hubspot](https://developers.hubspot.com/docs/api/oauth-quickstart-guide).
 
