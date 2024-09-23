@@ -44,3 +44,60 @@ The following variables need to be placed in the root folder file `./.env.common
 Read more about setting up Twilio auth token and account side [here](https://www.twilio.com/en-us/messaging/programmable-messaging-api).
 
 Accounts and API tokens can be viewed in the Twilio dashboard here: [https://console.twilio.com/us1/account/keys-credentials/api-keys](https://console.twilio.com/us1/account/keys-credentials/api-keys)
+
+## Using AWS KMS to encrypt/decrypt data
+
+Ylem supports integration with AWS KMS for encrypting/decrypting information about users, organizations and integration credentials.
+
+The following variables need to be placed in the root folder file `./.env.common`
+
+```bash
+YLEM_AWS_KMS_KEY_ID= 
+YLEM_AWS_REGION= 
+YLEM_AWS_ACCESS_KEY_ID= 
+YLEM_AWS_SECRET_ACCESS_KEY=
+```
+
+This integration is optional and if these variables are left empty, the information will be stored unencrypted.
+
+## OAuth 2.0 Integrations
+
+### Atlassian Jira
+
+The following parameters need to be changed on the `backend/integrations/.env` file:
+
+```bash
+INTEGRATIONS_JIRA_OAUTH_CLIENT_ID=%%REPLACE_IT_WITH_THE_CLIENT_ID_OF_YOUR_APP%%
+INTEGRATIONS_JIRA_OAUTH_CLIENT_SECRET=%%REPLACE_IT_WITH_THE_CLIENT_SECRET_OF_YOUR_APP%%
+INTEGRATIONS_JIRA_AFTER_AUTHORIZATION_REDIRECT_URL=https://%%REPLACE_IT_WITH_THE_DOMAIN_NAME_OF_YOUR_YLEM_INSTANCE%%/jira-authorizations/{uuid}/?justConnected
+```
+
+The full information how to enable Atlassian Jira integration for the open-source edition is available on the [integration page](../integrations/library-of-integrations/atlassian-jira.md#configuring-integration-for-open-source-and-on-premise-versions).
+
+### Hubspot
+
+The following parameters need to be changed on the `backend/integrations/.env` file:
+
+```bash
+INTEGRATIONS_HUBSPOT_OAUTH_CLIENT_ID=%%REPLACE_IT_WITH_THE_CLIENT_ID_OF_YOUR_APP%%
+INTEGRATIONS_HUBSPOT_OAUTH_CLIENT_SECRET=%%REPLACE_IT_WITH_THE_CLIENT_SECRET_OF_YOUR_APP%%
+INTEGRATIONS_HUBSPOT_AFTER_AUTHORIZATION_REDIRECT_URL=https://%%REPLACE_IT_WITH_THE_DOMAIN_NAME_OF_YOUR_YLEM_INSTANCE%%/hubspot-authorizations/{uuid}/?justConnected
+```
+
+The full information how to enable Hubspot integration for the open-source edition is available on the [integration page](../integrations/library-of-integrations/hubspot.md#configuring-integration-for-open-source-and-on-premise-versions).
+
+### Salesforce
+
+The following parameters need to be changed on the `backend/integrations/.env` file:
+
+```bash
+INTEGRATIONS_SALESFORCE_OAUTH_CLIENT_ID=%%REPLACE_IT_WITH_THE_CLIENT_ID_OF_YOUR_APP%%
+INTEGRATIONS_SALESFORCE_OAUTH_CLIENT_SECRET=%%REPLACE_IT_WITH_THE_CLIENT_SECRET_OF_YOUR_APP%%
+INTEGRATIONS_SALESFORCE_AFTER_AUTHORIZATION_REDIRECT_URL=https://%%REPLACE_IT_WITH_THE_DOMAIN_NAME_OF_YOUR_YLEM_INSTANCE%%/salesforce-authorizations/{uuid}/?justConnected
+```
+
+The full information how to enable Salesforce integration for the open-source edition is available on the [integration page](../integrations/library-of-integrations/salesforce.md#configuring-integration-for-open-source-and-on-premise-versions-using-oauth-2.0).
+
+### Slack
+
+Coming soon

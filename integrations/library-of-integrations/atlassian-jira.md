@@ -50,7 +50,7 @@ As soon as the application is ready, you can open its "Settings" and copy your C
 
 The following parameters need to be changed on the `backend/integrations/.env` file:
 
-```
+```bash
 INTEGRATIONS_JIRA_OAUTH_CLIENT_ID=%%REPLACE_IT_WITH_THE_CLIENT_ID_OF_YOUR_APP%%
 INTEGRATIONS_JIRA_OAUTH_CLIENT_SECRET=%%REPLACE_IT_WITH_THE_CLIENT_SECRET_OF_YOUR_APP%%
 INTEGRATIONS_JIRA_AFTER_AUTHORIZATION_REDIRECT_URL=https://%%REPLACE_IT_WITH_THE_DOMAIN_NAME_OF_YOUR_YLEM_INSTANCE%%/jira-authorizations/{uuid}/?justConnected

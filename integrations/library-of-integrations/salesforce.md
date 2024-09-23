@@ -24,7 +24,7 @@ Please note, that a Salesforce user must be assigned to the system permissions "
 
 As soon as the application is created, you will get OAuth 2.0 `CLIENT_ID` and `CLIENT_SECRET` that must be placed into the `./backend/integrations/.env` file of Ylem together with the redirect URL to your Ylem instance:
 
-```
+```bash
 INTEGRATIONS_SALESFORCE_OAUTH_CLIENT_ID=%%REPLACE_IT_WITH_THE_CLIENT_ID_OF_YOUR_APP%%
 INTEGRATIONS_SALESFORCE_OAUTH_CLIENT_SECRET=%%REPLACE_IT_WITH_THE_CLIENT_SECRET_OF_YOUR_APP%%
 INTEGRATIONS_SALESFORCE_AFTER_AUTHORIZATION_REDIRECT_URL=https://%%REPLACE_IT_WITH_THE_DOMAIN_NAME_OF_YOUR_YLEM_INSTANCE%%/salesforce-authorizations/{uuid}/?justConnected
