@@ -100,4 +100,12 @@ The full information how to enable Salesforce integration for the open-source ed
 
 ### Slack
 
-Coming soon
+The following parameters need to be changed on the `backend/integrations/.env` file:
+
+```bash
+INTEGRATIONS_SLACK_OAUTH_CLIENT_ID=%%REPLACE_IT_WITH_THE_CLIENT_ID_OF_YOUR_APP%%
+INTEGRATIONS_SLACK_OAUTH_CLIENT_SECRET=%%REPLACE_IT_WITH_THE_CLIENT_SECRET_OF_YOUR_APP%%
+INTEGRATIONS_SLACK_AFTER_AUTHORIZATION_REDIRECT_URL=https://%%REPLACE_IT_WITH_THE_DOMAIN_NAME_OF_YOUR_YLEM_INSTANCE%%/salesforce-authorizations/{uuid}/?justConnected
+```
+
+The full information how to enable Slack integration for the open-source edition is available on the [integration page](../integrations/library-of-integrations/slack.md#configuring-integration-for-open-source-and-on-premise-versions).
