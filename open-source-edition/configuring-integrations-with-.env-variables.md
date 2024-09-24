@@ -60,6 +60,18 @@ AWS_SECRET_ACCESS_KEY=
 
 This integration is optional and if these variables are left empty, the information will be stored unencrypted.
 
+## Sending E-mails with Amazon SES
+
+The same variables in the `./env.common`file can be used to enable E-mail sending with Amazon SES:
+
+```bash
+AWS_REGION=
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+```
+
+More infirmation about it can be found on the [E-mail integration page](../integrations/library-of-integrations/e-mail.md#configuring-e-mail-sending-integration-for-open-source-and-cloud-based-edition).
+
 ## OAuth 2.0 Integrations
 
 ### Atlassian Jira
