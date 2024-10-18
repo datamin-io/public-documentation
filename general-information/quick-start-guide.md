@@ -1,8 +1,12 @@
 # Quick start guide
 
+{% hint style="info" %}
+If you are looking for the installation guide for the open-source edition [here it is](../open-source-edition/installation.md).
+{% endhint %}
+
 The shortest path to start streaming data with Ylem is to integrate with the source from where you want to stream, with the destination to where you want to stream and build a streaming pipeline for it.
 
-Let's create two simple pipeline examples.&#x20;
+Let's create two simple pipeline examples.
 
 The first pipeline will stream from a database to an API and will be run by a schedule. The second one will stream from Apache Kafka to a database and will be triggered from Kafka when a new message arrives on a topic.
 
@@ -45,7 +49,7 @@ When both integrations are created, you can create the pipeline itself.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 14.34.19.png" alt=""><figcaption></figcaption></figure>
 
-4. Configure the "**Query**" task. Select the database integration you created on the first step and configure how you want to retrieve data from it.&#x20;
+4. Configure the "**Query**" task. Select the database integration you created on the first step and configure how you want to retrieve data from it.
 
 For this example, we will select all invoices that were created within the last 30 minutes. We use the [UI constructor](../pipelines/tasks-ip/query.md), but you can, of course, use plain SQL as well.
 
@@ -62,7 +66,7 @@ For this example, we will select all invoices that were created within the last 
 
 ### Running and testing the pipeline
 
-Now when we are done with creating the pipeline, you can run it manually and test if everything works as expected.&#x20;
+Now when we are done with creating the pipeline, you can run it manually and test if everything works as expected.
 
 Click on "**Run pipeline**" in the top right corner.
 
@@ -90,7 +94,7 @@ It means I need to check my "**Query**" or simply go to my database and make sur
 
 ### Scheduling the pipeline
 
-Now, when we make sure that our pipeline works and is tested, we can decide how we want to automate the execution of it.&#x20;
+Now, when we make sure that our pipeline works and is tested, we can decide how we want to automate the execution of it.
 
 Close the canvas and go to "**Triggers**":
 
@@ -118,13 +122,13 @@ The main change that we need to make to the previous one is to replace the "**Qu
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-05-01 at 10.26.21.png" alt=""><figcaption></figcaption></figure>
 
-By doing this we don't need to retrieve the invoices created within the last 30 minutes from the database and run this pipeline every 30 minutes anymore.&#x20;
+By doing this we don't need to retrieve the invoices created within the last 30 minutes from the database and run this pipeline every 30 minutes anymore.
 
 Instead, the pipeline can be integrated with one of the message brokers or queue software if they are already used in your organization. It can be [Apache Kafka](../integrations/library-of-integrations/apache-kafka.md), [RabbitMQ](../integrations/library-of-integrations/rabbitmq.md), Amazon SQS, [Google Pub/Sub](../integrations/library-of-integrations/google-pub-sub.md), and others. As soon as the new invoice is created, you can send it to one of these solutions and it will automatically trigger the pipeline at Ylem and forward the JSON data to it.
 
 ### Remove the scheduling
 
-First of all, we need to remove the scheduling since it is not needed anymore. &#x20;
+First of all, we need to remove the scheduling since it is not needed anymore.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-04-30 at 15.18.22.png" alt=""><figcaption></figcaption></figure>
 
@@ -152,10 +156,9 @@ That's pretty much it for the start!
 
 Now that you are familiar with the basic concepts of how to set up data streaming with Ylem, you can learn more about
 
-* [Integrations](broken-reference)
-* [Pipelines](broken-reference)
-* [Metrics](broken-reference)
+* [Integrations](broken-reference/)
+* [Pipelines](broken-reference/)
+* [Metrics](broken-reference/)
 * [Use cases](../use-cases/use-cases.-homepage.md)
-* [Statistics and profiling](broken-reference)
-* [API](broken-reference)
-
+* [Statistics and profiling](broken-reference/)
+* [API](broken-reference/)

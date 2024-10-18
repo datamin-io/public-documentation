@@ -6,6 +6,12 @@
 * [Quick start guide](general-information/quick-start-guide.md)
 * [Release notes](general-information/release-notes.md)
 
+## 🔬 Open-source edition
+
+* [Installation](open-source-edition/installation.md)
+* [Task processing architecture](open-source-edition/task-processing-architecture.md)
+* [Configuring integrations with .env variables](open-source-edition/configuring-integrations-with-.env-variables.md)
+
 ## 💡 Integrations
 
 * [Connecting an integration](integrations/connecting-a-data-source.md)
@@ -111,12 +117,6 @@
 
 * [OAuth clients](api/oauth-clients.md)
 * [API Reference](api/api-endpoints.md)
-
-## 🔬 Open-source edition
-
-* [Installation](open-source-edition/installation.md)
-* [Task processing architecture](open-source-edition/task-processing-architecture.md)
-* [Configuring integrations with .env variables](open-source-edition/configuring-integrations-with-.env-variables.md)
 
 ## 👁️‍🗨️ Other resources
 
