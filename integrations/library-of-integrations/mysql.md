@@ -10,7 +10,7 @@ Integration with MySQL allows you to read and write data from and to MySQL insta
 
 ## Using SSH connection for open-source and on-premise editions
 
-If you want to connect to your MySQL database while using our open-source and on-premise edition, you need to place your public RSA SSH key called `id_rsa.pub` to the following two folders:
+If you want to use SSH to connect to your MySQL database while using our open-source and on-premise edition, you need to place your public RSA SSH key called `id_rsa.pub` to the following two folders:
 
 * `processor/taskrunner/config/keys/`
 * `backend/integrations/config/keys/`
