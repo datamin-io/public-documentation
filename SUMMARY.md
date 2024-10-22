@@ -9,6 +9,7 @@
 ## 🔬 Open-source edition
 
 * [Installation](open-source-edition/installation.md)
+* [Usage of Apache Kafka](open-source-edition/usage-of-apache-kafka.md)
 * [Task processing architecture](open-source-edition/task-processing-architecture.md)
 * [Configuring integrations with .env variables](open-source-edition/configuring-integrations-with-.env-variables.md)
 
