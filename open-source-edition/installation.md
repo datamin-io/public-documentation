@@ -1,7 +1,3 @@
----
-description: Coming soon
----
-
 # Installation
 
 The open-source edition of **Ylem** can be installed with pre-build containers from the **Ylem installer**:
