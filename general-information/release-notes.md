@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 07.11.2024
+
+* Open-source edition. The first beta version is on [https://github.com/ylem-co/ylem](https://github.com/ylem-co/ylem)
+
 ### Release 06.09.2024
 
 * Datamin becomes Ylem
