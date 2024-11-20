@@ -10,58 +10,42 @@ Or can be downloaded from GitHub or built from source:
 
 ## Installation
 
-### 1. Install and configure dependencies
+### Option 1. Install from pre-build containers
 
-To run Ylem, the following dependencies must be first installed and configured.
+The best way to install Ylem is to clone the repository [https://github.com/ylem-co/ylem-installer](https://github.com/ylem-co/ylem-installer) and follow the installation instructions from it. It will install Ylem from the latest version of pre-build containers stored on Docker Hub.
 
-#### Docker 4
+Ylem will be available at [http://localhost:7331/](http://localhost:7331/)
 
-If you don't yet have Docker 4 installed, [install](https://www.docker.com/products/docker-desktop/) it from their official website for your OS.
+### Option 2. Build and install from the source
 
-#### Apache Kafka
+If you want to compile Ylem from the source, run `docker compose up` or `docker compose up -d` from this repository. It will compile the code and run all the necessary containers.
 
-Ylem uses Apache Kafka to process pipelines and tasks. [Install](https://kafka.apache.org/) it from their official website or skip this step if you already have it installed.
+Ylem is available at [http://127.0.0.1:7330/](http://127.0.0.1:7330/)
 
-We also recommend that you install the Apache Kafka GUI software to manage its topics and subscriptions.
+⚠️ Please pay attention. Compiling from the source might take some time and will keep the resources of your machine busy.
 
-### 2. Create Kafka topics
+#### **To rebuild a particular container**
 
-To be able to work correctly, Ylem requires the following Apache Kafka topics to be created:
+If you want to rebuild a particular container from a source locally, run the following:
 
-* task\_runs
-* task\_runs\_load\_balanced
-* task\_run\_results
-* query\_task\_run\_results
-* notification\_task\_run\_results
+```
+docker compose build --no-cache %%CONTAINER_NAME%%
+```
 
-### 3. Configure environment variables in .env files
+E.g.
 
-Some particular integrations might require extra steps and using `.env` files.
+```
+docker compose build --no-cache ylem_users
+```
 
-More information is in [our documentation](https://docs.ylem.co/open-source-edition/configuring-integrations-with-.env-variables).
+## Using your own Apache Kafka cluster
 
-### 4. Install from pre-build containers
+Ylem uses Apache Kafka to exchange messages for processing pipelines and tasks. By default Ylem already comes with the pre-configured Apache Kafka container, however, you might already have an Apache Kafka cluster in your infrastructure and might want to reuse it.
 
-The best way to install Ylem is to clone the repository [https://github.com/ylem-co/ylem-installer](https://github.com/ylem-co/ylem-installer) and run&#x20;
+In this case, you need to take the steps described [here](https://docs.ylem.co/open-source-edition/usage-of-apache-kafka).
 
-`docker compose up`&#x20;
+## Configuring environment variables in .env files
 
-or&#x20;
+Some particular integrations might require extra steps and using `.env` files. Configure them if you need to.
 
-`docker compose up -d`&#x20;
-
-from it. It will install Ylem from the latest version of pre-build containers stored on Docker Hub.
-
-### Or build and install from the source
-
-If you want to compile Ylem from the source, clone our [main repository](https://github.com/ylem-co/ylem) and run&#x20;
-
-`docker compose up`&#x20;
-
-or&#x20;
-
-`docker compose up -d`&#x20;
-
-from the root folder of it.&#x20;
-
-It will compile the code and run all the necessary containers.
+The list of such integrations and more information about them is in [our documentation](https://docs.ylem.co/open-source-edition/configuring-integrations-with-.env-variables).\
