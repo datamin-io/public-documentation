@@ -4,6 +4,10 @@
 
 Only important major releases are present in this list:
 
+### Release 10.02.2025
+
+* Integration with WhatsApp (through Twilio)
+
 ### Release 07.11.2024
 
 * Open-source edition. The first beta version is on [https://github.com/ylem-co/ylem](https://github.com/ylem-co/ylem)
